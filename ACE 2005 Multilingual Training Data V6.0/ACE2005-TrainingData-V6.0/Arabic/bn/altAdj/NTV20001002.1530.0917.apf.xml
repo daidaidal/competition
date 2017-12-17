@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source_file PUBLIC "SYSTEM" "apf.v5.1.1.dtd">
+
+<source_file URI="NTV20001002.1530.0917.sgm" SOURCE="unknown" TYPE="text" VERSION="5.0" AUTHOR="Server" ENCODING="UTF-8">
+  <document DOCID="NTV20001002.1530.0917">
+    <entity ID="NTV20001002.1530.0917-E1" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E1-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="76" END="83">الأمريكي</charseq>
+        </extent>
+        <head>
+          <charseq START="78" END="83">أمريكي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E1-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="128" END="135">الأمريكي</charseq>
+        </extent>
+        <head>
+          <charseq START="130" END="135">أمريكي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E1-3" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="215" END="222">الأمريكي</charseq>
+        </extent>
+        <head>
+          <charseq START="217" END="222">أمريكي</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="أمريكي">
+          <charseq START="78" END="83">أمريكي</charseq>
+        </name>
+        <name NAME="أمريكي">
+          <charseq START="130" END="135">أمريكي</charseq>
+        </name>
+        <name NAME="أمريكي">
+          <charseq START="217" END="222">أمريكي</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E2" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E2-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="85" END="95">بيل كلينتون</charseq>
+        </extent>
+        <head>
+          <charseq START="85" END="95">بيل كلينتون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E2-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="69" END="83">الرئيس الأمريكي</charseq>
+        </extent>
+        <head>
+          <charseq START="71" END="74">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E2-3" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="227" END="233">كلينتون</charseq>
+        </extent>
+        <head>
+          <charseq START="227" END="233">كلينتون</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="بيل كلينتون">
+          <charseq START="85" END="95">بيل كلينتون</charseq>
+        </name>
+        <name NAME="كلينتون">
+          <charseq START="227" END="233">كلينتون</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E3" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E3-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="188" END="201">بيل بريتشارسون</charseq>
+        </extent>
+        <head>
+          <charseq START="188" END="201">بيل بريتشارسون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E3-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="203" END="222">وزير الطاقة الأمريكي</charseq>
+        </extent>
+        <head>
+          <charseq START="203" END="206">وزير</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="بيل بريتشارسون">
+          <charseq START="188" END="201">بيل بريتشارسون</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E4" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E4-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="208" END="213">الطاقة</charseq>
+        </extent>
+        <head>
+          <charseq START="208" END="213">الطاقة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="الطاقة">
+          <charseq START="208" END="213">الطاقة</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E5" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E5-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="373" END="391">مدينة سوتشي الروسية</charseq>
+        </extent>
+        <head>
+          <charseq START="373" END="383">مدينة سوتشي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E5-3" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="483" END="489">المدينة</charseq>
+        </extent>
+        <head>
+          <charseq START="485" END="489">مدينة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="مدينة سوتشي">
+          <charseq START="373" END="383">مدينة سوتشي</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E6" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E6-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="385" END="391">الروسية</charseq>
+        </extent>
+        <head>
+          <charseq START="387" END="391">روسية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E6-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="588" END="592">روسيا</charseq>
+        </extent>
+        <head>
+          <charseq START="588" END="592">روسيا</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="روسية">
+          <charseq START="387" END="391">روسية</charseq>
+        </name>
+        <name NAME="روسيا">
+          <charseq START="588" END="592">روسيا</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E7" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E7-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="408" END="414">الرهائن</charseq>
+        </extent>
+        <head>
+          <charseq START="410" END="414">رهائن</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E7-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="416" END="420">الذين</charseq>
+        </extent>
+        <head>
+          <charseq START="416" END="420">الذين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E7-3" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="432" END="433">هم</charseq>
+        </extent>
+        <head>
+          <charseq START="432" END="433">هم</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E8" TYPE="PER" SUBTYPE="Group" CLASS="USP">
+      <entity_mention ID="NTV20001002.1530.0917-E8-1" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="327" END="328">كم</charseq>
+        </extent>
+        <head>
+          <charseq START="327" END="328">كم</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E9" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E9-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="440" END="455">الجماعات المسلحة</charseq>
+        </extent>
+        <head>
+          <charseq START="442" END="447">جماعات</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E10" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E10-1" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="435" END="455">إحدى الجماعات المسلحة</charseq>
+        </extent>
+        <head>
+          <charseq START="435" END="438">إحدى</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E11" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E11-1" TYPE="NOM" METONYMY_MENTION="TRUE" LDCATR="FALSE">
+        <extent>
+          <charseq START="464" END="489">الفنادق القريبة من المدينة</charseq>
+        </extent>
+        <head>
+          <charseq START="466" END="470">فنادق</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E12" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E12-1" TYPE="PRO" METONYMY_MENTION="TRUE" LDCATR="FALSE">
+        <extent>
+          <charseq START="460" END="489">أحد الفنادق القريبة من المدينة</charseq>
+        </extent>
+        <head>
+          <charseq START="460" END="462">أحد</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E13" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E13-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="505" END="512">الخاطفين</charseq>
+        </extent>
+        <head>
+          <charseq START="507" END="512">خاطفين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E13-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="500" END="512">جميع الخاطفين</charseq>
+        </extent>
+        <head>
+          <charseq START="500" END="503">جميع</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E13-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="519" END="526">الخاطفون</charseq>
+        </extent>
+        <head>
+          <charseq START="521" END="526">خاطفون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E13-5" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="631" END="632">هم</charseq>
+        </extent>
+        <head>
+          <charseq START="631" END="632">هم</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E13-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="535" END="536">وا</charseq>
+        </extent>
+        <head>
+          <charseq START="535" END="536">وا</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E14" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E14-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="577" END="583">الشيشان</charseq>
+        </extent>
+        <head>
+          <charseq START="579" END="583">شيشان</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="شيشان">
+          <charseq START="579" END="583">شيشان</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001002.1530.0917-E15" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="NTV20001002.1530.0917-E15-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="567" END="592">المعتقلين الشيشان في روسيا</charseq>
+        </extent>
+        <head>
+          <charseq START="569" END="575">معتقلين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001002.1530.0917-E15-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="562" END="592">جميع المعتقلين الشيشان في روسيا</charseq>
+        </extent>
+        <head>
+          <charseq START="562" END="565">جميع</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <timex2 ID="NTV20001002.1530.0917-T1">
+      <timex2_mention ID="NTV20001002.1530.0917-T1-1">
+        <extent>
+          <charseq START="39" END="60">10/02/2000 15:45:17.43</charseq>
+        </extent>
+      </timex2_mention>
+    </timex2>
+    <relation ID="NTV20001002.1530.0917-R1" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001002.1530.0917-E2" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001002.1530.0917-E1" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001002.1530.0917-R1-1">
+        <extent>
+          <charseq START="69" END="83">الرئيس الأمريكي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001002.1530.0917-E2-2">
+          <extent>
+            <charseq START="69" END="83">الرئيس الأمريكي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001002.1530.0917-E1-1">
+          <extent>
+            <charseq START="76" END="83">الأمريكي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001002.1530.0917-R3" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001002.1530.0917-E3" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001002.1530.0917-E4" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001002.1530.0917-R3-1">
+        <extent>
+          <charseq START="203" END="222">وزير الطاقة الأمريكي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001002.1530.0917-E3-2">
+          <extent>
+            <charseq START="203" END="222">وزير الطاقة الأمريكي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001002.1530.0917-E4-1">
+          <extent>
+            <charseq START="208" END="213">الطاقة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001002.1530.0917-R4" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001002.1530.0917-E4" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001002.1530.0917-E1" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001002.1530.0917-R4-1">
+        <extent>
+          <charseq START="203" END="222">وزير الطاقة الأمريكي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001002.1530.0917-E4-1">
+          <extent>
+            <charseq START="208" END="213">الطاقة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001002.1530.0917-E1-3">
+          <extent>
+            <charseq START="215" END="222">الأمريكي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001002.1530.0917-R7" TYPE="PHYS" SUBTYPE="Located" TENSE="Past" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001002.1530.0917-E7" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001002.1530.0917-E12" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001002.1530.0917-R7-1">
+        <extent>
+          <charseq START="422" END="489">كانت تحتجزهم إحدى الجماعات المسلحة في أحد الفنادق القريبة من المدينة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001002.1530.0917-E7-3">
+          <extent>
+            <charseq START="432" END="433">هم</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001002.1530.0917-E12-1">
+          <extent>
+            <charseq START="460" END="489">أحد الفنادق القريبة من المدينة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001002.1530.0917-R8" TYPE="PHYS" SUBTYPE="Near" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001002.1530.0917-E12" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001002.1530.0917-E5" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001002.1530.0917-R8-1">
+        <extent>
+          <charseq START="460" END="489">أحد الفنادق القريبة من المدينة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001002.1530.0917-E12-1">
+          <extent>
+            <charseq START="460" END="489">أحد الفنادق القريبة من المدينة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001002.1530.0917-E5-3">
+          <extent>
+            <charseq START="483" END="489">المدينة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001002.1530.0917-R9" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001002.1530.0917-E15" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001002.1530.0917-E14" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001002.1530.0917-R9-1">
+        <extent>
+          <charseq START="567" END="592">المعتقلين الشيشان في روسيا</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001002.1530.0917-E15-1">
+          <extent>
+            <charseq START="567" END="592">المعتقلين الشيشان في روسيا</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001002.1530.0917-E14-1">
+          <extent>
+            <charseq START="577" END="583">الشيشان</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001002.1530.0917-R10" TYPE="PHYS" SUBTYPE="Located" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001002.1530.0917-E15" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001002.1530.0917-E6" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001002.1530.0917-R10-1">
+        <extent>
+          <charseq START="567" END="592">المعتقلين الشيشان في روسيا</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001002.1530.0917-E15-1">
+          <extent>
+            <charseq START="567" END="592">المعتقلين الشيشان في روسيا</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001002.1530.0917-E6-2">
+          <extent>
+            <charseq START="588" END="592">روسيا</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001002.1530.0917-R11" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001002.1530.0917-E5" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001002.1530.0917-E6" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001002.1530.0917-R11-1">
+        <extent>
+          <charseq START="373" END="391">مدينة سوتشي الروسية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001002.1530.0917-E5-2">
+          <extent>
+            <charseq START="373" END="391">مدينة سوتشي الروسية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001002.1530.0917-E6-1">
+          <extent>
+            <charseq START="385" END="391">الروسية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+  </document>
+</source_file>

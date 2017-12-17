@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Corpus SYSTEM "http://www.nist.gov/speech/atlas/aif.dtd">
+
+<Corpus xmlns="http://www.nist.gov/speech/atlas" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://www.ukoln.ac.uk/interop-focus/activities/z3950/int_profile/bath/draft/stable1.html" id="Cor17" AIFVersion="1.1" type="ace_corpus" schemeLocation="http://callisto.mitre.org/maia/ace2004.maia.xml">
+  <Metadata/>
+  <SimpleSignal id="Sig17" type="text" mimeClass="text" mimeType="sgml" xlink:href="VAR20001028.1300.0829.sgm" encoding="UTF-8" track="ALL" xlink:type="simple">
+    <body encoding="Base64">PERPQz4KPERPQ0lEPiBWQVIyMDAwMTAyOC4xMzAwLjA4MjkgPC9ET0NJRD4KPERPQ1RZUEUgU09VUkNFPSJicm9hZGNhc3QgbmV3cyI+IE5FV1MgU1RPUlkgPC9ET0NUWVBFPgo8REFURVRJTUU+IDEwLzI4LzIwMDAgMTM6MTM6NDkuMzcgPC9EQVRFVElNRT4KPEJPRFk+CjxURVhUPgrZhtmI2KfYtdmEINiq2YLYr9mK2YUg2YfYsNmHINin2YTYrNmI2YTYqSDZhdmGINin2YTZgtiz2YUg2KfZhNi52LHYqNmKINmE2KXYsNin2LnYqSDYtdmI2Kog2KPZhdix2YrZg9inINiMINix2YHYtiDYrdiy2KgK2KfYs9iq2LHYpyDYp9mE2YjYrdiv2YjZiiDYp9mE2LHYptmK2LMg2YHZiiDYo9mK2LHYp9mE2YbYr9inINin2YTYtNmF2KfZhNmK2Kkg2KjZgdin2LHZgiDYttim2YrZhCDYt9mE2KjYpyDYpdmE2Ykg2KrYrdiv2YrYrwrZhdmI2LnYryDZhtmH2KfYptmKINmE2YbYsti5INij2LPZhNit2Kkg2KfZhNis2YrYtCDYp9mE2KzZhdmH2YjYsdmKINin2YTYp9mK2LHZhNmG2K/ZiiDZiNmF2YYg2LTYo9mGINmH2LDYpyDYp9mE2KXYrNix2KfYoQrYp9mE2YXZgtiq2LHYrSDYpdix2LrYp9mFINit2LLYqCDYp9mE2LPYqtix2Kcg2LnZhNmJINin2YTYp9mG2LPYrdin2Kgg2YXZhiDYrdmD2YjZhdipINin2YTYp9im2KrZhNin2YEg2KfZhNin2YrYsdmE2YbYr9mKINmF2KcK2YTZhSDZitio2K/YoyDYp9mE2KzZiti0INin2YTYrNmF2YfZiNix2Yog2KjZhtiy2Lkg2LPZhNin2K3ZhyDYqNit2YTZiNmEINin2YTYq9mE2KfYq9mK2YYg2YXZhiDYp9mE2LTZh9ixINin2YTZgtin2K/ZhSDYqNmK2K8K2KPZhiDYsdim2YrYsyDYp9mE2YjYstix2KfYoSDYr9mK2YHZitivINiq2LHZhdio2YQg2KfZhNiw2Yog2YrYqtiy2LnZhSDYp9mE2K3YstioINin2YTZiNit2K/ZiNmKINix2YHYtiDYp9mE2LfZhNioINmI2YLYp9mECtil2YbZhyDYs9mK2LHYqNi3INmF2LTYp9ix2YPYqSDYp9mE2KzZhdmH2YjYsdmK2YrZhiDZgdmKINin2KrZgdin2YIg2KfZgtiq2LPYp9mFINin2YTYs9mE2LfYqSDYqNin2YTYqtmC2K/ZhSDYp9mE2LDZiiDZitit2LHYstmHCtin2YTYrNmK2LQg2KfZhNis2YXZh9mI2LHZiiDZgdmKINiq2LPZhNmK2YUg2KPYs9mE2K3YqtmHINmD2YXYpyDYo9mE2YXYrSDYpdmE2Ykg2KPZhiDYrdiy2Kgg2LnYs9mD2LEg2LHYqNmF2Kcg2YrZgtin2LfYuQrYp9mE2YXYpNiz2LPYp9iqINin2YTYqNix2YrYt9in2YbZitipINin2YTYo9mK2LHZhNmG2K/ZitipINin2YTZhdi02KrYsdmD2Kkg2LnZhNmJINin2YTZhtit2Ygg2KrYr9ix2YrYrNmKCjwvVEVYVD4KPC9CT0RZPgo8L0RPQz4K</body>
+  </SimpleSignal>
+  <AnchorSet containedType="text-point">
+    <Anchor id="Anc2016" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">105</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2017" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">121</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2018" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">128</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2019" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">173</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2020" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">145</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2021" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">281</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2022" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">291</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2023" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">444</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2024" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">457</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2025" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">156</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2026" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">308</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2027" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">332</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2028" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">630</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2029" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">640</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2030" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">632</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2031" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">222</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2032" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">246</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2033" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">344</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2034" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">358</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2035" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">368</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2036" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">369</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2037" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">543</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2038" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">557</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2039" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">572</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2040" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">573</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2041" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">541</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2042" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">542</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2043" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">421</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2044" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">432</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2045" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">408</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2046" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">420</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2047" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">412</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2048" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">433</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2049" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">437</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2050" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">475</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2051" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">476</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2052" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">567</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2053" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">364</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2054" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">216</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2055" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">221</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2056" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">590</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2057" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">598</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2058" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">593</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2059" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">619</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2060" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">629</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2061" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">621</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2062" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">610</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2063" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">649</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2064" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">612</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2065" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">618</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2066" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">490</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2067" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">500</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2068" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">492</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2069" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">91</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2070" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">103</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2071" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">413</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2072" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">415</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2073" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">39</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2074" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">61</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc2075" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">275</Parameter>
+      <SignalRef xlink:href="#Sig17" role="text" xlink:type="simple"/>
+    </Anchor>
+  </AnchorSet>
+  <RegionSet containedType="ace_argument-mention_region"/>
+  <RegionSet containedType="ace_argument_region"/>
+  <RegionSet containedType="ace_entity_region">
+    <Region id="Reg3605" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1946" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1946" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3609" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1948" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1948" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1949" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1950" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3619" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1952" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1952" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1953" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1954" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3629" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1956" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1956" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1957" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1958" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1959" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1960" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1961" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3648" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1963" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1963" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1964" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1965" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1966" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3661" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1968" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1968" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1969" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1970" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3671" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1972" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1972" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3675" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1974" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1974" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3679" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1976" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1976" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3683" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1978" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1978" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3687" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1980" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1980" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3691" type="ace_entity_region">
+      <AnnotationRef xlink:href="#Ann1982" role="primary-mention" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_entity-mention">
+        <AnnotationRef xlink:href="#Ann1982" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+  </RegionSet>
+  <RegionSet containedType="ace_event-mention_region"/>
+  <RegionSet containedType="ace_event_region"/>
+  <RegionSet containedType="ace_quantity-mention_region"/>
+  <RegionSet containedType="ace_quantity_region"/>
+  <RegionSet containedType="ace_relation-mention_region">
+    <Region id="Reg3697" type="ace_relation-mention_region">
+      <AnnotationRef xlink:href="#Ann1980" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1946" role="arg2" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1986" role="relation-mention-extent" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument-mention"/>
+    </Region>
+    <Region id="Reg3700" type="ace_relation-mention_region">
+      <AnnotationRef xlink:href="#Ann1948" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1952" role="arg2" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1989" role="relation-mention-extent" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument-mention"/>
+    </Region>
+    <Region id="Reg3703" type="ace_relation-mention_region">
+      <AnnotationRef xlink:href="#Ann1956" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1970" role="arg2" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1992" role="relation-mention-extent" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument-mention"/>
+    </Region>
+    <Region id="Reg3705" type="ace_relation-mention_region">
+      <AnnotationRef xlink:href="#Ann1958" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1969" role="arg2" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1994" role="relation-mention-extent" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument-mention"/>
+    </Region>
+    <Region id="Reg3707" type="ace_relation-mention_region">
+      <AnnotationRef xlink:href="#Ann1960" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1968" role="arg2" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1996" role="relation-mention-extent" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument-mention"/>
+    </Region>
+    <Region id="Reg3710" type="ace_relation-mention_region">
+      <AnnotationRef xlink:href="#Ann1949" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1953" role="arg2" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1999" role="relation-mention-extent" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument-mention"/>
+    </Region>
+    <Region id="Reg3713" type="ace_relation-mention_region">
+      <AnnotationRef xlink:href="#Ann1965" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1950" role="arg2" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann2002" role="relation-mention-extent" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument-mention"/>
+    </Region>
+  </RegionSet>
+  <RegionSet containedType="ace_relation_region">
+    <Region id="Reg3696" type="ace_relation_region">
+      <AnnotationRef xlink:href="#Ann1979" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1945" role="arg2" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument"/>
+      <AnnotationRefSet containedType="ace_relation-mention">
+        <AnnotationRef xlink:href="#Ann1985" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3699" type="ace_relation_region">
+      <AnnotationRef xlink:href="#Ann1947" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1951" role="arg2" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument"/>
+      <AnnotationRefSet containedType="ace_relation-mention">
+        <AnnotationRef xlink:href="#Ann1988" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3702" type="ace_relation_region">
+      <AnnotationRef xlink:href="#Ann1955" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1967" role="arg2" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument"/>
+      <AnnotationRefSet containedType="ace_relation-mention">
+        <AnnotationRef xlink:href="#Ann1991" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1993" role="null" xlink:type="simple"/>
+        <AnnotationRef xlink:href="#Ann1995" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3709" type="ace_relation_region">
+      <AnnotationRef xlink:href="#Ann1947" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1951" role="arg2" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument"/>
+      <AnnotationRefSet containedType="ace_relation-mention">
+        <AnnotationRef xlink:href="#Ann1998" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+    <Region id="Reg3712" type="ace_relation_region">
+      <AnnotationRef xlink:href="#Ann1962" role="arg1" xlink:type="simple"/>
+      <AnnotationRef xlink:href="#Ann1947" role="arg2" xlink:type="simple"/>
+      <AnnotationRefSet containedType="ace_argument"/>
+      <AnnotationRefSet containedType="ace_relation-mention">
+        <AnnotationRef xlink:href="#Ann2001" role="null" xlink:type="simple"/>
+      </AnnotationRefSet>
+    </Region>
+  </RegionSet>
+  <RegionSet containedType="head-full">
+    <Region id="Reg3606" type="head-full">
+      <RegionRef xlink:href="#Reg3607" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3608" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3610" type="head-full">
+      <RegionRef xlink:href="#Reg3611" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3612" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3613" type="head-full">
+      <RegionRef xlink:href="#Reg3614" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3615" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3616" type="head-full">
+      <RegionRef xlink:href="#Reg3617" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3618" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3620" type="head-full">
+      <RegionRef xlink:href="#Reg3621" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3622" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3623" type="head-full">
+      <RegionRef xlink:href="#Reg3624" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3625" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3626" type="head-full">
+      <RegionRef xlink:href="#Reg3627" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3628" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3630" type="head-full">
+      <RegionRef xlink:href="#Reg3631" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3632" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3633" type="head-full">
+      <RegionRef xlink:href="#Reg3634" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3635" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3636" type="head-full">
+      <RegionRef xlink:href="#Reg3637" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3638" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3639" type="head-full">
+      <RegionRef xlink:href="#Reg3640" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3641" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3642" type="head-full">
+      <RegionRef xlink:href="#Reg3643" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3644" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3645" type="head-full">
+      <RegionRef xlink:href="#Reg3646" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3647" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3649" type="head-full">
+      <RegionRef xlink:href="#Reg3650" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3651" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3652" type="head-full">
+      <RegionRef xlink:href="#Reg3653" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3654" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3655" type="head-full">
+      <RegionRef xlink:href="#Reg3656" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3657" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3658" type="head-full">
+      <RegionRef xlink:href="#Reg3659" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3660" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3662" type="head-full">
+      <RegionRef xlink:href="#Reg3663" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3664" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3665" type="head-full">
+      <RegionRef xlink:href="#Reg3666" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3667" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3668" type="head-full">
+      <RegionRef xlink:href="#Reg3669" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3670" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3672" type="head-full">
+      <RegionRef xlink:href="#Reg3673" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3674" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3676" type="head-full">
+      <RegionRef xlink:href="#Reg3677" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3678" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3680" type="head-full">
+      <RegionRef xlink:href="#Reg3681" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3682" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3684" type="head-full">
+      <RegionRef xlink:href="#Reg3685" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3686" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3688" type="head-full">
+      <RegionRef xlink:href="#Reg3689" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3690" role="head" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3692" type="head-full">
+      <RegionRef xlink:href="#Reg3693" role="full" xlink:type="simple"/>
+      <RegionRef xlink:href="#Reg3694" role="head" xlink:type="simple"/>
+    </Region>
+  </RegionSet>
+  <RegionSet containedType="text-extent">
+    <Region id="Reg3607" type="text-extent">
+      <AnchorRef xlink:href="#Anc2017" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2016" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3608" type="text-extent">
+      <AnchorRef xlink:href="#Anc2017" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2016" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3611" type="text-extent">
+      <AnchorRef xlink:href="#Anc2019" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2018" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3612" type="text-extent">
+      <AnchorRef xlink:href="#Anc2020" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2018" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3614" type="text-extent">
+      <AnchorRef xlink:href="#Anc2022" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2021" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3615" type="text-extent">
+      <AnchorRef xlink:href="#Anc2022" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2021" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3617" type="text-extent">
+      <AnchorRef xlink:href="#Anc2024" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2023" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3618" type="text-extent">
+      <AnchorRef xlink:href="#Anc2024" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2023" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3621" type="text-extent">
+      <AnchorRef xlink:href="#Anc2019" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2025" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3622" type="text-extent">
+      <AnchorRef xlink:href="#Anc2019" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2025" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3624" type="text-extent">
+      <AnchorRef xlink:href="#Anc2027" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2026" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3625" type="text-extent">
+      <AnchorRef xlink:href="#Anc2027" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2026" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3627" type="text-extent">
+      <AnchorRef xlink:href="#Anc2029" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2028" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3628" type="text-extent">
+      <AnchorRef xlink:href="#Anc2029" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2030" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3631" type="text-extent">
+      <AnchorRef xlink:href="#Anc2032" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2031" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3632" type="text-extent">
+      <AnchorRef xlink:href="#Anc2032" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2031" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3634" type="text-extent">
+      <AnchorRef xlink:href="#Anc2034" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2033" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3635" type="text-extent">
+      <AnchorRef xlink:href="#Anc2034" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2033" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3637" type="text-extent">
+      <AnchorRef xlink:href="#Anc2036" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2035" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3638" type="text-extent">
+      <AnchorRef xlink:href="#Anc2036" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2035" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3640" type="text-extent">
+      <AnchorRef xlink:href="#Anc2038" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2037" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3641" type="text-extent">
+      <AnchorRef xlink:href="#Anc2038" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2037" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3643" type="text-extent">
+      <AnchorRef xlink:href="#Anc2040" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2039" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3644" type="text-extent">
+      <AnchorRef xlink:href="#Anc2040" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2039" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3646" type="text-extent">
+      <AnchorRef xlink:href="#Anc2042" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2041" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3647" type="text-extent">
+      <AnchorRef xlink:href="#Anc2042" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2041" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3650" type="text-extent">
+      <AnchorRef xlink:href="#Anc2044" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2043" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3651" type="text-extent">
+      <AnchorRef xlink:href="#Anc2044" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2043" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3653" type="text-extent">
+      <AnchorRef xlink:href="#Anc2046" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2045" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3654" type="text-extent">
+      <AnchorRef xlink:href="#Anc2047" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2045" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3656" type="text-extent">
+      <AnchorRef xlink:href="#Anc2049" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2048" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3657" type="text-extent">
+      <AnchorRef xlink:href="#Anc2049" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2048" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3659" type="text-extent">
+      <AnchorRef xlink:href="#Anc2051" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2050" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3660" type="text-extent">
+      <AnchorRef xlink:href="#Anc2051" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2050" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3663" type="text-extent">
+      <AnchorRef xlink:href="#Anc2040" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2052" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3664" type="text-extent">
+      <AnchorRef xlink:href="#Anc2039" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2052" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3666" type="text-extent">
+      <AnchorRef xlink:href="#Anc2036" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2053" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3667" type="text-extent">
+      <AnchorRef xlink:href="#Anc2035" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2053" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3669" type="text-extent">
+      <AnchorRef xlink:href="#Anc2055" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2054" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3670" type="text-extent">
+      <AnchorRef xlink:href="#Anc2055" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2054" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3673" type="text-extent">
+      <AnchorRef xlink:href="#Anc2057" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2056" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3674" type="text-extent">
+      <AnchorRef xlink:href="#Anc2058" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2056" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3677" type="text-extent">
+      <AnchorRef xlink:href="#Anc2060" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2059" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3678" type="text-extent">
+      <AnchorRef xlink:href="#Anc2060" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2061" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3681" type="text-extent">
+      <AnchorRef xlink:href="#Anc2063" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2062" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3682" type="text-extent">
+      <AnchorRef xlink:href="#Anc2065" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2064" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3685" type="text-extent">
+      <AnchorRef xlink:href="#Anc2067" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2066" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3686" type="text-extent">
+      <AnchorRef xlink:href="#Anc2067" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2068" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3689" type="text-extent">
+      <AnchorRef xlink:href="#Anc2017" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2069" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3690" type="text-extent">
+      <AnchorRef xlink:href="#Anc2070" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2069" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3693" type="text-extent">
+      <AnchorRef xlink:href="#Anc2046" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2071" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3694" type="text-extent">
+      <AnchorRef xlink:href="#Anc2046" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2072" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3695" type="text-extent">
+      <AnchorRef xlink:href="#Anc2074" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2073" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3698" type="text-extent">
+      <AnchorRef xlink:href="#Anc2017" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2069" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3701" type="text-extent">
+      <AnchorRef xlink:href="#Anc2019" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2018" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3704" type="text-extent">
+      <AnchorRef xlink:href="#Anc2032" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2054" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3706" type="text-extent">
+      <AnchorRef xlink:href="#Anc2036" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2053" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3708" type="text-extent">
+      <AnchorRef xlink:href="#Anc2040" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2052" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3711" type="text-extent">
+      <AnchorRef xlink:href="#Anc2027" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2075" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg3714" type="text-extent">
+      <AnchorRef xlink:href="#Anc2024" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc2048" role="start" xlink:type="simple"/>
+    </Region>
+  </RegionSet>
+  <Analysis id="Ana18" type="ace_annotation-set" role="ace_annotation-set">
+    <AnnotationSet containedType="ace_argument"/>
+    <AnnotationSet containedType="ace_argument-mention"/>
+    <AnnotationSet containedType="ace_entity">
+      <Annotation id="Ann1945" type="ace_entity">
+        <RegionRef xlink:href="#Reg3605" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E3</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Media</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ORG</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1947" type="ace_entity">
+        <RegionRef xlink:href="#Reg3609" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E4</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Non-Governmental</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ORG</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1951" type="ace_entity">
+        <RegionRef xlink:href="#Reg3619" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E5</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">State-or-Province</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">GPE</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1955" type="ace_entity">
+        <RegionRef xlink:href="#Reg3629" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E6</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Non-Governmental</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ORG</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1962" type="ace_entity">
+        <RegionRef xlink:href="#Reg3648" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E8</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Individual</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PER</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1967" type="ace_entity">
+        <RegionRef xlink:href="#Reg3661" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E9</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Underspecified</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">WEA</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1971" type="ace_entity">
+        <RegionRef xlink:href="#Reg3671" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E10</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">GEN</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Non-Governmental</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ORG</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1973" type="ace_entity">
+        <RegionRef xlink:href="#Reg3675" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E11</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Nation</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">GPE</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1975" type="ace_entity">
+        <RegionRef xlink:href="#Reg3679" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E13</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Non-Governmental</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ORG</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1977" type="ace_entity">
+        <RegionRef xlink:href="#Reg3683" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E14</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Group</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PER</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1979" type="ace_entity">
+        <RegionRef xlink:href="#Reg3687" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E15</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Media</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ORG</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1981" type="ace_entity">
+        <RegionRef xlink:href="#Reg3691" role="ace_entity-mentions" xlink:type="simple"/>
+        <Content type="ace_entity_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E16</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="class">SPC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Group</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PER</Parameter>
+        </Content>
+      </Annotation>
+    </AnnotationSet>
+    <AnnotationSet containedType="ace_entity-mention">
+      <Annotation id="Ann1946" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3606" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E3-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1948" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3610" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E4-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1949" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3613" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E4-4</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1950" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3616" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E4-6</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1952" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3620" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E5-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="role">LOC</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1953" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3623" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E5-4</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="role">ORG</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1954" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3626" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E5-6</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="role">GPE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1956" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3630" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E6-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1957" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3633" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E6-4</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1958" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3636" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E6-6</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PRO</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1959" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3639" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E6-12</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1960" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3642" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E6-14</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PRO</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1961" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3645" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E6-15</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PRO</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1963" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3649" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E8-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1964" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3652" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E8-4</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NOM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1965" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3655" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E8-6</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PRO</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1966" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3658" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E8-10</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PRO</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1968" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3662" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E9-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NOM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1969" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3665" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E9-3</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NOM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1970" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3668" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E9-4</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NOM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1972" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3672" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E10-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NOM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1974" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3676" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E11-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="role">GPE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1976" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3680" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E13-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NOM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1978" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3684" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E14-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NOM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1980" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3688" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E15-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NAM</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1982" type="ace_entity-mention">
+        <RegionRef xlink:href="#Reg3692" role="head-full" xlink:type="simple"/>
+        <Content type="ace_entity-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-E16-2</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="ldcatr">FALSE</Parameter>
+          <Parameter type="boolean" unit="NULL_UNIT" role="metonymy">FALSE</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">NOM</Parameter>
+        </Content>
+      </Annotation>
+    </AnnotationSet>
+    <AnnotationSet containedType="ace_event"/>
+    <AnnotationSet containedType="ace_event-mention"/>
+    <AnnotationSet containedType="ace_event-mention-extent"/>
+    <AnnotationSet containedType="ace_quantity"/>
+    <AnnotationSet containedType="ace_quantity-mention"/>
+    <AnnotationSet containedType="ace_relation">
+      <Annotation id="Ann1984" type="ace_relation">
+        <RegionRef xlink:href="#Reg3696" role="ace_relation_region" xlink:type="simple"/>
+        <Content type="ace_relation_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="modality">Asserted</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Subsidiary</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="tense">Unspecified</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PART-WHOLE</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1987" type="ace_relation">
+        <RegionRef xlink:href="#Reg3699" role="ace_relation_region" xlink:type="simple"/>
+        <Content type="ace_relation_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R3</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="modality">Asserted</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Org-Location</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="tense">Unspecified</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">GEN-AFF</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1990" type="ace_relation">
+        <RegionRef xlink:href="#Reg3702" role="ace_relation_region" xlink:type="simple"/>
+        <Content type="ace_relation_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R4</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="modality">Asserted</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">User-Owner-Inventor-Manufacturer</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="tense">Unspecified</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ART</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1997" type="ace_relation">
+        <RegionRef xlink:href="#Reg3709" role="ace_relation_region" xlink:type="simple"/>
+        <Content type="ace_relation_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R5</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="modality">Asserted</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Investor-Shareholder</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="tense">Unspecified</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ORG-AFF</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann2000" type="ace_relation">
+        <RegionRef xlink:href="#Reg3712" role="ace_relation_region" xlink:type="simple"/>
+        <Content type="ace_relation_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R7</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="modality">Asserted</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="subtype">Membership</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="tense">Unspecified</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">ORG-AFF</Parameter>
+        </Content>
+      </Annotation>
+    </AnnotationSet>
+    <AnnotationSet containedType="ace_relation-mention">
+      <Annotation id="Ann1985" type="ace_relation-mention">
+        <RegionRef xlink:href="#Reg3697" role="ace_relation-mention_region" xlink:type="simple"/>
+        <Content type="ace_relation-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R1-1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-end"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-start"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-string"/>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1988" type="ace_relation-mention">
+        <RegionRef xlink:href="#Reg3700" role="ace_relation-mention_region" xlink:type="simple"/>
+        <Content type="ace_relation-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R3-1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-end"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-start"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-string"/>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1991" type="ace_relation-mention">
+        <RegionRef xlink:href="#Reg3703" role="ace_relation-mention_region" xlink:type="simple"/>
+        <Content type="ace_relation-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R4-1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-end"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-start"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-string"/>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1993" type="ace_relation-mention">
+        <RegionRef xlink:href="#Reg3705" role="ace_relation-mention_region" xlink:type="simple"/>
+        <Content type="ace_relation-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R4-2</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-end"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-start"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-string"/>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1995" type="ace_relation-mention">
+        <RegionRef xlink:href="#Reg3707" role="ace_relation-mention_region" xlink:type="simple"/>
+        <Content type="ace_relation-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R4-3</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-end"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-start"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-string"/>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann1998" type="ace_relation-mention">
+        <RegionRef xlink:href="#Reg3710" role="ace_relation-mention_region" xlink:type="simple"/>
+        <Content type="ace_relation-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R5-1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-end"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-start"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-string"/>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann2001" type="ace_relation-mention">
+        <RegionRef xlink:href="#Reg3713" role="ace_relation-mention_region" xlink:type="simple"/>
+        <Content type="ace_relation-mention_content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-R7-1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-end"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-start"/>
+          <Parameter type="string" unit="NULL_UNIT" role="extent-string"/>
+        </Content>
+      </Annotation>
+    </AnnotationSet>
+    <AnnotationSet containedType="ace_relation-mention-extent">
+      <Annotation id="Ann1986" type="ace_relation-mention-extent">
+        <RegionRef xlink:href="#Reg3698" role="text-extent" xlink:type="simple"/>
+        <Content type="null_content"/>
+      </Annotation>
+      <Annotation id="Ann1989" type="ace_relation-mention-extent">
+        <RegionRef xlink:href="#Reg3701" role="text-extent" xlink:type="simple"/>
+        <Content type="null_content"/>
+      </Annotation>
+      <Annotation id="Ann1992" type="ace_relation-mention-extent">
+        <RegionRef xlink:href="#Reg3704" role="text-extent" xlink:type="simple"/>
+        <Content type="null_content"/>
+      </Annotation>
+      <Annotation id="Ann1994" type="ace_relation-mention-extent">
+        <RegionRef xlink:href="#Reg3706" role="text-extent" xlink:type="simple"/>
+        <Content type="null_content"/>
+      </Annotation>
+      <Annotation id="Ann1996" type="ace_relation-mention-extent">
+        <RegionRef xlink:href="#Reg3708" role="text-extent" xlink:type="simple"/>
+        <Content type="null_content"/>
+      </Annotation>
+      <Annotation id="Ann1999" type="ace_relation-mention-extent">
+        <RegionRef xlink:href="#Reg3711" role="text-extent" xlink:type="simple"/>
+        <Content type="null_content"/>
+      </Annotation>
+      <Annotation id="Ann2002" type="ace_relation-mention-extent">
+        <RegionRef xlink:href="#Reg3714" role="text-extent" xlink:type="simple"/>
+        <Content type="null_content"/>
+      </Annotation>
+    </AnnotationSet>
+    <AnnotationSet containedType="timex2">
+      <Annotation id="Ann1983" type="timex2">
+        <RegionRef xlink:href="#Reg3695" role="text-extent" xlink:type="simple"/>
+        <Content type="timex2-content">
+          <Parameter type="string" unit="NULL_UNIT" role="ace_id">VAR20001028.1300.0829-T1-1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="timex2-id">VAR20001028.1300.0829-T1</Parameter>
+        </Content>
+      </Annotation>
+    </AnnotationSet>
+  </Analysis>
+</Corpus>

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source_file PUBLIC "SYSTEM" "apf.v5.1.1.dtd">
+
+<source_file URI="AFA20001016.0000.0040.sgm" SOURCE="unknown" TYPE="text" VERSION="5.0" AUTHOR="Server" ENCODING="UTF-8">
+  <document DOCID="AFA20001016.0000.0040">
+    <entity ID="AFA20001016.0000.0040-E1" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E1-1" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="101" END="103">مصر</charseq>
+        </extent>
+        <head>
+          <charseq START="101" END="103">مصر</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E1-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="740" END="745">المصري</charseq>
+        </extent>
+        <head>
+          <charseq START="742" END="745">مصري</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="مصر">
+          <charseq START="101" END="103">مصر</charseq>
+        </name>
+        <name NAME="مصري">
+          <charseq START="742" END="745">مصري</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E2" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E2-1" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="90" END="104">شرم الشيخ (مصر)</charseq>
+        </extent>
+        <head>
+          <charseq START="90" END="98">شرم الشيخ</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E2-3" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="586" END="594">شرم الشيخ</charseq>
+        </extent>
+        <head>
+          <charseq START="586" END="594">شرم الشيخ</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="شرم الشيخ">
+          <charseq START="90" END="98">شرم الشيخ</charseq>
+        </name>
+        <name NAME="شرم الشيخ">
+          <charseq START="586" END="594">شرم الشيخ</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E3" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E3-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="113" END="116">اف ب</charseq>
+        </extent>
+        <head>
+          <charseq START="113" END="116">اف ب</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اف ب">
+          <charseq START="113" END="116">اف ب</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E4" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E4-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="148" END="157">الاسرائيلي</charseq>
+        </extent>
+        <head>
+          <charseq START="150" END="157">اسرائيلي</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اسرائيلي">
+          <charseq START="150" END="157">اسرائيلي</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E6" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E6-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="140" END="146">الوزراء</charseq>
+        </extent>
+        <head>
+          <charseq START="142" END="146">وزراء</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E7" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E7-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="125" END="157">ناطق باسم رئيس الوزراء الاسرائيلي</charseq>
+        </extent>
+        <head>
+          <charseq START="125" END="128">ناطق</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E7-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="276" END="285">نحمان شائي</charseq>
+        </extent>
+        <head>
+          <charseq START="276" END="285">نحمان شائي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E7-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="268" END="274">المتحدث</charseq>
+        </extent>
+        <head>
+          <charseq START="270" END="274">متحدث</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E7-5" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="548" END="551">شائي</charseq>
+        </extent>
+        <head>
+          <charseq START="548" END="551">شائي</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="نحمان شائي">
+          <charseq START="276" END="285">نحمان شائي</charseq>
+        </name>
+        <name NAME="شائي">
+          <charseq START="548" END="551">شائي</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E8" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E8-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="176" END="186">ايهود باراك</charseq>
+        </extent>
+        <head>
+          <charseq START="176" END="186">ايهود باراك</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E8-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="135" END="157">رئيس الوزراء الاسرائيلي</charseq>
+        </extent>
+        <head>
+          <charseq START="135" END="138">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E8-5" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="368" END="372">باراك</charseq>
+        </extent>
+        <head>
+          <charseq START="368" END="372">باراك</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E8-7" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="576" END="580">باراك</charseq>
+        </extent>
+        <head>
+          <charseq START="576" END="580">باراك</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E8-9" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="724" END="728">باراك</charseq>
+        </extent>
+        <head>
+          <charseq START="724" END="728">باراك</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="ايهود باراك">
+          <charseq START="176" END="186">ايهود باراك</charseq>
+        </name>
+        <name NAME="باراك">
+          <charseq START="368" END="372">باراك</charseq>
+        </name>
+        <name NAME="باراك">
+          <charseq START="576" END="580">باراك</charseq>
+        </name>
+        <name NAME="باراك">
+          <charseq START="724" END="728">باراك</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E9" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E9-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="227" END="236">ياسر عرفات</charseq>
+        </extent>
+        <head>
+          <charseq START="227" END="236">ياسر عرفات</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E9-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="200" END="215">الرئيس الفلسطيني</charseq>
+        </extent>
+        <head>
+          <charseq START="202" END="205">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E9-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="384" END="388">عرفات</charseq>
+        </extent>
+        <head>
+          <charseq START="384" END="388">عرفات</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E9-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="503" END="503">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="503" END="503">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E9-8" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="506" END="510">عرفات</charseq>
+        </extent>
+        <head>
+          <charseq START="506" END="510">عرفات</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="ياسر عرفات">
+          <charseq START="227" END="236">ياسر عرفات</charseq>
+        </name>
+        <name NAME="عرفات">
+          <charseq START="384" END="388">عرفات</charseq>
+        </name>
+        <name NAME="عرفات">
+          <charseq START="506" END="510">عرفات</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E10" TYPE="GPE" SUBTYPE="Special" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E10-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="207" END="215">الفلسطيني</charseq>
+        </extent>
+        <head>
+          <charseq START="209" END="215">فلسطيني</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E10-3" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="429" END="435">فلسطيني</charseq>
+        </extent>
+        <head>
+          <charseq START="429" END="435">فلسطيني</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E10-6" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="647" END="664">الاراضي الفلسطينية</charseq>
+        </extent>
+        <head>
+          <charseq START="647" END="664">الاراضي الفلسطينية</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="فلسطيني">
+          <charseq START="209" END="215">فلسطيني</charseq>
+        </name>
+        <name NAME="فلسطيني">
+          <charseq START="429" END="435">فلسطيني</charseq>
+        </name>
+        <name NAME="الاراضي الفلسطينية">
+          <charseq START="647" END="664">الاراضي الفلسطينية</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E11" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E11-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="288" END="295">لصحافيين</charseq>
+        </extent>
+        <head>
+          <charseq START="289" END="295">صحافيين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E11-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="557" END="565">الصحافيين</charseq>
+        </extent>
+        <head>
+          <charseq START="559" END="565">صحافيين</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E12" TYPE="PER" SUBTYPE="Individual" CLASS="USP">
+      <entity_mention ID="AFA20001016.0000.0040-E12-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="422" END="436">مسؤول (فلسطيني)</charseq>
+        </extent>
+        <head>
+          <charseq START="422" END="426">مسؤول</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E15" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E15-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="747" END="756">حسني مبارك</charseq>
+        </extent>
+        <head>
+          <charseq START="747" END="756">حسني مبارك</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E15-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="733" END="745">الرئيس المصري</charseq>
+        </extent>
+        <head>
+          <charseq START="735" END="738">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="حسني مبارك">
+          <charseq START="747" END="756">حسني مبارك</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E16" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E16-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="786" END="793">الاميركي</charseq>
+        </extent>
+        <head>
+          <charseq START="788" END="793">اميركي</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اميركي">
+          <charseq START="788" END="793">اميركي</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E17" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E17-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="795" END="805">بيل كلينتون</charseq>
+        </extent>
+        <head>
+          <charseq START="795" END="805">بيل كلينتون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E17-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="779" END="793">الرئيس الاميركي</charseq>
+        </extent>
+        <head>
+          <charseq START="781" END="784">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="بيل كلينتون">
+          <charseq START="795" END="805">بيل كلينتون</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E18" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E18-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="822" END="833">لامم المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="822" END="833">لامم المتحدة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="لامم المتحدة">
+          <charseq START="822" END="833">لامم المتحدة</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E20" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E20-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="835" END="843">كوفي انان</charseq>
+        </extent>
+        <head>
+          <charseq START="835" END="843">كوفي انان</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E20-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="808" END="833">الامين العام للامم المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="810" END="813">امين</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="كوفي انان">
+          <charseq START="835" END="843">كوفي انان</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E21" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E21-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="853" END="859">الاردني</charseq>
+        </extent>
+        <head>
+          <charseq START="855" END="859">اردني</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اردني">
+          <charseq START="855" END="859">اردني</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.0000.0040-E22" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.0000.0040-E22-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="867" END="881">عبد الله الثاني</charseq>
+        </extent>
+        <head>
+          <charseq START="867" END="881">عبد الله الثاني</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E22-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="861" END="865">الملك</charseq>
+        </extent>
+        <head>
+          <charseq START="863" END="865">ملك</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.0000.0040-E22-6" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="846" END="859">العاهل الاردني</charseq>
+        </extent>
+        <head>
+          <charseq START="848" END="851">عاهل</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="عبد الله الثاني">
+          <charseq START="867" END="881">عبد الله الثاني</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <timex2 ID="AFA20001016.0000.0040-T1">
+      <timex2_mention ID="AFA20001016.0000.0040-T1-1">
+        <extent>
+          <charseq START="39" END="57">2000-10-16 08:52:00</charseq>
+        </extent>
+      </timex2_mention>
+    </timex2>
+    <relation ID="AFA20001016.0000.0040-R1" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E2" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R1-1">
+        <extent>
+          <charseq START="90" END="104">شرم الشيخ (مصر)</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E2-1">
+          <extent>
+            <charseq START="90" END="104">شرم الشيخ (مصر)</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E1-1">
+          <extent>
+            <charseq START="101" END="103">مصر</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R2" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E8" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E6" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R2-1">
+        <extent>
+          <charseq START="135" END="157">رئيس الوزراء الاسرائيلي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E8-2">
+          <extent>
+            <charseq START="135" END="157">رئيس الوزراء الاسرائيلي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E6-1">
+          <extent>
+            <charseq START="140" END="146">الوزراء</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R3" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E8" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E4" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R3-1">
+        <extent>
+          <charseq START="135" END="157">رئيس الوزراء الاسرائيلي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E8-2">
+          <extent>
+            <charseq START="135" END="157">رئيس الوزراء الاسرائيلي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E4-1">
+          <extent>
+            <charseq START="148" END="157">الاسرائيلي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R4" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E7" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E8" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R4-1">
+        <extent>
+          <charseq START="125" END="157">ناطق باسم رئيس الوزراء الاسرائيلي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E7-1">
+          <extent>
+            <charseq START="125" END="157">ناطق باسم رئيس الوزراء الاسرائيلي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E8-2">
+          <extent>
+            <charseq START="135" END="157">رئيس الوزراء الاسرائيلي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R5" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E9" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E10" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R5-1">
+        <extent>
+          <charseq START="200" END="215">الرئيس الفلسطيني</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E9-2">
+          <extent>
+            <charseq START="200" END="215">الرئيس الفلسطيني</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E10-1">
+          <extent>
+            <charseq START="207" END="215">الفلسطيني</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R6" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Other">
+      <relation_argument REFID="AFA20001016.0000.0040-E12" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E10" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R6-1">
+        <extent>
+          <charseq START="422" END="436">مسؤول (فلسطيني)</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E12-2">
+          <extent>
+            <charseq START="422" END="436">مسؤول (فلسطيني)</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E10-3">
+          <extent>
+            <charseq START="429" END="435">فلسطيني</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R7" TYPE="PHYS" SUBTYPE="Located" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E8" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E2" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R7-1">
+        <extent>
+          <charseq START="571" END="594">وصول باراك الى شرم الشيخ</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E8-7">
+          <extent>
+            <charseq START="576" END="580">باراك</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E2-3">
+          <extent>
+            <charseq START="586" END="594">شرم الشيخ</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R8" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E15" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R8-1">
+        <extent>
+          <charseq START="733" END="745">الرئيس المصري</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E15-4">
+          <extent>
+            <charseq START="733" END="745">الرئيس المصري</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E1-2">
+          <extent>
+            <charseq START="740" END="745">المصري</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R9" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E17" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E16" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R9-1">
+        <extent>
+          <charseq START="779" END="793">الرئيس الاميركي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E17-4">
+          <extent>
+            <charseq START="779" END="793">الرئيس الاميركي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E16-2">
+          <extent>
+            <charseq START="786" END="793">الاميركي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R10" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E20" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E18" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R10-1">
+        <extent>
+          <charseq START="808" END="833">الامين العام للامم المتحدة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E20-4">
+          <extent>
+            <charseq START="808" END="833">الامين العام للامم المتحدة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E18-2">
+          <extent>
+            <charseq START="822" END="833">لامم المتحدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R11" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E22" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E21" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R11-1">
+        <extent>
+          <charseq START="846" END="859">العاهل الاردني</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E22-6">
+          <extent>
+            <charseq START="846" END="859">العاهل الاردني</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E21-2">
+          <extent>
+            <charseq START="853" END="859">الاردني</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.0000.0040-R12" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.0000.0040-E8" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.0000.0040-E15" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.0000.0040-R12-1">
+        <extent>
+          <charseq START="718" END="745">اجتمع باراك مع الرئيس المصري</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.0000.0040-E8-9">
+          <extent>
+            <charseq START="724" END="728">باراك</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.0000.0040-E15-4">
+          <extent>
+            <charseq START="733" END="745">الرئيس المصري</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+  </document>
+</source_file>

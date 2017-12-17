@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source_file PUBLIC "SYSTEM" "apf.v5.1.1.dtd">
+
+<source_file URI="AFA20001014.0000.0041.sgm" SOURCE="unknown" TYPE="text" VERSION="5.0" AUTHOR="Server" ENCODING="UTF-8">
+  <document DOCID="AFA20001014.0000.0041">
+    <entity ID="AFA20001014.0000.0041-E1" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E1-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="126" END="130">لبنان</charseq>
+        </extent>
+        <head>
+          <charseq START="126" END="130">لبنان</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E1-4" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="163" END="168">لبناني</charseq>
+        </extent>
+        <head>
+          <charseq START="163" END="168">لبناني</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E1-6" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="192" END="200">اللبنانية</charseq>
+        </extent>
+        <head>
+          <charseq START="194" END="200">لبنانية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E1-8" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="331" END="336">لبناني</charseq>
+        </extent>
+        <head>
+          <charseq START="331" END="336">لبناني</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E1-10" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="364" END="372">اللبنانية</charseq>
+        </extent>
+        <head>
+          <charseq START="366" END="372">لبنانية</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="لبنان">
+          <charseq START="126" END="130">لبنان</charseq>
+        </name>
+        <name NAME="لبناني">
+          <charseq START="163" END="168">لبناني</charseq>
+        </name>
+        <name NAME="لبنانية">
+          <charseq START="194" END="200">لبنانية</charseq>
+        </name>
+        <name NAME="لبناني">
+          <charseq START="331" END="336">لبناني</charseq>
+        </name>
+        <name NAME="لبنانية">
+          <charseq START="366" END="372">لبنانية</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E2" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E2-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="116" END="131">الناقورة (لبنان)</charseq>
+        </extent>
+        <head>
+          <charseq START="116" END="123">الناقورة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="الناقورة">
+          <charseq START="116" END="123">الناقورة</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E3" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E3-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="140" END="143">اف ب</charseq>
+        </extent>
+        <head>
+          <charseq START="140" END="143">اف ب</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E3-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="339" END="353">وكالة فرانس برس</charseq>
+        </extent>
+        <head>
+          <charseq START="339" END="353">وكالة فرانس برس</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اف ب">
+          <charseq START="140" END="143">اف ب</charseq>
+        </name>
+        <name NAME="وكالة فرانس برس">
+          <charseq START="339" END="353">وكالة فرانس برس</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E4" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E4-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="152" END="168">مصدر عسكري لبناني</charseq>
+        </extent>
+        <head>
+          <charseq START="152" END="155">مصدر</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E4-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="326" END="336">ضابط لبناني</charseq>
+        </extent>
+        <head>
+          <charseq START="326" END="329">ضابط</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E4-6" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="528" END="537">هذا الضابط</charseq>
+        </extent>
+        <head>
+          <charseq START="534" END="537">ضابط</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E4-8" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="539" END="542">الذي</charseq>
+        </extent>
+        <head>
+          <charseq START="539" END="542">الذي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E4-10" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="564" END="564">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="564" END="564">ه</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E5" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E5-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="173" END="200">قوات الجيش والشرطة اللبنانية</charseq>
+        </extent>
+        <head>
+          <charseq START="173" END="176">قوات</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E5-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="219" END="220">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="219" END="220">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E5-12" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="358" END="381">القوة اللبنانية المشتركة</charseq>
+        </extent>
+        <head>
+          <charseq START="360" END="362">قوة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E5-14" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="404" END="407">التي</charseq>
+        </extent>
+        <head>
+          <charseq START="404" END="407">التي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E5-16" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="485" END="486">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="485" END="486">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E5-18" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="575" END="588">القوة المشتركة</charseq>
+        </extent>
+        <head>
+          <charseq START="577" END="579">قوة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E6" TYPE="LOC" SUBTYPE="Boundary" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E6-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="230" END="246">الحدود مع اسرائيل</charseq>
+        </extent>
+        <head>
+          <charseq START="232" END="235">حدود</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E6-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="299" END="316">الحدود بين البلدين</charseq>
+        </extent>
+        <head>
+          <charseq START="301" END="304">حدود</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E6-6" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="513" END="517">لحدود</charseq>
+        </extent>
+        <head>
+          <charseq START="514" END="517">حدود</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E6-8" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="664" END="669">الحدود</charseq>
+        </extent>
+        <head>
+          <charseq START="666" END="669">حدود</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E6-10" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="740" END="757">الحدود بين البلدين</charseq>
+        </extent>
+        <head>
+          <charseq START="742" END="745">حدود</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E7" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E7-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="240" END="246">اسرائيل</charseq>
+        </extent>
+        <head>
+          <charseq START="240" END="246">اسرائيل</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E7-4" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="466" END="472">اسرائيل</charseq>
+        </extent>
+        <head>
+          <charseq START="466" END="472">اسرائيل</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E7-6" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="780" END="788">اسرائيلية</charseq>
+        </extent>
+        <head>
+          <charseq START="780" END="788">اسرائيلية</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اسرائيل">
+          <charseq START="240" END="246">اسرائيل</charseq>
+        </name>
+        <name NAME="اسرائيل">
+          <charseq START="466" END="472">اسرائيل</charseq>
+        </name>
+        <name NAME="اسرائيلية">
+          <charseq START="780" END="788">اسرائيلية</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E8" TYPE="GPE" SUBTYPE="Special" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E8-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="285" END="293">فلسطينيين</charseq>
+        </extent>
+        <head>
+          <charseq START="285" END="293">فلسطينيين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E8-4" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="637" END="647">الفلسطينيين</charseq>
+        </extent>
+        <head>
+          <charseq START="639" END="647">فلسطينيين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E8-6" TYPE="NAM" ROLE="PER" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="714" END="724">الفلسطينيين</charseq>
+        </extent>
+        <head>
+          <charseq START="716" END="724">فلسطينيين</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="فلسطينيين">
+          <charseq START="285" END="293">فلسطينيين</charseq>
+        </name>
+        <name NAME="فلسطينيين">
+          <charseq START="639" END="647">فلسطينيين</charseq>
+        </name>
+        <name NAME="فلسطينيين">
+          <charseq START="716" END="724">فلسطينيين</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E9" TYPE="GPE" SUBTYPE="GPE-Cluster" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E9-2" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="310" END="316">البلدين</charseq>
+        </extent>
+        <head>
+          <charseq START="312" END="316">بلدين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E9-4" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="751" END="757">البلدين</charseq>
+        </extent>
+        <head>
+          <charseq START="753" END="757">بلدين</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E10" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E10-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="276" END="293">متظاهرين فلسطينيين</charseq>
+        </extent>
+        <head>
+          <charseq START="276" END="283">متظاهرين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E10-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="628" END="647">اللاجئين الفلسطينيين</charseq>
+        </extent>
+        <head>
+          <charseq START="630" END="635">لاجئين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E10-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="706" END="724">عددا من الفلسطينيين</charseq>
+        </extent>
+        <head>
+          <charseq START="706" END="709">عددا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E10-8" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="807" END="816">المتظاهرين</charseq>
+        </extent>
+        <head>
+          <charseq START="809" END="816">متظاهرين</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E11" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E11-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="178" END="200">الجيش والشرطة اللبنانية</charseq>
+        </extent>
+        <head>
+          <charseq START="180" END="182">جيش</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E11-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="680" END="693">الجيش اللبناني</charseq>
+        </extent>
+        <head>
+          <charseq START="680" END="693">الجيش اللبناني</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="الجيش اللبناني">
+          <charseq START="680" END="693">الجيش اللبناني</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E12" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E12-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="178" END="200">الجيش والشرطة اللبنانية</charseq>
+        </extent>
+        <head>
+          <charseq START="187" END="190">شرطة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E13" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E13-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="384" END="391">500 جندي</charseq>
+        </extent>
+        <head>
+          <charseq START="388" END="391">جندي</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E14" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E14-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="394" END="401">500 شرطي</charseq>
+        </extent>
+        <head>
+          <charseq START="398" END="401">شرطي</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E15" TYPE="LOC" SUBTYPE="Region-International" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E15-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="441" END="447">المنطقة</charseq>
+        </extent>
+        <head>
+          <charseq START="443" END="447">منطقة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E15-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="449" END="452">التي</charseq>
+        </extent>
+        <head>
+          <charseq START="449" END="452">التي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E15-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="463" END="464">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="463" END="464">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001014.0000.0041-E15-7" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="606" END="621">المنطقة الحدودية</charseq>
+        </extent>
+        <head>
+          <charseq START="608" END="612">منطقة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001014.0000.0041-E16" TYPE="FAC" SUBTYPE="Path" CLASS="SPC">
+      <entity_mention ID="AFA20001014.0000.0041-E16-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="496" END="517">الطريق الموازية للحدود</charseq>
+        </extent>
+        <head>
+          <charseq START="498" END="501">طريق</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <timex2 ID="AFA20001014.0000.0041-T1">
+      <timex2_mention ID="AFA20001014.0000.0041-T1-1">
+        <extent>
+          <charseq START="39" END="57">2000-10-14 09:25:00</charseq>
+        </extent>
+      </timex2_mention>
+    </timex2>
+    <relation ID="AFA20001014.0000.0041-R1" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E2" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R1-1">
+        <extent>
+          <charseq START="116" END="131">الناقورة (لبنان)</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E2-2">
+          <extent>
+            <charseq START="116" END="131">الناقورة (لبنان)</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E1-2">
+          <extent>
+            <charseq START="126" END="130">لبنان</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R2" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E4" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R2-1">
+        <extent>
+          <charseq START="152" END="168">مصدر عسكري لبناني</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E4-2">
+          <extent>
+            <charseq START="152" END="168">مصدر عسكري لبناني</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E1-4">
+          <extent>
+            <charseq START="163" END="168">لبناني</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="AFA20001014.0000.0041-R2-2">
+        <extent>
+          <charseq START="326" END="336">ضابط لبناني</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E4-4">
+          <extent>
+            <charseq START="326" END="336">ضابط لبناني</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E1-8">
+          <extent>
+            <charseq START="331" END="336">لبناني</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R3" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E11" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R3-1">
+        <extent>
+          <charseq START="178" END="200">الجيش والشرطة اللبنانية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E11-2">
+          <extent>
+            <charseq START="178" END="200">الجيش والشرطة اللبنانية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E1-6">
+          <extent>
+            <charseq START="192" END="200">اللبنانية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R4" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E12" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R4-1">
+        <extent>
+          <charseq START="178" END="200">الجيش والشرطة اللبنانية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E12-2">
+          <extent>
+            <charseq START="178" END="200">الجيش والشرطة اللبنانية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E1-6">
+          <extent>
+            <charseq START="192" END="200">اللبنانية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R5" TYPE="PHYS" SUBTYPE="Near" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E6" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E7" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R5-1">
+        <extent>
+          <charseq START="230" END="246">الحدود مع اسرائيل</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E6-2">
+          <extent>
+            <charseq START="230" END="246">الحدود مع اسرائيل</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E7-2">
+          <extent>
+            <charseq START="240" END="246">اسرائيل</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R6" TYPE="GEN-AFF" SUBTYPE="Citizen-Resident-Religion-Ethnicity" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E10" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E8" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R6-1">
+        <extent>
+          <charseq START="276" END="293">متظاهرين فلسطينيين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E10-2">
+          <extent>
+            <charseq START="276" END="293">متظاهرين فلسطينيين</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E8-2">
+          <extent>
+            <charseq START="285" END="293">فلسطينيين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="AFA20001014.0000.0041-R6-2">
+        <extent>
+          <charseq START="628" END="647">اللاجئين الفلسطينيين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E10-4">
+          <extent>
+            <charseq START="628" END="647">اللاجئين الفلسطينيين</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E8-4">
+          <extent>
+            <charseq START="637" END="647">الفلسطينيين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="AFA20001014.0000.0041-R6-3">
+        <extent>
+          <charseq START="706" END="724">عددا من الفلسطينيين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E10-6">
+          <extent>
+            <charseq START="706" END="724">عددا من الفلسطينيين</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E8-6">
+          <extent>
+            <charseq START="714" END="724">الفلسطينيين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R7" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E6" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E9" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R7-1">
+        <extent>
+          <charseq START="299" END="316">الحدود بين البلدين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E6-4">
+          <extent>
+            <charseq START="299" END="316">الحدود بين البلدين</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E9-2">
+          <extent>
+            <charseq START="310" END="316">البلدين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="AFA20001014.0000.0041-R7-2">
+        <extent>
+          <charseq START="740" END="757">الحدود بين البلدين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E6-10">
+          <extent>
+            <charseq START="740" END="757">الحدود بين البلدين</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E9-4">
+          <extent>
+            <charseq START="751" END="757">البلدين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R9" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E5" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R9-1">
+        <extent>
+          <charseq START="358" END="381">القوة اللبنانية المشتركة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E5-12">
+          <extent>
+            <charseq START="358" END="381">القوة اللبنانية المشتركة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E1-10">
+          <extent>
+            <charseq START="364" END="372">اللبنانية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R10" TYPE="GEN-AFF" SUBTYPE="Org-Location" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E5" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E15" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R10-1">
+        <extent>
+          <charseq START="358" END="447">القوة اللبنانية المشتركة (500 جندي و500 شرطي) التي انتشرت في التاسع من آب/اغسطس في المنطقة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E5-12">
+          <extent>
+            <charseq START="358" END="381">القوة اللبنانية المشتركة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E15-2">
+          <extent>
+            <charseq START="441" END="447">المنطقة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="AFA20001014.0000.0041-R10-2">
+        <extent>
+          <charseq START="575" END="621">القوة المشتركة هي حفظ الامن في المنطقة الحدودية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E5-18">
+          <extent>
+            <charseq START="575" END="588">القوة المشتركة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E15-7">
+          <extent>
+            <charseq START="606" END="621">المنطقة الحدودية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R12" TYPE="PHYS" SUBTYPE="Near" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E16" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E6" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R12-1">
+        <extent>
+          <charseq START="496" END="517">الطريق الموازية للحدود</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E16-2">
+          <extent>
+            <charseq START="496" END="517">الطريق الموازية للحدود</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E6-6">
+          <extent>
+            <charseq START="513" END="517">لحدود</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R17" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E13" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E5" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R17-1">
+        <extent>
+          <charseq START="358" END="391">القوة اللبنانية المشتركة (500 جندي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E13-2">
+          <extent>
+            <charseq START="384" END="391">500 جندي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E5-12">
+          <extent>
+            <charseq START="358" END="381">القوة اللبنانية المشتركة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001014.0000.0041-R18" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001014.0000.0041-E14" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001014.0000.0041-E5" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001014.0000.0041-R18-1">
+        <extent>
+          <charseq START="358" END="402">القوة اللبنانية المشتركة (500 جندي و500 شرطي)</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001014.0000.0041-E14-2">
+          <extent>
+            <charseq START="394" END="401">500 شرطي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001014.0000.0041-E5-12">
+          <extent>
+            <charseq START="358" END="381">القوة اللبنانية المشتركة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+  </document>
+</source_file>

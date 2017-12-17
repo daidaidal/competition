@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source_file PUBLIC "SYSTEM" "apf.v5.1.1.dtd">
+
+<source_file URI="AFA20001017.1000.0059.sgm" SOURCE="unknown" TYPE="text" VERSION="5.0" AUTHOR="Server" ENCODING="UTF-8">
+  <document DOCID="AFA20001017.1000.0059">
+    <entity ID="AFA20001017.1000.0059-E1" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E1-1" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="109" END="114">الرياض</charseq>
+        </extent>
+        <head>
+          <charseq START="109" END="114">الرياض</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E1-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="163" END="168">الرياض</charseq>
+        </extent>
+        <head>
+          <charseq START="163" END="168">الرياض</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E1-3" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="238" END="253">العاصمة السعودية</charseq>
+        </extent>
+        <head>
+          <charseq START="240" END="244">عاصمة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E1-4" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="682" END="687">الرياض</charseq>
+        </extent>
+        <head>
+          <charseq START="682" END="687">الرياض</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="الرياض">
+          <charseq START="109" END="114">الرياض</charseq>
+        </name>
+        <name NAME="الرياض">
+          <charseq START="163" END="168">الرياض</charseq>
+        </name>
+        <name NAME="الرياض">
+          <charseq START="682" END="687">الرياض</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E2" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E2-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="123" END="126">اف ب</charseq>
+        </extent>
+        <head>
+          <charseq START="123" END="126">اف ب</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E2-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="326" END="340">وكالة فرانس برس</charseq>
+        </extent>
+        <head>
+          <charseq START="326" END="340">وكالة فرانس برس</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اف ب">
+          <charseq START="123" END="126">اف ب</charseq>
+        </name>
+        <name NAME="وكالة فرانس برس">
+          <charseq START="326" END="340">وكالة فرانس برس</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E3" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E3-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="150" END="158">الاميركية</charseq>
+        </extent>
+        <head>
+          <charseq START="152" END="158">اميركية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E3-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="203" END="211">الاميركية</charseq>
+        </extent>
+        <head>
+          <charseq START="205" END="211">اميركية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E3-3" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="353" END="361">الاميركية</charseq>
+        </extent>
+        <head>
+          <charseq START="355" END="361">اميركية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E3-4" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="491" END="496">اميركي</charseq>
+        </extent>
+        <head>
+          <charseq START="491" END="496">اميركي</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اميركية">
+          <charseq START="152" END="158">اميركية</charseq>
+        </name>
+        <name NAME="اميركية">
+          <charseq START="205" END="211">اميركية</charseq>
+        </name>
+        <name NAME="اميركية">
+          <charseq START="355" END="361">اميركية</charseq>
+        </name>
+        <name NAME="اميركي">
+          <charseq START="491" END="496">اميركي</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E4" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E4-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="142" END="168">السفارة الاميركية في الرياض</charseq>
+        </extent>
+        <head>
+          <charseq START="144" END="148">سفارة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E5" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E5-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="134" END="168">مصدر في السفارة الاميركية في الرياض</charseq>
+        </extent>
+        <head>
+          <charseq START="134" END="137">مصدر</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E5-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="323" END="323">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="323" END="323">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E5-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="320" END="323">نفسه</charseq>
+        </extent>
+        <head>
+          <charseq START="320" END="322">نفس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E5-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="313" END="323">المصدر نفسه</charseq>
+        </extent>
+        <head>
+          <charseq START="315" END="318">مصدر</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E5-5" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="403" END="403">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="403" END="403">ه</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E6" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E6-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="213" END="227">مادلين اولبرايت</charseq>
+        </extent>
+        <head>
+          <charseq START="213" END="227">مادلين اولبرايت</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E6-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="188" END="211">وزيرة الخارجية الاميركية</charseq>
+        </extent>
+        <head>
+          <charseq START="188" END="192">وزيرة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E6-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="516" END="523">اولبرايت</charseq>
+        </extent>
+        <head>
+          <charseq START="516" END="523">اولبرايت</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E6-5" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="558" END="559">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="558" END="559">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E6-6" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="625" END="632">اولبرايت</charseq>
+        </extent>
+        <head>
+          <charseq START="625" END="632">اولبرايت</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E6-7" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="345" END="361">الوزيرة الاميركية</charseq>
+        </extent>
+        <head>
+          <charseq START="347" END="351">وزيرة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="مادلين اولبرايت">
+          <charseq START="213" END="227">مادلين اولبرايت</charseq>
+        </name>
+        <name NAME="اولبرايت">
+          <charseq START="516" END="523">اولبرايت</charseq>
+        </name>
+        <name NAME="اولبرايت">
+          <charseq START="625" END="632">اولبرايت</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E7" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E7-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="246" END="253">السعودية</charseq>
+        </extent>
+        <head>
+          <charseq START="246" END="253">السعودية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E7-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="460" END="467">السعودية</charseq>
+        </extent>
+        <head>
+          <charseq START="462" END="467">سعودية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E7-3" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="538" END="546">السعوديين</charseq>
+        </extent>
+        <head>
+          <charseq START="538" END="546">السعوديين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E7-4" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="388" END="394">المملكة</charseq>
+        </extent>
+        <head>
+          <charseq START="388" END="394">المملكة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="السعودية">
+          <charseq START="246" END="253">السعودية</charseq>
+        </name>
+        <name NAME="سعودية">
+          <charseq START="462" END="467">سعودية</charseq>
+        </name>
+        <name NAME="السعوديين">
+          <charseq START="538" END="546">السعوديين</charseq>
+        </name>
+        <name NAME="المملكة">
+          <charseq START="388" END="394">المملكة</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E8" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E8-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="288" END="296">شرم الشيخ</charseq>
+        </extent>
+        <head>
+          <charseq START="288" END="296">شرم الشيخ</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E8-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="596" END="604">شرم الشيخ</charseq>
+        </extent>
+        <head>
+          <charseq START="596" END="604">شرم الشيخ</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="شرم الشيخ">
+          <charseq START="288" END="296">شرم الشيخ</charseq>
+        </name>
+        <name NAME="شرم الشيخ">
+          <charseq START="596" END="604">شرم الشيخ</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E9" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E9-1" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="301" END="303">مصر</charseq>
+        </extent>
+        <head>
+          <charseq START="301" END="303">مصر</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="مصر">
+          <charseq START="301" END="303">مصر</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E10" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E10-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="370" END="394">كبار المسؤولين في المملكة</charseq>
+        </extent>
+        <head>
+          <charseq START="377" END="383">مسؤولين</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E11" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E11-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="477" END="496">مصدر دبلوماسي اميركي</charseq>
+        </extent>
+        <head>
+          <charseq START="477" END="480">مصدر</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E12" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E12-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="531" END="546">القادة السعوديين</charseq>
+        </extent>
+        <head>
+          <charseq START="533" END="536">قادة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E13" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E13-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="660" END="665">السوري</charseq>
+        </extent>
+        <head>
+          <charseq START="662" END="665">سوري</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="سوري">
+          <charseq START="662" END="665">سوري</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E14" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E14-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="667" END="676">بشار الاسد</charseq>
+        </extent>
+        <head>
+          <charseq START="667" END="676">بشار الاسد</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001017.1000.0059-E14-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="653" END="665">الرئيس السوري</charseq>
+        </extent>
+        <head>
+          <charseq START="655" END="658">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="بشار الاسد">
+          <charseq START="667" END="676">بشار الاسد</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001017.1000.0059-E15" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="AFA20001017.1000.0059-E15-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="194" END="201">الخارجية</charseq>
+        </extent>
+        <head>
+          <charseq START="194" END="201">الخارجية</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="الخارجية">
+          <charseq START="194" END="201">الخارجية</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <timex2 ID="AFA20001017.1000.0059-T1">
+      <timex2_mention ID="AFA20001017.1000.0059-T1-1">
+        <extent>
+          <charseq START="39" END="57">2000-10-17 10:18:00</charseq>
+        </extent>
+      </timex2_mention>
+    </timex2>
+    <relation ID="AFA20001017.1000.0059-R1" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E4" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E3" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R1-1">
+        <extent>
+          <charseq START="142" END="168">السفارة الاميركية في الرياض</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E4-1">
+          <extent>
+            <charseq START="142" END="168">السفارة الاميركية في الرياض</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E3-1">
+          <extent>
+            <charseq START="150" END="158">الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R2" TYPE="GEN-AFF" SUBTYPE="Org-Location" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E4" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R2-1">
+        <extent>
+          <charseq START="142" END="168">السفارة الاميركية في الرياض</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E4-1">
+          <extent>
+            <charseq START="142" END="168">السفارة الاميركية في الرياض</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E1-2">
+          <extent>
+            <charseq START="163" END="168">الرياض</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R3" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E5" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E4" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R3-1">
+        <extent>
+          <charseq START="134" END="168">مصدر في السفارة الاميركية في الرياض</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E5-1">
+          <extent>
+            <charseq START="134" END="168">مصدر في السفارة الاميركية في الرياض</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E4-1">
+          <extent>
+            <charseq START="142" END="168">السفارة الاميركية في الرياض</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R4" TYPE="PHYS" SUBTYPE="Located" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E5" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R4-1">
+        <extent>
+          <charseq START="134" END="168">مصدر في السفارة الاميركية في الرياض</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E5-1">
+          <extent>
+            <charseq START="134" END="168">مصدر في السفارة الاميركية في الرياض</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E1-2">
+          <extent>
+            <charseq START="163" END="168">الرياض</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R5" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E6" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E15" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R5-1">
+        <extent>
+          <charseq START="188" END="211">وزيرة الخارجية الاميركية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E6-2">
+          <extent>
+            <charseq START="188" END="211">وزيرة الخارجية الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E15-1">
+          <extent>
+            <charseq START="194" END="201">الخارجية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R6" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E6" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E3" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R6-1">
+        <extent>
+          <charseq START="188" END="211">وزيرة الخارجية الاميركية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E6-2">
+          <extent>
+            <charseq START="188" END="211">وزيرة الخارجية الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E3-2">
+          <extent>
+            <charseq START="203" END="211">الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="AFA20001017.1000.0059-R6-2">
+        <extent>
+          <charseq START="345" END="361">الوزيرة الاميركية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E6-7">
+          <extent>
+            <charseq START="345" END="361">الوزيرة الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E3-3">
+          <extent>
+            <charseq START="353" END="361">الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R8" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E10" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E7" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R8-1">
+        <extent>
+          <charseq START="370" END="394">كبار المسؤولين في المملكة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E10-1">
+          <extent>
+            <charseq START="370" END="394">كبار المسؤولين في المملكة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E7-4">
+          <extent>
+            <charseq START="388" END="394">المملكة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R9" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E11" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E3" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R9-1">
+        <extent>
+          <charseq START="477" END="496">مصدر دبلوماسي اميركي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E11-1">
+          <extent>
+            <charseq START="477" END="496">مصدر دبلوماسي اميركي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E3-4">
+          <extent>
+            <charseq START="491" END="496">اميركي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R10" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E12" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E7" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R10-1">
+        <extent>
+          <charseq START="531" END="546">القادة السعوديين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E12-1">
+          <extent>
+            <charseq START="531" END="546">القادة السعوديين</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E7-3">
+          <extent>
+            <charseq START="538" END="546">السعوديين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R11" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E6" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E12" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R11-1">
+        <extent>
+          <charseq START="516" END="546">اولبرايت ستطلع القادة السعوديين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E6-4">
+          <extent>
+            <charseq START="516" END="523">اولبرايت</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E12-1">
+          <extent>
+            <charseq START="531" END="546">القادة السعوديين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R12" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E14" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E13" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R12-1">
+        <extent>
+          <charseq START="653" END="665">الرئيس السوري</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E14-2">
+          <extent>
+            <charseq START="653" END="665">الرئيس السوري</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E13-1">
+          <extent>
+            <charseq START="660" END="665">السوري</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R13" TYPE="PHYS" SUBTYPE="Located" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E14" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R13-1">
+        <extent>
+          <charseq START="637" END="687">زيارة سيقوم بها الرئيس السوري بشار الاسد الى الرياض</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E14-1">
+          <extent>
+            <charseq START="667" END="676">بشار الاسد</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E1-4">
+          <extent>
+            <charseq START="682" END="687">الرياض</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R14" TYPE="PHYS" SUBTYPE="Located" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E6" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E1" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R14-1">
+        <extent>
+          <charseq START="188" END="253">وزيرة الخارجية الاميركية مادلين اولبرايت ستصل الى العاصمة السعودية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E6-1">
+          <extent>
+            <charseq START="213" END="227">مادلين اولبرايت</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E1-3">
+          <extent>
+            <charseq START="238" END="253">العاصمة السعودية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001017.1000.0059-R15" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001017.1000.0059-E1" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001017.1000.0059-E7" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001017.1000.0059-R15-1">
+        <extent>
+          <charseq START="238" END="253">العاصمة السعودية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001017.1000.0059-E1-3">
+          <extent>
+            <charseq START="238" END="253">العاصمة السعودية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001017.1000.0059-E7-1">
+          <extent>
+            <charseq START="246" END="253">السعودية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+  </document>
+</source_file>

@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source_file PUBLIC "SYSTEM" "apf.v5.1.1.dtd">
+
+<source_file URI="AFA20001016.1000.0119.sgm" SOURCE="unknown" TYPE="text" VERSION="5.0" AUTHOR="Server" ENCODING="UTF-8">
+  <document DOCID="AFA20001016.1000.0119">
+    <entity ID="AFA20001016.1000.0119-E1" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E1-1" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="112" END="117">واشنطن</charseq>
+        </extent>
+        <head>
+          <charseq START="112" END="117">واشنطن</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="واشنطن">
+          <charseq START="112" END="117">واشنطن</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E2" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E2-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="126" END="129">اف ب</charseq>
+        </extent>
+        <head>
+          <charseq START="126" END="129">اف ب</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اف ب">
+          <charseq START="126" END="129">اف ب</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E3" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E3-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="161" END="169">الاميركية</charseq>
+        </extent>
+        <head>
+          <charseq START="163" END="169">اميركية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E3-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="581" END="589">الاميركية</charseq>
+        </extent>
+        <head>
+          <charseq START="583" END="589">اميركية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E3-3" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1648" END="1663">الولايات المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="1648" END="1663">الولايات المتحدة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E3-4" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="TRUE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1665" END="1672">مقرا لها</charseq>
+        </extent>
+        <head>
+          <charseq START="1665" END="1668">مقرا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E3-5" TYPE="NOM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1724" END="1729">الدولة</charseq>
+        </extent>
+        <head>
+          <charseq START="1726" END="1729">دولة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="اميركية">
+          <charseq START="163" END="169">اميركية</charseq>
+        </name>
+        <name NAME="اميركية">
+          <charseq START="583" END="589">اميركية</charseq>
+        </name>
+        <name NAME="الولايات المتحدة">
+          <charseq START="1648" END="1663">الولايات المتحدة</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E4" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E4-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="262" END="288">رابع مجموعة نفطية في العالم</charseq>
+        </extent>
+        <head>
+          <charseq START="267" END="272">مجموعة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="625" END="640">المجموعة الجديدة</charseq>
+        </extent>
+        <head>
+          <charseq START="627" END="632">مجموعة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-5" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="665" END="666">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="665" END="666">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="692" END="693">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="692" END="693">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-11" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1184" END="1199">المجموعة الجديدة</charseq>
+        </extent>
+        <head>
+          <charseq START="1186" END="1191">مجموعة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-12" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1253" END="1260">المجموعة</charseq>
+        </extent>
+        <head>
+          <charseq START="1255" END="1260">مجموعة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-13" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1262" END="1265">التي</charseq>
+        </extent>
+        <head>
+          <charseq START="1262" END="1265">التي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-14" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1310" END="1322">شيفرون تكساكو</charseq>
+        </extent>
+        <head>
+          <charseq START="1310" END="1322">شيفرون تكساكو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-16" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1473" END="1488">المجموعة الجديدة</charseq>
+        </extent>
+        <head>
+          <charseq START="1475" END="1480">مجموعة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-18" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1542" END="1543">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="1542" END="1543">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-19" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1581" END="1593">شيفرون تكساكو</charseq>
+        </extent>
+        <head>
+          <charseq START="1581" END="1593">شيفرون تكساكو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-22" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1682" END="1683">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="1682" END="1683">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-23" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1813" END="1820">المجموعة</charseq>
+        </extent>
+        <head>
+          <charseq START="1815" END="1820">مجموعة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-24" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1832" END="1839">المجموعة</charseq>
+        </extent>
+        <head>
+          <charseq START="1834" END="1839">مجموعة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-25" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1853" END="1854">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="1853" END="1854">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-26" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="2113" END="2128">المجموعة الجديدة</charseq>
+        </extent>
+        <head>
+          <charseq START="2115" END="2120">مجموعة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-27" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1276" END="1277">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="1276" END="1277">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E4-28" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="313" END="314">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="313" END="314">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="شيفرون تكساكو">
+          <charseq START="1310" END="1322">شيفرون تكساكو</charseq>
+        </name>
+        <name NAME="شيفرون تكساكو">
+          <charseq START="1581" END="1593">شيفرون تكساكو</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E5" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E5-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="191" END="196">تكساكو</charseq>
+        </extent>
+        <head>
+          <charseq START="191" END="196">تكساكو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E5-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="518" END="523">تكساكو</charseq>
+        </extent>
+        <head>
+          <charseq START="518" END="523">تكساكو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E5-3" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="734" END="739">تكساكو</charseq>
+        </extent>
+        <head>
+          <charseq START="734" END="739">تكساكو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E5-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="770" END="771">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="770" END="771">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E5-5" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="888" END="893">تكساكو</charseq>
+        </extent>
+        <head>
+          <charseq START="888" END="893">تكساكو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E5-6" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1043" END="1048">تكساكو</charseq>
+        </extent>
+        <head>
+          <charseq START="1043" END="1048">تكساكو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E5-7" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1227" END="1232">تكساكو</charseq>
+        </extent>
+        <head>
+          <charseq START="1227" END="1232">تكساكو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E5-8" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="2241" END="2253">شركة "تكساكو"</charseq>
+        </extent>
+        <head>
+          <charseq START="2241" END="2253">شركة "تكساكو"</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="تكساكو">
+          <charseq START="191" END="196">تكساكو</charseq>
+        </name>
+        <name NAME="تكساكو">
+          <charseq START="518" END="523">تكساكو</charseq>
+        </name>
+        <name NAME="تكساكو">
+          <charseq START="734" END="739">تكساكو</charseq>
+        </name>
+        <name NAME="تكساكو">
+          <charseq START="888" END="893">تكساكو</charseq>
+        </name>
+        <name NAME="تكساكو">
+          <charseq START="1043" END="1048">تكساكو</charseq>
+        </name>
+        <name NAME="تكساكو">
+          <charseq START="1227" END="1232">تكساكو</charseq>
+        </name>
+        <name NAME="شركة &quot;تكساكو&quot;">
+          <charseq START="2241" END="2253">شركة "تكساكو"</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E6" TYPE="LOC" SUBTYPE="Celestial" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E6-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="283" END="288">العالم</charseq>
+        </extent>
+        <head>
+          <charseq START="285" END="288">عالم</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E7" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E7-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="330" END="339">المجموعتين</charseq>
+        </extent>
+        <head>
+          <charseq START="332" END="339">مجموعتين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E7-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="341" END="346">اللتين</charseq>
+        </extent>
+        <head>
+          <charseq START="341" END="346">اللتين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E7-3" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="536" END="538">هما</charseq>
+        </extent>
+        <head>
+          <charseq START="536" END="538">هما</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E7-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1985" END="1994">المجموعتان</charseq>
+        </extent>
+        <head>
+          <charseq START="1987" END="1994">مجموعتان</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E9" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E9-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="476" END="495">غرب الولايات المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="480" END="495">الولايات المتحدة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E10" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E10-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="465" END="495">المناطق في غرب الولايات المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="467" END="471">مناطق</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E11" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E11-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="458" END="495">عدد من المناطق في غرب الولايات المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="458" END="460">عدد</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E12" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E12-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="552" END="570">فدرال ترايد كوميشون</charseq>
+        </extent>
+        <head>
+          <charseq START="552" END="570">فدرال ترايد كوميشون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E12-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="379" END="407">السلطات المكلفة شؤون المنافسة</charseq>
+        </extent>
+        <head>
+          <charseq START="381" END="385">سلطات</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E12-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="574" END="597">السلطة الاميركية للتنافس</charseq>
+        </extent>
+        <head>
+          <charseq START="576" END="579">سلطة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E12-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="600" END="603">التي</charseq>
+        </extent>
+        <head>
+          <charseq START="600" END="603">التي</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="فدرال ترايد كوميشون">
+          <charseq START="552" END="570">فدرال ترايد كوميشون</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E13" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E13-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="765" END="771">شركائها</charseq>
+        </extent>
+        <head>
+          <charseq START="765" END="769">شركائ</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E14" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E14-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1142" END="1162">المساهمون في "شيفرون"</charseq>
+        </extent>
+        <head>
+          <charseq START="1144" END="1150">مساهمون</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E15" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E15-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1213" END="1233">المساهمون في "تكساكو"</charseq>
+        </extent>
+        <head>
+          <charseq START="1215" END="1221">مساهمون</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E16" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E16-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1442" END="1453">دايف اورايلي</charseq>
+        </extent>
+        <head>
+          <charseq START="1442" END="1453">دايف اورايلي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E16-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1414" END="1440">المدير العام الحالي لشيفرون</charseq>
+        </extent>
+        <head>
+          <charseq START="1416" END="1419">مدير</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E16-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1455" END="1488">رئيسا لمجلس ادارة المجموعة الجديدة</charseq>
+        </extent>
+        <head>
+          <charseq START="1455" END="1459">رئيسا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E16-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1554" END="1560">اورايلي</charseq>
+        </extent>
+        <head>
+          <charseq START="1554" END="1560">اورايلي</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="دايف اورايلي">
+          <charseq START="1442" END="1453">دايف اورايلي</charseq>
+        </name>
+        <name NAME="اورايلي">
+          <charseq START="1554" END="1560">اورايلي</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E17" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E17-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1462" END="1488">مجلس ادارة المجموعة الجديدة</charseq>
+        </extent>
+        <head>
+          <charseq START="1462" END="1465">مجلس</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E18" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E18-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1516" END="1525">بيتر بيجور</charseq>
+        </extent>
+        <head>
+          <charseq START="1516" END="1525">بيتر بيجور</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E18-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1502" END="1514">رئيسها الحالي</charseq>
+        </extent>
+        <head>
+          <charseq START="1502" END="1505">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E18-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1527" END="1543">الرجل الثاني فيها</charseq>
+        </extent>
+        <head>
+          <charseq START="1529" END="1531">رجل</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E18-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="2265" END="2269">بيجور</charseq>
+        </extent>
+        <head>
+          <charseq START="2265" END="2269">بيجور</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="بيتر بيجور">
+          <charseq START="1516" END="1525">بيتر بيجور</charseq>
+        </name>
+        <name NAME="بيجور">
+          <charseq START="2265" END="2269">بيجور</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E19" TYPE="ORG" SUBTYPE="Commercial" CLASS="USP">
+      <entity_mention ID="AFA20001016.1000.0119-E19-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1604" END="1633">الشركات العالمية لانتاج الطاقة</charseq>
+        </extent>
+        <head>
+          <charseq START="1606" END="1610">شركات</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E19-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1635" END="1638">التي</charseq>
+        </extent>
+        <head>
+          <charseq START="1635" END="1638">التي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E19-3" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1671" END="1672">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="1671" END="1672">ها</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E20" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E20-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1749" END="1757">المساهمين</charseq>
+        </extent>
+        <head>
+          <charseq START="1751" END="1757">مساهمين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E20-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1773" END="1774">هم</charseq>
+        </extent>
+        <head>
+          <charseq START="1773" END="1774">هم</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E20-3" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1800" END="1801">هم</charseq>
+        </extent>
+        <head>
+          <charseq START="1800" END="1801">هم</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E21" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E21-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="2181" END="2209">شيفرون فيليبس كيميكال كومباني</charseq>
+        </extent>
+        <head>
+          <charseq START="2181" END="2209">شيفرون فيليبس كيميكال كومباني</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E21-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="2147" END="2178">الشركة الجديدة المشتركة للكيمياء</charseq>
+        </extent>
+        <head>
+          <charseq START="2149" END="2152">شركة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="شيفرون فيليبس كيميكال كومباني">
+          <charseq START="2181" END="2209">شيفرون فيليبس كيميكال كومباني</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E22" TYPE="ORG" SUBTYPE="Commercial" CLASS="SPC">
+      <entity_mention ID="AFA20001016.1000.0119-E22-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="139" END="169">شركة "شيفرون" النفطية الاميركية</charseq>
+        </extent>
+        <head>
+          <charseq START="139" END="151">شركة "شيفرون"</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E22-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="508" END="513">شيفرون</charseq>
+        </extent>
+        <head>
+          <charseq START="508" END="513">شيفرون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E22-3" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="798" END="803">شيفرون</charseq>
+        </extent>
+        <head>
+          <charseq START="798" END="803">شيفرون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E22-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="864" END="865">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="864" END="865">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E22-5" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="923" END="928">شيفرون</charseq>
+        </extent>
+        <head>
+          <charseq START="923" END="928">شيفرون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E22-6" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1156" END="1161">شيفرون</charseq>
+        </extent>
+        <head>
+          <charseq START="1156" END="1161">شيفرون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E22-7" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1435" END="1440">شيفرون</charseq>
+        </extent>
+        <head>
+          <charseq START="1435" END="1440">شيفرون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="AFA20001016.1000.0119-E22-8" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1506" END="1507">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="1506" END="1507">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="شركة &quot;شيفرون&quot;">
+          <charseq START="139" END="151">شركة "شيفرون"</charseq>
+        </name>
+        <name NAME="شيفرون">
+          <charseq START="508" END="513">شيفرون</charseq>
+        </name>
+        <name NAME="شيفرون">
+          <charseq START="798" END="803">شيفرون</charseq>
+        </name>
+        <name NAME="شيفرون">
+          <charseq START="923" END="928">شيفرون</charseq>
+        </name>
+        <name NAME="شيفرون">
+          <charseq START="1156" END="1161">شيفرون</charseq>
+        </name>
+        <name NAME="شيفرون">
+          <charseq START="1435" END="1440">شيفرون</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="AFA20001016.1000.0119-E23" TYPE="ORG" SUBTYPE="Media" CLASS="USP">
+      <entity_mention ID="AFA20001016.1000.0119-E23-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="821" END="827">الصحافة</charseq>
+        </extent>
+        <head>
+          <charseq START="823" END="827">صحافة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <timex2 ID="AFA20001016.1000.0119-T1">
+      <timex2_mention ID="AFA20001016.1000.0119-T1-1">
+        <extent>
+          <charseq START="39" END="57">2000-10-16 13:07:00</charseq>
+        </extent>
+      </timex2_mention>
+    </timex2>
+    <relation ID="AFA20001016.1000.0119-R1" TYPE="GEN-AFF" SUBTYPE="Org-Location" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E22" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E3" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R1-1">
+        <extent>
+          <charseq START="139" END="169">شركة "شيفرون" النفطية الاميركية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E22-1">
+          <extent>
+            <charseq START="139" END="169">شركة "شيفرون" النفطية الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E3-1">
+          <extent>
+            <charseq START="161" END="169">الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R2" TYPE="GEN-AFF" SUBTYPE="Org-Location" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E4" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E6" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R2-1">
+        <extent>
+          <charseq START="262" END="288">رابع مجموعة نفطية في العالم</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E4-2">
+          <extent>
+            <charseq START="262" END="288">رابع مجموعة نفطية في العالم</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E6-1">
+          <extent>
+            <charseq START="283" END="288">العالم</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R3" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E10" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E9" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R3-1">
+        <extent>
+          <charseq START="465" END="495">المناطق في غرب الولايات المتحدة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E10-1">
+          <extent>
+            <charseq START="465" END="495">المناطق في غرب الولايات المتحدة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E9-1">
+          <extent>
+            <charseq START="476" END="495">غرب الولايات المتحدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R5" TYPE="ORG-AFF" SUBTYPE="Investor-Shareholder" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E14" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E22" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R5-1">
+        <extent>
+          <charseq START="1142" END="1162">المساهمون في "شيفرون"</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E14-1">
+          <extent>
+            <charseq START="1142" END="1162">المساهمون في "شيفرون"</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E22-6">
+          <extent>
+            <charseq START="1156" END="1161">شيفرون</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R6" TYPE="ORG-AFF" SUBTYPE="Investor-Shareholder" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E15" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E5" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R6-1">
+        <extent>
+          <charseq START="1213" END="1233">المساهمون في "تكساكو"</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E15-1">
+          <extent>
+            <charseq START="1213" END="1233">المساهمون في "تكساكو"</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E5-7">
+          <extent>
+            <charseq START="1227" END="1232">تكساكو</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R7" TYPE="ORG-AFF" SUBTYPE="Investor-Shareholder" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E14" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E4" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R7-1">
+        <extent>
+          <charseq START="1136" END="1199">سيصبح المساهمون في "شيفرون" يملكون حوالي 61% من المجموعة الجديدة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E14-1">
+          <extent>
+            <charseq START="1142" END="1162">المساهمون في "شيفرون"</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E4-11">
+          <extent>
+            <charseq START="1184" END="1199">المجموعة الجديدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R8" TYPE="ORG-AFF" SUBTYPE="Investor-Shareholder" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E15" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E4" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R8-1">
+        <extent>
+          <charseq START="1206" END="1260">سيمتلك المساهمون في "تكساكو" ال39% المتبقية من المجموعة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E15-1">
+          <extent>
+            <charseq START="1213" END="1233">المساهمون في "تكساكو"</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E4-12">
+          <extent>
+            <charseq START="1253" END="1260">المجموعة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R9" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Present" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E16" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E22" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R9-1">
+        <extent>
+          <charseq START="1414" END="1440">المدير العام الحالي لشيفرون</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E16-2">
+          <extent>
+            <charseq START="1414" END="1440">المدير العام الحالي لشيفرون</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E22-7">
+          <extent>
+            <charseq START="1435" END="1440">شيفرون</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R10" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E16" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E17" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R10-1">
+        <extent>
+          <charseq START="1455" END="1488">رئيسا لمجلس ادارة المجموعة الجديدة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E16-3">
+          <extent>
+            <charseq START="1455" END="1488">رئيسا لمجلس ادارة المجموعة الجديدة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E17-1">
+          <extent>
+            <charseq START="1462" END="1488">مجلس ادارة المجموعة الجديدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R11" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E17" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E4" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R11-1">
+        <extent>
+          <charseq START="1462" END="1488">مجلس ادارة المجموعة الجديدة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E17-1">
+          <extent>
+            <charseq START="1462" END="1488">مجلس ادارة المجموعة الجديدة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E4-16">
+          <extent>
+            <charseq START="1473" END="1488">المجموعة الجديدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R12" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Present" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E18" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E22" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R12-1">
+        <extent>
+          <charseq START="1502" END="1514">رئيسها الحالي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E18-2">
+          <extent>
+            <charseq START="1502" END="1514">رئيسها الحالي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E22-8">
+          <extent>
+            <charseq START="1506" END="1507">ها</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R13" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E18" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E4" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R13-1">
+        <extent>
+          <charseq START="1527" END="1543">الرجل الثاني فيها</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E18-3">
+          <extent>
+            <charseq START="1527" END="1543">الرجل الثاني فيها</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E4-18">
+          <extent>
+            <charseq START="1542" END="1543">ها</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R14" TYPE="GEN-AFF" SUBTYPE="Org-Location" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E19" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E3" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R14-1">
+        <extent>
+          <charseq START="1635" END="1663">التي تتخذ من الولايات المتحدة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E19-2">
+          <extent>
+            <charseq START="1635" END="1638">التي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E3-3">
+          <extent>
+            <charseq START="1648" END="1663">الولايات المتحدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="AFA20001016.1000.0119-R14-2">
+        <extent>
+          <charseq START="1665" END="1672">مقرا لها</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E19-3">
+          <extent>
+            <charseq START="1671" END="1672">ها</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E3-4">
+          <extent>
+            <charseq START="1665" END="1672">مقرا لها</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R16" TYPE="ORG-AFF" SUBTYPE="Investor-Shareholder" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E20" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E4" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R16-1">
+        <extent>
+          <charseq START="1791" END="1820">استثماراتهم على مستوى المجموعة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E20-3">
+          <extent>
+            <charseq START="1800" END="1801">هم</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E4-23">
+          <extent>
+            <charseq START="1813" END="1820">المجموعة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R17" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E21" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E4" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R17-1">
+        <extent>
+          <charseq START="2113" END="2178">المجموعة الجديدة ستضم ايضا نشاطات الشركة الجديدة المشتركة للكيمياء</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E21-2">
+          <extent>
+            <charseq START="2147" END="2178">الشركة الجديدة المشتركة للكيمياء</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E4-26">
+          <extent>
+            <charseq START="2113" END="2128">المجموعة الجديدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="AFA20001016.1000.0119-R18" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="AFA20001016.1000.0119-E12" ROLE="Arg-1"/>
+      <relation_argument REFID="AFA20001016.1000.0119-E3" ROLE="Arg-2"/>
+      <relation_mention ID="AFA20001016.1000.0119-R18-1">
+        <extent>
+          <charseq START="574" END="597">السلطة الاميركية للتنافس</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="AFA20001016.1000.0119-E12-3">
+          <extent>
+            <charseq START="574" END="597">السلطة الاميركية للتنافس</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="AFA20001016.1000.0119-E3-2">
+          <extent>
+            <charseq START="581" END="589">الاميركية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+  </document>
+</source_file>

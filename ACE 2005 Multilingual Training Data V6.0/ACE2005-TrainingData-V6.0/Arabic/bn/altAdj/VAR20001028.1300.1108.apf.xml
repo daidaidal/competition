@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source_file PUBLIC "SYSTEM" "apf.v5.1.1.dtd">
+
+<source_file URI="VAR20001028.1300.1108.sgm" SOURCE="unknown" TYPE="text" VERSION="5.0" AUTHOR="Server" ENCODING="UTF-8">
+  <document DOCID="VAR20001028.1300.1108">
+    <entity ID="VAR20001028.1300.1108-E1" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E1-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="77" END="89">الأمم المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="77" END="89">الأمم المتحدة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E1-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="279" END="290">لأمم المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="279" END="290">لأمم المتحدة</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="الأمم المتحدة">
+          <charseq START="77" END="89">الأمم المتحدة</charseq>
+        </name>
+        <name NAME="لأمم المتحدة">
+          <charseq START="279" END="290">لأمم المتحدة</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E2" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E2-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="71" END="121">قيادة الأمم المتحدة بزعامة أمريكا في كوريا الجنوبية</charseq>
+        </extent>
+        <head>
+          <charseq START="71" END="75">قيادة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E2-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="129" END="130">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="129" END="130">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E2-8" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="262" END="290">القيادة التابعة للأمم المتحدة</charseq>
+        </extent>
+        <head>
+          <charseq START="264" END="268">قيادة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E2-14" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="355" END="369">القيادة الدولية</charseq>
+        </extent>
+        <head>
+          <charseq START="357" END="361">قيادة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E2-16" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="418" END="419">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="418" END="419">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E2-22" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="524" END="530">القيادة</charseq>
+        </extent>
+        <head>
+          <charseq START="526" END="530">قيادة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E3" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E3-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="98" END="103">أمريكا</charseq>
+        </extent>
+        <head>
+          <charseq START="98" END="103">أمريكا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E3-4" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="157" END="165">أمريكيتين</charseq>
+        </extent>
+        <head>
+          <charseq START="157" END="165">أمريكيتين</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="أمريكا">
+          <charseq START="98" END="103">أمريكا</charseq>
+        </name>
+        <name NAME="أمريكيتين">
+          <charseq START="157" END="165">أمريكيتين</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E4" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E4-4" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="193" END="206">كوريا الشمالية</charseq>
+        </extent>
+        <head>
+          <charseq START="193" END="206">كوريا الشمالية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E4-6" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="309" END="322">كوريا الشمالية</charseq>
+        </extent>
+        <head>
+          <charseq START="309" END="322">كوريا الشمالية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E4-8" TYPE="NAM" ROLE="ORG" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="653" END="666">كوريا الشمالية</charseq>
+        </extent>
+        <head>
+          <charseq START="653" END="666">كوريا الشمالية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E4-9" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="179" END="206">المجال الجوى لكوريا الشمالية</charseq>
+        </extent>
+        <head>
+          <charseq START="181" END="184">مجال</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="كوريا الشمالية">
+          <charseq START="193" END="206">كوريا الشمالية</charseq>
+        </name>
+        <name NAME="كوريا الشمالية">
+          <charseq START="309" END="322">كوريا الشمالية</charseq>
+        </name>
+        <name NAME="كوريا الشمالية">
+          <charseq START="653" END="666">كوريا الشمالية</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E5" TYPE="VEH" SUBTYPE="Air" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E5-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="140" END="165">طائرتين مقاتلتين أمريكيتين</charseq>
+        </extent>
+        <head>
+          <charseq START="140" END="146">طائرتين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E5-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="374" END="382">الطائرتين</charseq>
+        </extent>
+        <head>
+          <charseq START="376" END="382">طائرتين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E5-8" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="470" END="478">الطائرتين</charseq>
+        </extent>
+        <head>
+          <charseq START="472" END="478">طائرتين</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E6" TYPE="GPE" SUBTYPE="Population-Center" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E6-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="241" END="248">بانلنجوم</charseq>
+        </extent>
+        <head>
+          <charseq START="241" END="248">بانلنجوم</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="بانلنجوم">
+          <charseq START="241" END="248">بانلنجوم</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E7" TYPE="FAC" SUBTYPE="Building-Grounds" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E7-2" TYPE="NOM" METONYMY_MENTION="TRUE" LDCATR="FALSE">
+        <extent>
+          <charseq START="226" END="248">قرية الهدنة في بانلنجوم</charseq>
+        </extent>
+        <head>
+          <charseq START="226" END="229">قرية</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E8" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E8-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="292" END="322">ضباطا عسكريين من كوريا الشمالية</charseq>
+        </extent>
+        <head>
+          <charseq START="292" END="296">ضباطا</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E9" TYPE="LOC" SUBTYPE="Boundary" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E9-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="408" END="413">الحدود</charseq>
+        </extent>
+        <head>
+          <charseq START="410" END="413">حدود</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E10" TYPE="LOC" SUBTYPE="Region-General" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E10-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="598" END="620">المنطقة المنزوعة السلاح</charseq>
+        </extent>
+        <head>
+          <charseq START="600" END="604">منطقة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001028.1300.1108-E10-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="622" END="625">التي</charseq>
+        </extent>
+        <head>
+          <charseq START="622" END="625">التي</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E11" TYPE="GPE" SUBTYPE="GPE-Cluster" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E11-4" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="636" END="644">الكوريتين</charseq>
+        </extent>
+        <head>
+          <charseq START="638" END="644">كوريتين</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="كوريتين">
+          <charseq START="638" END="644">كوريتين</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E12" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E12-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="108" END="121">كوريا الجنوبية</charseq>
+        </extent>
+        <head>
+          <charseq START="108" END="121">كوريا الجنوبية</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="كوريا الجنوبية">
+          <charseq START="108" END="121">كوريا الجنوبية</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001028.1300.1108-E13" TYPE="GPE" SUBTYPE="GPE-Cluster" CLASS="SPC">
+      <entity_mention ID="VAR20001028.1300.1108-E13-1" TYPE="NOM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="593" END="620">بلاد المنطقة المنزوعة السلاح</charseq>
+        </extent>
+        <head>
+          <charseq START="593" END="596">بلاد</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <timex2 ID="VAR20001028.1300.1108-T1">
+      <timex2_mention ID="VAR20001028.1300.1108-T1-1">
+        <extent>
+          <charseq START="39" END="60">10/28/2000 13:18:28.07</charseq>
+        </extent>
+      </timex2_mention>
+    </timex2>
+    <relation ID="VAR20001028.1300.1108-R1" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001028.1300.1108-E2" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001028.1300.1108-E1" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001028.1300.1108-R1-1">
+        <extent>
+          <charseq START="71" END="121">قيادة الأمم المتحدة بزعامة أمريكا في كوريا الجنوبية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E2-2">
+          <extent>
+            <charseq START="71" END="121">قيادة الأمم المتحدة بزعامة أمريكا في كوريا الجنوبية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E1-2">
+          <extent>
+            <charseq START="77" END="89">الأمم المتحدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="VAR20001028.1300.1108-R1-2">
+        <extent>
+          <charseq START="262" END="290">القيادة التابعة للأمم المتحدة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E2-8">
+          <extent>
+            <charseq START="262" END="290">القيادة التابعة للأمم المتحدة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E1-4">
+          <extent>
+            <charseq START="279" END="290">لأمم المتحدة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001028.1300.1108-R2" TYPE="ORG-AFF" SUBTYPE="Membership" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001028.1300.1108-E3" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001028.1300.1108-E2" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001028.1300.1108-R2-1">
+        <extent>
+          <charseq START="71" END="121">قيادة الأمم المتحدة بزعامة أمريكا في كوريا الجنوبية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E3-2">
+          <extent>
+            <charseq START="98" END="103">أمريكا</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E2-2">
+          <extent>
+            <charseq START="71" END="121">قيادة الأمم المتحدة بزعامة أمريكا في كوريا الجنوبية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001028.1300.1108-R3" TYPE="GEN-AFF" SUBTYPE="Org-Location" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001028.1300.1108-E2" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001028.1300.1108-E12" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001028.1300.1108-R3-1">
+        <extent>
+          <charseq START="71" END="121">قيادة الأمم المتحدة بزعامة أمريكا في كوريا الجنوبية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E2-2">
+          <extent>
+            <charseq START="71" END="121">قيادة الأمم المتحدة بزعامة أمريكا في كوريا الجنوبية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E12-2">
+          <extent>
+            <charseq START="108" END="121">كوريا الجنوبية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001028.1300.1108-R4" TYPE="ART" SUBTYPE="User-Owner-Inventor-Manufacturer" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001028.1300.1108-E3" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001028.1300.1108-E5" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001028.1300.1108-R4-1">
+        <extent>
+          <charseq START="140" END="165">طائرتين مقاتلتين أمريكيتين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E3-4">
+          <extent>
+            <charseq START="157" END="165">أمريكيتين</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E5-2">
+          <extent>
+            <charseq START="140" END="165">طائرتين مقاتلتين أمريكيتين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001028.1300.1108-R6" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001028.1300.1108-E7" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001028.1300.1108-E6" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001028.1300.1108-R6-1">
+        <extent>
+          <charseq START="226" END="248">قرية الهدنة في بانلنجوم</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E7-2">
+          <extent>
+            <charseq START="226" END="248">قرية الهدنة في بانلنجوم</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E6-2">
+          <extent>
+            <charseq START="241" END="248">بانلنجوم</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001028.1300.1108-R8" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001028.1300.1108-E8" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001028.1300.1108-E4" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001028.1300.1108-R8-1">
+        <extent>
+          <charseq START="292" END="322">ضباطا عسكريين من كوريا الشمالية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E8-2">
+          <extent>
+            <charseq START="292" END="322">ضباطا عسكريين من كوريا الشمالية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E4-6">
+          <extent>
+            <charseq START="309" END="322">كوريا الشمالية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001028.1300.1108-R9" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001028.1300.1108-E10" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001028.1300.1108-E13" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001028.1300.1108-R9-1">
+        <extent>
+          <charseq START="593" END="620">بلاد المنطقة المنزوعة السلاح</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E10-2">
+          <extent>
+            <charseq START="598" END="620">المنطقة المنزوعة السلاح</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E13-1">
+          <extent>
+            <charseq START="593" END="620">بلاد المنطقة المنزوعة السلاح</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001028.1300.1108-R10" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001028.1300.1108-E10" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001028.1300.1108-E11" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001028.1300.1108-R10-1">
+        <extent>
+          <charseq START="622" END="644">التي تفصل بين الكوريتين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001028.1300.1108-E10-4">
+          <extent>
+            <charseq START="622" END="625">التي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001028.1300.1108-E11-4">
+          <extent>
+            <charseq START="636" END="644">الكوريتين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+  </document>
+</source_file>

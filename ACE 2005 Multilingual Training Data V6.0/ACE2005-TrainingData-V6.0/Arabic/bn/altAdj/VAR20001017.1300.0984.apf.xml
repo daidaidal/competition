@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source_file PUBLIC "SYSTEM" "apf.v5.1.1.dtd">
+
+<source_file URI="VAR20001017.1300.0984.sgm" SOURCE="unknown" TYPE="text" VERSION="5.0" AUTHOR="Server" ENCODING="UTF-8">
+  <document DOCID="VAR20001017.1300.0984">
+    <entity ID="VAR20001017.1300.0984-E1" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E1-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="83" END="90">الفلبينى</charseq>
+        </extent>
+        <head>
+          <charseq START="83" END="90">الفلبينى</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E1-4" TYPE="NOM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1548" END="1553">البلاد</charseq>
+        </extent>
+        <head>
+          <charseq START="1550" END="1553">بلاد</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="الفلبينى">
+          <charseq START="83" END="90">الفلبينى</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E2" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E2-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="92" END="102">إيجور ارويو</charseq>
+        </extent>
+        <head>
+          <charseq START="92" END="102">إيجور ارويو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="70" END="90">نائبة الرئيس الفلبينى</charseq>
+        </extent>
+        <head>
+          <charseq START="70" END="81">نائبة الرئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-8" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="106" END="107">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="106" END="107">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-12" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="490" END="496">استراوا</charseq>
+        </extent>
+        <head>
+          <charseq START="490" END="496">استراوا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-14" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="477" END="488">نائبة الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="477" END="488">نائبة الرئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-18" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="498" END="503">السيدة</charseq>
+        </extent>
+        <head>
+          <charseq START="500" END="503">سيدة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-20" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="505" END="516">جلوريا أرويو</charseq>
+        </extent>
+        <head>
+          <charseq START="505" END="516">جلوريا أرويو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-22" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="520" END="521">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="520" END="521">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-26" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="600" END="605">السيدة</charseq>
+        </extent>
+        <head>
+          <charseq START="602" END="605">سيدة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-28" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="607" END="611">ارويو</charseq>
+        </extent>
+        <head>
+          <charseq START="607" END="611">ارويو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-32" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="613" END="616">التي</charseq>
+        </extent>
+        <head>
+          <charseq START="613" END="616">التي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-36" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="632" END="633">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="632" END="633">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E2-40" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="671" END="672">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="671" END="672">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="إيجور ارويو">
+          <charseq START="92" END="102">إيجور ارويو</charseq>
+        </name>
+        <name NAME="استراوا">
+          <charseq START="490" END="496">استراوا</charseq>
+        </name>
+        <name NAME="جلوريا أرويو">
+          <charseq START="505" END="516">جلوريا أرويو</charseq>
+        </name>
+        <name NAME="ارويو">
+          <charseq START="607" END="611">ارويو</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E3" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E3-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="130" END="136">لمعارضة</charseq>
+        </extent>
+        <head>
+          <charseq START="131" END="136">معارضة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E3-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="827" END="834">المعارضة</charseq>
+        </extent>
+        <head>
+          <charseq START="829" END="834">معارضة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E3-6" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="542" END="549">المعارضة</charseq>
+        </extent>
+        <head>
+          <charseq START="544" END="549">معارضة</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E4" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E4-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="155" END="167">جوزيف إسترادا</charseq>
+        </extent>
+        <head>
+          <charseq START="155" END="167">جوزيف إسترادا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="148" END="153">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="150" END="153">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="183" END="183">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="183" END="183">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-8" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="198" END="204">استرادا</charseq>
+        </extent>
+        <head>
+          <charseq START="198" END="204">استرادا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-10" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="192" END="196">السيد</charseq>
+        </extent>
+        <head>
+          <charseq START="194" END="196">سيد</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-14" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="252" END="252">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="252" END="252">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-16" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="261" END="261">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="261" END="261">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-18" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="283" END="283">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="283" END="283">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-20" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="422" END="428">استرادا</charseq>
+        </extent>
+        <head>
+          <charseq START="422" END="428">استرادا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-22" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="415" END="420">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="417" END="420">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-24" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="581" END="586">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="583" END="586">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-26" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="682" END="686">لرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="683" END="686">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-28" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="780" END="785">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="782" END="785">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-30" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="787" END="792">إستراد</charseq>
+        </extent>
+        <head>
+          <charseq START="787" END="792">إستراد</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-32" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="873" END="878">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="875" END="878">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-34" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1049" END="1053">لرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="1050" END="1053">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-36" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1113" END="1118">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="1115" END="1118">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-38" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1260" END="1265">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="1262" END="1265">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-40" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1279" END="1284">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="1281" END="1284">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-42" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1297" END="1297">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="1297" END="1297">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-44" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1324" END="1324">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="1324" END="1324">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-46" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1378" END="1378">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="1378" END="1378">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-50" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1395" END="1395">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="1395" END="1395">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-52" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1417" END="1417">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="1417" END="1417">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-54" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1463" END="1468">الرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="1465" END="1468">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-56" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1512" END="1516">السيد</charseq>
+        </extent>
+        <head>
+          <charseq START="1514" END="1516">سيد</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-58" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1518" END="1523">استراد</charseq>
+        </extent>
+        <head>
+          <charseq START="1518" END="1523">استراد</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-59" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="889" END="889">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="889" END="889">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E4-60" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="679" END="679">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="679" END="679">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="جوزيف إسترادا">
+          <charseq START="155" END="167">جوزيف إسترادا</charseq>
+        </name>
+        <name NAME="استرادا">
+          <charseq START="198" END="204">استرادا</charseq>
+        </name>
+        <name NAME="استرادا">
+          <charseq START="422" END="428">استرادا</charseq>
+        </name>
+        <name NAME="إستراد">
+          <charseq START="787" END="792">إستراد</charseq>
+        </name>
+        <name NAME="استراد">
+          <charseq START="1518" END="1523">استراد</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E5" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E5-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="356" END="357">نا</charseq>
+        </extent>
+        <head>
+          <charseq START="356" END="357">نا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E5-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="375" END="376">نا</charseq>
+        </extent>
+        <head>
+          <charseq START="375" END="376">نا</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E6" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E6-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="359" END="366">أليشاراي</charseq>
+        </extent>
+        <head>
+          <charseq START="359" END="366">أليشاراي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E6-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="350" END="357">مراسلتنا</charseq>
+        </extent>
+        <head>
+          <charseq START="350" END="355">مراسلت</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E6-8" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="469" END="470">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="469" END="470">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="أليشاراي">
+          <charseq START="359" END="366">أليشاراي</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E7" TYPE="GPE" SUBTYPE="Continent" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E7-2" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="390" END="393">آسيا</charseq>
+        </extent>
+        <head>
+          <charseq START="390" END="393">آسيا</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="آسيا">
+          <charseq START="390" END="393">آسيا</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E8" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E8-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="371" END="393">مكتبنا الإقليمي في آسيا</charseq>
+        </extent>
+        <head>
+          <charseq START="371" END="374">مكتب</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E10" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E10-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="536" END="558">أعضاء المعارضة البارزين</charseq>
+        </extent>
+        <head>
+          <charseq START="536" END="540">أعضاء</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E11" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E11-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="713" END="755">زعماء الحقوق المدنية وقطاع الأعمال والكنائس</charseq>
+        </extent>
+        <head>
+          <charseq START="713" END="717">زعماء</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E11-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="757" END="761">الذين</charseq>
+        </extent>
+        <head>
+          <charseq START="757" END="761">الذين</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E12" TYPE="ORG" SUBTYPE="Religious" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E12-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="749" END="755">الكنائس</charseq>
+        </extent>
+        <head>
+          <charseq START="751" END="755">كنائس</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E13" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E13-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="821" END="834">أعضاء المعارضة</charseq>
+        </extent>
+        <head>
+          <charseq START="821" END="825">أعضاء</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E13-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="838" END="839">هم</charseq>
+        </extent>
+        <head>
+          <charseq START="838" END="839">هم</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E14" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E14-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1020" END="1032">لويس سينج سان</charseq>
+        </extent>
+        <head>
+          <charseq START="1020" END="1032">لويس سينج سان</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E14-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1014" END="1018">السيد</charseq>
+        </extent>
+        <head>
+          <charseq START="1016" END="1018">سيد</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E14-6" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1035" END="1036">هو</charseq>
+        </extent>
+        <head>
+          <charseq START="1035" END="1036">هو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E14-8" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1038" END="1053">صديق سابق للرئيس</charseq>
+        </extent>
+        <head>
+          <charseq START="1038" END="1041">صديق</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E14-10" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1056" END="1065">حاكم إقليم</charseq>
+        </extent>
+        <head>
+          <charseq START="1056" END="1059">حاكم</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E14-12" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1084" END="1084">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="1084" END="1084">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E14-14" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1199" END="1206">سانج سون</charseq>
+        </extent>
+        <head>
+          <charseq START="1199" END="1206">سانج سون</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E14-16" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1193" END="1197">السيد</charseq>
+        </extent>
+        <head>
+          <charseq START="1195" END="1197">سيد</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="لويس سينج سان">
+          <charseq START="1020" END="1032">لويس سينج سان</charseq>
+        </name>
+        <name NAME="سانج سون">
+          <charseq START="1199" END="1206">سانج سون</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E15" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E15-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1072" END="1079">الكونجرس</charseq>
+        </extent>
+        <head>
+          <charseq START="1072" END="1079">الكونجرس</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="الكونجرس">
+          <charseq START="1072" END="1079">الكونجرس</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E16" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E16-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1411" END="1436">مستشاره لشئون الأمن القومي</charseq>
+        </extent>
+        <head>
+          <charseq START="1411" END="1416">مستشار</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E17" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E17-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1483" END="1504">زعماء القمار المعارضين</charseq>
+        </extent>
+        <head>
+          <charseq START="1483" END="1487">زعماء</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="VAR20001017.1300.0984-E17-4" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1575" END="1576">هم</charseq>
+        </extent>
+        <head>
+          <charseq START="1575" END="1576">هم</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="VAR20001017.1300.0984-E18" TYPE="GPE" SUBTYPE="County-or-District" CLASS="SPC">
+      <entity_mention ID="VAR20001017.1300.0984-E18-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1061" END="1065">إقليم</charseq>
+        </extent>
+        <head>
+          <charseq START="1061" END="1065">إقليم</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <timex2 ID="VAR20001017.1300.0984-T1">
+      <timex2_mention ID="VAR20001017.1300.0984-T1-1">
+        <extent>
+          <charseq START="39" END="60">10/17/2000 13:16:24.35</charseq>
+        </extent>
+      </timex2_mention>
+    </timex2>
+    <relation ID="VAR20001017.1300.0984-R1" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E2" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E1" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R1-1">
+        <extent>
+          <charseq START="70" END="90">نائبة الرئيس الفلبينى</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E2-4">
+          <extent>
+            <charseq START="70" END="90">نائبة الرئيس الفلبينى</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E1-2">
+          <extent>
+            <charseq START="83" END="90">الفلبينى</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R2" TYPE="ORG-AFF" SUBTYPE="Membership" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E2" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E3" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R2-1">
+        <extent>
+          <charseq START="92" END="136">إيجور ارويو إنها ستقود ائتلافا موحدا للمعارضة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E2-2">
+          <extent>
+            <charseq START="92" END="102">إيجور ارويو</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E3-2">
+          <extent>
+            <charseq START="130" END="136">لمعارضة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R3" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E6" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E5" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R3-1">
+        <extent>
+          <charseq START="350" END="357">مراسلتنا</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E6-4">
+          <extent>
+            <charseq START="350" END="357">مراسلتنا</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E5-2">
+          <extent>
+            <charseq START="356" END="357">نا</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R4" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E8" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E5" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R4-1">
+        <extent>
+          <charseq START="371" END="376">مكتبنا</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E8-2">
+          <extent>
+            <charseq START="371" END="393">مكتبنا الإقليمي في آسيا</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E5-4">
+          <extent>
+            <charseq START="375" END="376">نا</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R5" TYPE="GEN-AFF" SUBTYPE="Org-Location" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E8" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E7" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R5-1">
+        <extent>
+          <charseq START="371" END="393">مكتبنا الإقليمي في آسيا</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E8-2">
+          <extent>
+            <charseq START="371" END="393">مكتبنا الإقليمي في آسيا</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E7-2">
+          <extent>
+            <charseq START="390" END="393">آسيا</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R6" TYPE="ORG-AFF" SUBTYPE="Membership" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E10" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E3" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R6-1">
+        <extent>
+          <charseq START="536" END="558">أعضاء المعارضة البارزين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E10-2">
+          <extent>
+            <charseq START="536" END="558">أعضاء المعارضة البارزين</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E3-6">
+          <extent>
+            <charseq START="542" END="549">المعارضة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R7" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E11" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E12" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R7-1">
+        <extent>
+          <charseq START="713" END="755">زعماء الحقوق المدنية وقطاع الأعمال والكنائس</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E11-2">
+          <extent>
+            <charseq START="713" END="755">زعماء الحقوق المدنية وقطاع الأعمال والكنائس</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E12-2">
+          <extent>
+            <charseq START="749" END="755">الكنائس</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R8" TYPE="ORG-AFF" SUBTYPE="Membership" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E13" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E3" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R8-1">
+        <extent>
+          <charseq START="821" END="834">أعضاء المعارضة</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E13-2">
+          <extent>
+            <charseq START="821" END="834">أعضاء المعارضة</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E3-4">
+          <extent>
+            <charseq START="827" END="834">المعارضة</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R9" TYPE="PER-SOC" SUBTYPE="Lasting-Personal" TENSE="Past" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E14" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E4" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R9-1">
+        <extent>
+          <charseq START="1038" END="1053">صديق سابق للرئيس</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E14-8">
+          <extent>
+            <charseq START="1038" END="1053">صديق سابق للرئيس</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E4-34">
+          <extent>
+            <charseq START="1049" END="1053">لرئيس</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R10" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E14" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E18" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R10-1">
+        <extent>
+          <charseq START="1056" END="1065">حاكم إقليم</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E14-10">
+          <extent>
+            <charseq START="1056" END="1065">حاكم إقليم</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E18-1">
+          <extent>
+            <charseq START="1061" END="1065">إقليم</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R11" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E16" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E4" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R11-1">
+        <extent>
+          <charseq START="1411" END="1436">مستشاره لشئون الأمن القومي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E16-2">
+          <extent>
+            <charseq START="1411" END="1436">مستشاره لشئون الأمن القومي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E4-52">
+          <extent>
+            <charseq START="1417" END="1417">ه</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R12" TYPE="PHYS" SUBTYPE="Located" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E6" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E7" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R12-1">
+        <extent>
+          <charseq START="350" END="393">مراسلتنا أليشاراي في مكتبنا الإقليمي في آسيا</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E6-2">
+          <extent>
+            <charseq START="359" END="366">أليشاراي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E7-2">
+          <extent>
+            <charseq START="390" END="393">آسيا</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="VAR20001017.1300.0984-R13" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="VAR20001017.1300.0984-E2" ROLE="Arg-1"/>
+      <relation_argument REFID="VAR20001017.1300.0984-E10" ROLE="Arg-2"/>
+      <relation_mention ID="VAR20001017.1300.0984-R13-1">
+        <extent>
+          <charseq START="520" END="558">ها حصلت على دعم أعضاء المعارضة البارزين</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="VAR20001017.1300.0984-E2-22">
+          <extent>
+            <charseq START="520" END="521">ها</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="VAR20001017.1300.0984-E10-2">
+          <extent>
+            <charseq START="536" END="558">أعضاء المعارضة البارزين</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+  </document>
+</source_file>

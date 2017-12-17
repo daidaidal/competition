@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE source_file PUBLIC "SYSTEM" "apf.v5.1.1.dtd">
+
+<source_file URI="NTV20001206.1530.0805.sgm" SOURCE="unknown" TYPE="text" VERSION="5.0" AUTHOR="Server" ENCODING="UTF-8">
+  <document DOCID="NTV20001206.1530.0805">
+    <entity ID="NTV20001206.1530.0805-E1" TYPE="ORG" SUBTYPE="Media" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E1-1" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="78" END="79">نا</charseq>
+        </extent>
+        <head>
+          <charseq START="78" END="79">نا</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E2" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E2-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="72" END="79">مشاهدينا</charseq>
+        </extent>
+        <head>
+          <charseq START="72" END="77">مشاهدي</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E3" TYPE="GPE" SUBTYPE="Nation" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E3-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="109" END="117">الأمريكية</charseq>
+        </extent>
+        <head>
+          <charseq START="111" END="117">أمريكية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E3-2" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="586" END="594">الأمريكية</charseq>
+        </extent>
+        <head>
+          <charseq START="588" END="594">أمريكية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E3-3" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="804" END="811">الأمريكي</charseq>
+        </extent>
+        <head>
+          <charseq START="806" END="811">أمريكي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E3-4" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1217" END="1241">لولايات المتحدة الأمريكية</charseq>
+        </extent>
+        <head>
+          <charseq START="1217" END="1241">لولايات المتحدة الأمريكية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E3-5" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1316" END="1324">الأمريكية</charseq>
+        </extent>
+        <head>
+          <charseq START="1318" END="1324">أمريكية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E3-6" TYPE="NOM" ROLE="ORG" METONYMY_MENTION="TRUE" LDCATR="FALSE">
+        <extent>
+          <charseq START="774" END="785">البيت الأبيض</charseq>
+        </extent>
+        <head>
+          <charseq START="774" END="785">البيت الأبيض</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="أمريكية">
+          <charseq START="111" END="117">أمريكية</charseq>
+        </name>
+        <name NAME="أمريكية">
+          <charseq START="588" END="594">أمريكية</charseq>
+        </name>
+        <name NAME="أمريكي">
+          <charseq START="806" END="811">أمريكي</charseq>
+        </name>
+        <name NAME="لولايات المتحدة الأمريكية">
+          <charseq START="1217" END="1241">لولايات المتحدة الأمريكية</charseq>
+        </name>
+        <name NAME="أمريكية">
+          <charseq START="1318" END="1324">أمريكية</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E4" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E4-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="141" END="151">الديمقراط ي</charseq>
+        </extent>
+        <head>
+          <charseq START="143" END="151">ديمقراط ي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E4-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="416" END="426">الديمقراط ي</charseq>
+        </extent>
+        <head>
+          <charseq START="416" END="426">الديمقراط ي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E4-3" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="636" END="646">الديمقراط ي</charseq>
+        </extent>
+        <head>
+          <charseq START="636" END="646">الديمقراط ي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E4-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="972" END="982">الديمقراطية</charseq>
+        </extent>
+        <head>
+          <charseq START="972" END="982">الديمقراطية</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="ديمقراط ي">
+          <charseq START="143" END="151">ديمقراط ي</charseq>
+        </name>
+        <name NAME="الديمقراط ي">
+          <charseq START="416" END="426">الديمقراط ي</charseq>
+        </name>
+        <name NAME="الديمقراط ي">
+          <charseq START="636" END="646">الديمقراط ي</charseq>
+        </name>
+        <name NAME="الديمقراطية">
+          <charseq START="972" END="982">الديمقراطية</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E5" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E5-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="153" END="158">آل جور</charseq>
+        </extent>
+        <head>
+          <charseq START="153" END="158">آل جور</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="128" END="151">مرشح الرئاسة الديمقراط ي</charseq>
+        </extent>
+        <head>
+          <charseq START="128" END="131">مرشح</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-3" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="198" END="198">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="198" END="198">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="306" END="308">جور</charseq>
+        </extent>
+        <head>
+          <charseq START="306" END="308">جور</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-5" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="317" END="317">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="317" END="317">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-6" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="409" END="426">المرشح الديمقراط ي</charseq>
+        </extent>
+        <head>
+          <charseq START="411" END="414">مرشح</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-7" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="648" END="653">آل جور</charseq>
+        </extent>
+        <head>
+          <charseq START="648" END="653">آل جور</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-8" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="629" END="646">المرشح الديمقراط ي</charseq>
+        </extent>
+        <head>
+          <charseq START="631" END="634">مرشح</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-10" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="686" END="686">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="686" END="686">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-11" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="813" END="818">آل جور</charseq>
+        </extent>
+        <head>
+          <charseq START="813" END="818">آل جور</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-12" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="792" END="811">نائب الرئيس الأمريكي</charseq>
+        </extent>
+        <head>
+          <charseq START="792" END="802">نائب الرئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-13" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1015" END="1020">آل جور</charseq>
+        </extent>
+        <head>
+          <charseq START="1015" END="1020">آل جور</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-14" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1093" END="1094">جو</charseq>
+        </extent>
+        <head>
+          <charseq START="1093" END="1094">جو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E5-15" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1414" END="1419">آل جور</charseq>
+        </extent>
+        <head>
+          <charseq START="1414" END="1419">آل جور</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="آل جور">
+          <charseq START="153" END="158">آل جور</charseq>
+        </name>
+        <name NAME="جور">
+          <charseq START="306" END="308">جور</charseq>
+        </name>
+        <name NAME="آل جور">
+          <charseq START="648" END="653">آل جور</charseq>
+        </name>
+        <name NAME="آل جور">
+          <charseq START="813" END="818">آل جور</charseq>
+        </name>
+        <name NAME="آل جور">
+          <charseq START="1015" END="1020">آل جور</charseq>
+        </name>
+        <name NAME="جو">
+          <charseq START="1093" END="1094">جو</charseq>
+        </name>
+        <name NAME="آل جور">
+          <charseq START="1414" END="1419">آل جور</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E7" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E7-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="211" END="240">المحكمة العليا ل ولاية فلوريدا</charseq>
+        </extent>
+        <head>
+          <charseq START="211" END="224">المحكمة العليا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E7-4" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="265" END="271">المحكمة</charseq>
+        </extent>
+        <head>
+          <charseq START="267" END="271">محكمة</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E7-7" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="342" END="343">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="342" END="343">ها</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E7-9" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="716" END="740">المحكمة العليا في الولاية</charseq>
+        </extent>
+        <head>
+          <charseq START="716" END="729">المحكمة العليا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E7-10" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1467" END="1493">المحكمة العليا في ف ل وريدا</charseq>
+        </extent>
+        <head>
+          <charseq START="1467" END="1480">المحكمة العليا</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="المحكمة العليا">
+          <charseq START="211" END="224">المحكمة العليا</charseq>
+        </name>
+        <name NAME="المحكمة العليا">
+          <charseq START="716" END="729">المحكمة العليا</charseq>
+        </name>
+        <name NAME="المحكمة العليا">
+          <charseq START="1467" END="1480">المحكمة العليا</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E9" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E9-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="329" END="337">بوش الابن</charseq>
+        </extent>
+        <head>
+          <charseq START="329" END="337">بوش الابن</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E9-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="311" END="327">منافس ه الجمهور ي</charseq>
+        </extent>
+        <head>
+          <charseq START="311" END="315">منافس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E9-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="680" END="695">منافس ه الجمهوري</charseq>
+        </extent>
+        <head>
+          <charseq START="680" END="684">منافس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E9-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="697" END="710">جورج بوش الابن</charseq>
+        </extent>
+        <head>
+          <charseq START="697" END="710">جورج بوش الابن</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E9-5" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1168" END="1181">جورج بوش الابن</charseq>
+        </extent>
+        <head>
+          <charseq START="1168" END="1181">جورج بوش الابن</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E9-7" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1192" END="1241">الرئيس الثالث والأربعين للولايات المتحدة الأمريكية</charseq>
+        </extent>
+        <head>
+          <charseq START="1194" END="1197">رئيس</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E9-8" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1244" END="1246">بوش</charseq>
+        </extent>
+        <head>
+          <charseq START="1244" END="1246">بوش</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E9-10" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1284" END="1284">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="1284" END="1284">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E9-12" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1401" END="1401">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="1401" END="1401">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="بوش الابن">
+          <charseq START="329" END="337">بوش الابن</charseq>
+        </name>
+        <name NAME="جورج بوش الابن">
+          <charseq START="697" END="710">جورج بوش الابن</charseq>
+        </name>
+        <name NAME="جورج بوش الابن">
+          <charseq START="1168" END="1181">جورج بوش الابن</charseq>
+        </name>
+        <name NAME="بوش">
+          <charseq START="1244" END="1246">بوش</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E10" TYPE="GPE" SUBTYPE="State-or-Province" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E10-1" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="228" END="240">ولاية فلوريدا</charseq>
+        </extent>
+        <head>
+          <charseq START="228" END="240">ولاية فلوريدا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E10-2" TYPE="NOM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="466" END="472">الولاية</charseq>
+        </extent>
+        <head>
+          <charseq START="468" END="472">ولاية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E10-3" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="663" END="675">ولاية فلوريدا</charseq>
+        </extent>
+        <head>
+          <charseq START="663" END="675">ولاية فلوريدا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E10-4" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="734" END="740">الولاية</charseq>
+        </extent>
+        <head>
+          <charseq START="736" END="740">ولاية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E10-5" TYPE="PRO" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="742" END="744">حيث</charseq>
+        </extent>
+        <head>
+          <charseq START="742" END="744">حيث</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E10-8" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="995" END="1001">فلوريدا</charseq>
+        </extent>
+        <head>
+          <charseq START="995" END="1001">فلوريدا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E10-9" TYPE="NAM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1079" END="1085">فلوريدا</charseq>
+        </extent>
+        <head>
+          <charseq START="1079" END="1085">فلوريدا</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E10-10" TYPE="NAM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1485" END="1493">ف ل وريدا</charseq>
+        </extent>
+        <head>
+          <charseq START="1485" END="1493">ف ل وريدا</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="ولاية فلوريدا">
+          <charseq START="228" END="240">ولاية فلوريدا</charseq>
+        </name>
+        <name NAME="ولاية فلوريدا">
+          <charseq START="663" END="675">ولاية فلوريدا</charseq>
+        </name>
+        <name NAME="فلوريدا">
+          <charseq START="995" END="1001">فلوريدا</charseq>
+        </name>
+        <name NAME="فلوريدا">
+          <charseq START="1079" END="1085">فلوريدا</charseq>
+        </name>
+        <name NAME="ف ل وريدا">
+          <charseq START="1485" END="1493">ف ل وريدا</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E11" TYPE="GPE" SUBTYPE="GPE-Cluster" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E11-1" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="454" END="472">بعض مقاطعات الولاية</charseq>
+        </extent>
+        <head>
+          <charseq START="458" END="464">مقاطعات</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E14" TYPE="PER" SUBTYPE="Individual" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E14-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="842" END="852">ساندرس سولز</charseq>
+        </extent>
+        <head>
+          <charseq START="842" END="852">ساندرس سولز</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E14-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="854" END="876">قاض ي محكمة مقاطعة ليون</charseq>
+        </extent>
+        <head>
+          <charseq START="854" END="858">قاض ي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E14-3" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="881" END="881">ه</charseq>
+        </extent>
+        <head>
+          <charseq START="881" END="881">ه</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E14-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1103" END="1106">سولز</charseq>
+        </extent>
+        <head>
+          <charseq START="1103" END="1106">سولز</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="ساندرس سولز">
+          <charseq START="842" END="852">ساندرس سولز</charseq>
+        </name>
+        <name NAME="سولز">
+          <charseq START="1103" END="1106">سولز</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E16" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E16-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="860" END="876">محكمة مقاطعة ليون</charseq>
+        </extent>
+        <head>
+          <charseq START="860" END="876">محكمة مقاطعة ليون</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E17" TYPE="GPE" SUBTYPE="GPE-Cluster" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E17-1" TYPE="NOM" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="946" END="954">المقاطعات</charseq>
+        </extent>
+        <head>
+          <charseq START="946" END="954">المقاطعات</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E17-2" TYPE="PRO" ROLE="GPE" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="956" END="959">التي</charseq>
+        </extent>
+        <head>
+          <charseq START="956" END="959">التي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E17-3" TYPE="PRO" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="969" END="970">ها</charseq>
+        </extent>
+        <head>
+          <charseq START="969" END="970">ها</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E18" TYPE="GPE" SUBTYPE="GPE-Cluster" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E18-1" TYPE="NOM" ROLE="LOC" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="934" END="954">مقاطعتين من المقاطعات</charseq>
+        </extent>
+        <head>
+          <charseq START="934" END="941">مقاطعتين</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E19" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E19-1" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="300" END="337">كل من جور ومنافس ه الجمهور ي بوش الابن</charseq>
+        </extent>
+        <head>
+          <charseq START="300" END="301">كل</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E19-2" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="538" END="545">للجانبين</charseq>
+        </extent>
+        <head>
+          <charseq START="540" END="545">جانبين</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E20" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E20-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="282" END="337">الفريق القانون ي لكل من جور ومنافس ه الجمهور ي بوش الابن</charseq>
+        </extent>
+        <head>
+          <charseq START="284" END="287">فريق</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E21" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E21-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1010" END="1029">فريق آل جور القانوني</charseq>
+        </extent>
+        <head>
+          <charseq START="1010" END="1013">فريق</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E21-2" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1116" END="1117">هم</charseq>
+        </extent>
+        <head>
+          <charseq START="1116" END="1117">هم</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E21-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1408" END="1419">محامو آل جور</charseq>
+        </extent>
+        <head>
+          <charseq START="1408" END="1412">محامو</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E21-5" TYPE="PRO" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1436" END="1437">هم</charseq>
+        </extent>
+        <head>
+          <charseq START="1436" END="1437">هم</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E22" TYPE="ORG" SUBTYPE="Non-Governmental" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E22-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1137" END="1146">الجمهوريين</charseq>
+        </extent>
+        <head>
+          <charseq START="1139" END="1146">جمهوريين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E22-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="319" END="327">الجمهور ي</charseq>
+        </extent>
+        <head>
+          <charseq START="321" END="327">جمهور ي</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E22-4" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="688" END="695">الجمهوري</charseq>
+        </extent>
+        <head>
+          <charseq START="690" END="695">جمهوري</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="جمهوريين">
+          <charseq START="1139" END="1146">جمهوريين</charseq>
+        </name>
+        <name NAME="جمهور ي">
+          <charseq START="321" END="327">جمهور ي</charseq>
+        </name>
+        <name NAME="جمهوري">
+          <charseq START="690" END="695">جمهوري</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E23" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E23-1" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1289" END="1324">وكالة الاستخبارات المركزية الأمريكية</charseq>
+        </extent>
+        <head>
+          <charseq START="1289" END="1314">وكالة الاستخبارات المركزية</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E23-2" TYPE="NAM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1326" END="1335">س ي أي إيه</charseq>
+        </extent>
+        <head>
+          <charseq START="1326" END="1335">س ي أي إيه</charseq>
+        </head>
+      </entity_mention>
+      <entity_attributes>
+        <name NAME="وكالة الاستخبارات المركزية">
+          <charseq START="1289" END="1314">وكالة الاستخبارات المركزية</charseq>
+        </name>
+        <name NAME="س ي أي إيه">
+          <charseq START="1326" END="1335">س ي أي إيه</charseq>
+        </name>
+      </entity_attributes>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E24" TYPE="ORG" SUBTYPE="Government" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E24-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1395" END="1401">إداراته</charseq>
+        </extent>
+        <head>
+          <charseq START="1395" END="1400">إدارات</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <entity ID="NTV20001206.1530.0805-E25" TYPE="PER" SUBTYPE="Group" CLASS="SPC">
+      <entity_mention ID="NTV20001206.1530.0805-E25-1" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1358" END="1401">مستشارين من المرجح أن يصبحوا جزءا من إداراته</charseq>
+        </extent>
+        <head>
+          <charseq START="1358" END="1365">مستشارين</charseq>
+        </head>
+      </entity_mention>
+      <entity_mention ID="NTV20001206.1530.0805-E25-3" TYPE="NOM" METONYMY_MENTION="FALSE" LDCATR="FALSE">
+        <extent>
+          <charseq START="1387" END="1401">جزءا من إداراته</charseq>
+        </extent>
+        <head>
+          <charseq START="1387" END="1390">جزءا</charseq>
+        </head>
+      </entity_mention>
+    </entity>
+    <timex2 ID="NTV20001206.1530.0805-T1">
+      <timex2_mention ID="NTV20001206.1530.0805-T1-1">
+        <extent>
+          <charseq START="39" END="60">12/06/2000 15:43:25.88</charseq>
+        </extent>
+      </timex2_mention>
+    </timex2>
+    <relation ID="NTV20001206.1530.0805-R1" TYPE="ORG-AFF" SUBTYPE="Membership" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E5" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E4" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R1-1">
+        <extent>
+          <charseq START="128" END="151">مرشح الرئاسة الديمقراط ي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E5-2">
+          <extent>
+            <charseq START="128" END="151">مرشح الرئاسة الديمقراط ي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E4-1">
+          <extent>
+            <charseq START="141" END="151">الديمقراط ي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="NTV20001206.1530.0805-R1-2">
+        <extent>
+          <charseq START="409" END="426">المرشح الديمقراط ي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E5-6">
+          <extent>
+            <charseq START="409" END="426">المرشح الديمقراط ي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E4-2">
+          <extent>
+            <charseq START="416" END="426">الديمقراط ي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="NTV20001206.1530.0805-R1-3">
+        <extent>
+          <charseq START="629" END="646">المرشح الديمقراط ي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E5-8">
+          <extent>
+            <charseq START="629" END="646">المرشح الديمقراط ي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E4-3">
+          <extent>
+            <charseq START="636" END="646">الديمقراط ي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R2" TYPE="PART-WHOLE" SUBTYPE="Subsidiary" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E7" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E10" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R2-1">
+        <extent>
+          <charseq START="211" END="240">المحكمة العليا ل ولاية فلوريدا</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E7-1">
+          <extent>
+            <charseq START="211" END="240">المحكمة العليا ل ولاية فلوريدا</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E10-1">
+          <extent>
+            <charseq START="228" END="240">ولاية فلوريدا</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="NTV20001206.1530.0805-R2-2">
+        <extent>
+          <charseq START="716" END="740">المحكمة العليا في الولاية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E7-9">
+          <extent>
+            <charseq START="716" END="740">المحكمة العليا في الولاية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E10-4">
+          <extent>
+            <charseq START="734" END="740">الولاية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="NTV20001206.1530.0805-R2-3">
+        <extent>
+          <charseq START="1467" END="1493">المحكمة العليا في ف ل وريدا</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E7-10">
+          <extent>
+            <charseq START="1467" END="1493">المحكمة العليا في ف ل وريدا</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E10-10">
+          <extent>
+            <charseq START="1485" END="1493">ف ل وريدا</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R4" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E11" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E10" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R4-1">
+        <extent>
+          <charseq START="454" END="472">بعض مقاطعات الولاية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E11-1">
+          <extent>
+            <charseq START="454" END="472">بعض مقاطعات الولاية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E10-2">
+          <extent>
+            <charseq START="466" END="472">الولاية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R6" TYPE="ORG-AFF" SUBTYPE="Membership" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E9" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E22" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R6-1">
+        <extent>
+          <charseq START="680" END="695">منافس ه الجمهوري</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E9-3">
+          <extent>
+            <charseq START="680" END="695">منافس ه الجمهوري</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E22-4">
+          <extent>
+            <charseq START="688" END="695">الجمهوري</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="NTV20001206.1530.0805-R6-2">
+        <extent>
+          <charseq START="311" END="327">منافس ه الجمهور ي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E9-2">
+          <extent>
+            <charseq START="311" END="327">منافس ه الجمهور ي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E22-2">
+          <extent>
+            <charseq START="319" END="327">الجمهور ي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R8" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E5" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E3" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R8-1">
+        <extent>
+          <charseq START="792" END="811">نائب الرئيس الأمريكي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E5-12">
+          <extent>
+            <charseq START="792" END="811">نائب الرئيس الأمريكي</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E3-3">
+          <extent>
+            <charseq START="804" END="811">الأمريكي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R9" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E14" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E16" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R9-1">
+        <extent>
+          <charseq START="854" END="876">قاض ي محكمة مقاطعة ليون</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E14-2">
+          <extent>
+            <charseq START="854" END="876">قاض ي محكمة مقاطعة ليون</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E16-1">
+          <extent>
+            <charseq START="860" END="876">محكمة مقاطعة ليون</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R10" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E21" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E5" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R10-1">
+        <extent>
+          <charseq START="1010" END="1029">فريق آل جور القانوني</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E21-1">
+          <extent>
+            <charseq START="1010" END="1029">فريق آل جور القانوني</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E5-13">
+          <extent>
+            <charseq START="1015" END="1020">آل جور</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+      <relation_mention ID="NTV20001206.1530.0805-R10-2">
+        <extent>
+          <charseq START="1408" END="1419">محامو آل جور</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E21-3">
+          <extent>
+            <charseq START="1408" END="1419">محامو آل جور</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E5-15">
+          <extent>
+            <charseq START="1414" END="1419">آل جور</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R11" TYPE="ORG-AFF" SUBTYPE="Employment" TENSE="Future" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E9" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E3" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R11-1">
+        <extent>
+          <charseq START="1183" END="1241">سوف يصبح الرئيس الثالث والأربعين للولايات المتحدة الأمريكية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E9-7">
+          <extent>
+            <charseq START="1192" END="1241">الرئيس الثالث والأربعين للولايات المتحدة الأمريكية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E3-4">
+          <extent>
+            <charseq START="1217" END="1241">لولايات المتحدة الأمريكية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R12" TYPE="GEN-AFF" SUBTYPE="Org-Location" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E23" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E3" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R12-1">
+        <extent>
+          <charseq START="1289" END="1324">وكالة الاستخبارات المركزية الأمريكية</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E23-1">
+          <extent>
+            <charseq START="1289" END="1324">وكالة الاستخبارات المركزية الأمريكية</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E3-5">
+          <extent>
+            <charseq START="1316" END="1324">الأمريكية</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R13" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E20" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E5" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R13-1">
+        <extent>
+          <charseq START="282" END="308">الفريق القانون ي لكل من جور</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E20-1">
+          <extent>
+            <charseq START="282" END="337">الفريق القانون ي لكل من جور ومنافس ه الجمهور ي بوش الابن</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E5-4">
+          <extent>
+            <charseq START="306" END="308">جور</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R14" TYPE="PER-SOC" SUBTYPE="Business" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E20" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E9" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R14-1">
+        <extent>
+          <charseq START="282" END="327">الفريق القانون ي لكل من جور ومنافس ه الجمهور ي</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E20-1">
+          <extent>
+            <charseq START="282" END="337">الفريق القانون ي لكل من جور ومنافس ه الجمهور ي بوش الابن</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E9-2">
+          <extent>
+            <charseq START="311" END="327">منافس ه الجمهور ي</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+    <relation ID="NTV20001206.1530.0805-R15" TYPE="PART-WHOLE" SUBTYPE="Geographical" TENSE="Unspecified" MODALITY="Asserted">
+      <relation_argument REFID="NTV20001206.1530.0805-E18" ROLE="Arg-1"/>
+      <relation_argument REFID="NTV20001206.1530.0805-E17" ROLE="Arg-2"/>
+      <relation_mention ID="NTV20001206.1530.0805-R15-1">
+        <extent>
+          <charseq START="934" END="954">مقاطعتين من المقاطعات</charseq>
+        </extent>
+        <relation_mention_argument ROLE="Arg-1" REFID="NTV20001206.1530.0805-E18-1">
+          <extent>
+            <charseq START="934" END="954">مقاطعتين من المقاطعات</charseq>
+          </extent>
+        </relation_mention_argument>
+        <relation_mention_argument ROLE="Arg-2" REFID="NTV20001206.1530.0805-E17-1">
+          <extent>
+            <charseq START="946" END="954">المقاطعات</charseq>
+          </extent>
+        </relation_mention_argument>
+      </relation_mention>
+    </relation>
+  </document>
+</source_file>
