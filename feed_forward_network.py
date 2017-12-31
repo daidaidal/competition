@@ -19,5 +19,5 @@ class NET(nn.Module):
 
     def forward(self, start_input):
         h_1 = self.sigmoid(self.input_layer(start_input))
-        h_2 = self.softmax(self.output_layer(h_1))
+        h_2 = self.soft_max(self.output_layer(h_1))
         return h_2

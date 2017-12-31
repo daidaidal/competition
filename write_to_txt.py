@@ -27,7 +27,7 @@ if __name__=="__main__":
     for subtask in ["s1","s2","s3"]:
         a = main(subtask)
         w = " ".join(a)
-        wf = open('C:/trial_data/input/word.txt','w+', encoding='UTF-8')
+        wf = open('C:/trial_data/input/word.txt','a+', encoding='UTF-8')
         wf.write(w)
         wf.close()
         

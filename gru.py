@@ -3,6 +3,7 @@ import torch
 from torch import nn
 from torch.autograd import Variable
 import dep_paser
+import numpy as np
 
 from gensim.models import word2vec
 
@@ -21,6 +22,7 @@ OUTPUT_SIZE = 300
 
 
 def pretreatment(sentence_arg,judge=True):
+    sentence_arg = "hello , what is your name ? "
     sentence_arg_list = sentence_arg.split()
     if not judge:
         sentence_arg_list.reverse()
@@ -29,7 +31,11 @@ def pretreatment(sentence_arg,judge=True):
     sentence_len = len(sentence_arg_list)
     sentence_vec_list = []
     for i in range(0,sentence_len):
-        sentence_vec_list.append(torch.from_numpy(model[sentence_arg_list[i]]))
+        try:
+            t = model[sentence_arg_list[i]]
+        except Exception:
+            t = np.zeros(200)
+        sentence_vec_list.append(torch.from_numpy(t))
     word_vec = torch.stack(sentence_vec_list,0) # sentence_len*200
     return torch.cat((dep_vec,word_vec),1) #sentence_len*300
 
@@ -47,30 +53,13 @@ class RNN(nn.Module):
 
         self.out = nn.Linear(HIDDEN_SIZE, OUTPUT_SIZE)
 
-    def forward(self, start_input, hidden_state):
+    def forward(self, start_input, hidden_state,judge=True):
         # **output** (seq_len, batch, hidden_size * num_directions)
         r_out,hidden_state = self.rnn(start_input, hidden_state)   # None represents zero initial hidden state
         outs=[]
         for time_step in range(r_out.size(1)):  # 对每一个时间点计算 output
             outs.append(self.out(r_out[:, time_step, :]))
-        return torch.stack(outs, dim=1), hidden_state  #无监督训练去掉全连接层
+            if not judge:
+                outs.reverse()
+        return torch.stack(outs, dim=1), hidden_state
 
-
-rnn = RNN()
-def gru_vec(input_sentence):
-    h_state = None
-    h_state_r = None
-    # 正向
-    x = pretreatment(input_sentence)
-    # print(x.size())
-    x = x.view(-1, x.size(0), x.size(1))
-    b_x = Variable(x)
-    output, h_state = rnn(b_x, h_state)
-    # 反向
-    x_r = pretreatment(input_sentence,False)
-    x_r = x_r.view(-1, x_r.size(0), x_r.size(1))
-    b_x_r = Variable(x_r)
-    output_r, h_state_r = rnn(b_x_r, h_state_r)
-    output3 = torch.cat((output, output_r), 2)
-    output3 = output3.view(output3.size(1),-1)
-    return output3
