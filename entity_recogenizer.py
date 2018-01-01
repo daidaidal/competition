@@ -11,8 +11,8 @@ from nltk.chunk import named_entity
 
 
 # 添加stanford环境变量,此处需要手动修改，jar包地址为绝对地址。
-os.environ['CLASSPATH'] = 'C:/Users/Daisf/Documents/jars/stanford-ner.jar'
-# os.environ['STANFORD_MODELS'] = 'C:/Users/Daisf/Documents/jars/stanford-parser-3.8.0-models.jar'
+os.environ['CLASSPATH'] = '/home/sfdai/jars/stanford-ner.jar'
+# os.environ['STANFORD_MODELS'] = '/home/sfdai/jars/stanford-parser-3.8.0-models.jar'
 
 # 为JAVAHOME添加环境变量
 java_path = "C:/Program Files/Java/jdk1.8.0_144/bin/java.exe"
@@ -22,10 +22,10 @@ os.environ['JAVAHOME'] = java_path
 # english.muc.7class.distsim.crf.ser.gz
 # example.serialized.ncc.ncc.ser.gz
 
-eng_tagger1 = StanfordNERTagger('C:/Users/Daisf/Documents/stanford-ner-2017-06-09/classifiers/english.all.3class.distsim.crf.ser.gz')
-eng_tagger2 = StanfordNERTagger('C:/Users/Daisf/Documents/stanford-ner-2017-06-09/classifiers/english.conll.4class.distsim.crf.ser.gz')
-eng_tagger3 = StanfordNERTagger('C:/Users/Daisf/Documents/stanford-ner-2017-06-09/classifiers/english.muc.7class.distsim.crf.ser.gz')
-eng_tagger4 = StanfordNERTagger('C:/Users/Daisf/Documents/stanford-ner-2017-06-09/classifiers/example.serialized.ncc.ncc.ser.gz')
+eng_tagger1 = StanfordNERTagger('/home/sfdai/stanford-ner-2017-06-09/classifiers/english.all.3class.distsim.crf.ser.gz')
+eng_tagger2 = StanfordNERTagger('/home/sfdai/stanford-ner-2017-06-09/classifiers/english.conll.4class.distsim.crf.ser.gz')
+eng_tagger3 = StanfordNERTagger('/home/sfdai/stanford-ner-2017-06-09/classifiers/english.muc.7class.distsim.crf.ser.gz')
+eng_tagger4 = StanfordNERTagger('/home/sfdai/stanford-ner-2017-06-09/classifiers/example.serialized.ncc.ncc.ser.gz')
 
 a = eng_tagger1.tag('Rami Eid is studying at Stony Brook University in NY .'.split())
 print(a[0][0])

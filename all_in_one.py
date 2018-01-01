@@ -1,10 +1,8 @@
 import torch
 import os
-import dep_paser
 import gru
 import numpy as np
 import feed_forward_network
-import entity_recogenizer
 
 from gensim.models import word2vec
 from torch.autograd import Variable

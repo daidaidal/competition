@@ -7,7 +7,7 @@ import numpy as np
 
 from gensim.models import word2vec
 
-model = word2vec.Word2Vec.load(u"C:/trial_data/input/word_vec.model")
+model = word2vec.Word2Vec.load(u"/home/sfdai/word_vec.model")
 
 torch.manual_seed(1)    # reproducible
 # input_sentence="There is a book on the shoe cabinet"
