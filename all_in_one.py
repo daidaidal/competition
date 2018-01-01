@@ -47,12 +47,12 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     x = gru.pretreatment(input_sentence)
     # print(x.size())
     x = x.view(-1, x.size(0), x.size(1))
-    b_x = Variable(x)
+    b_x = Variable(x,True)
     output, h_state = rnn(b_x, h_state)
     # 反向
     x_r = gru.pretreatment(input_sentence,False)
     x_r = x_r.view(-1, x_r.size(0), x_r.size(1))
-    b_x_r = Variable(x_r)
+    b_x_r = Variable(x_r,True)
     output_r, h_state_r = rnn(b_x_r, h_state_r,False)
     h_sum = torch.cat((output, output_r), 2)
     h_sum = h_sum.view(h_sum.size(1),-1) # h_sum[i] to get hi
