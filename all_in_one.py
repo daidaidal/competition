@@ -126,7 +126,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
             output1.data = output1.data.view(-1,33)
             loss = loss_func(output1,target_output)  # 计算两者的误差
             optimizer1.zero_grad()  # 清空上一步的残余更新参数值
-            optimizer_rnn.zero_grad()
+            # optimizer_rnn.zero_grad()
             loss.backward()  # 误差反向传播, 计算参数更新值
 
             optimizer1.step()
