@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c224cf22-80a8-4650-b2e9-9ba91e83f953" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ACE_process/train_by_ace.py" afterPath="$PROJECT_DIR$/train_by_ace.py" />
-      <change beforePath="$PROJECT_DIR$/dep_paser.py" afterPath="$PROJECT_DIR$/dep_paser.py" />
-      <change beforePath="$PROJECT_DIR$/entity_recogenizer.py" afterPath="$PROJECT_DIR$/entity_recogenizer.py" />
+      <change beforePath="$PROJECT_DIR$/all_in_one.py" afterPath="$PROJECT_DIR$/all_in_one.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,10 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="entity_recogenizer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="entity_recogenizer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entity_recogenizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="421">
               <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -61,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="try_for_stanford.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_codes/try_for_stanford.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="27" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all_in_one.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -128,7 +135,7 @@
       <file leaf-file-name="train_by_ace.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_by_ace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
+            <state relative-caret-position="828">
               <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="46" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
@@ -145,16 +152,6 @@
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="original.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/original.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="102" column="62" lean-forward="true" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -238,9 +235,9 @@
         <option value="$PROJECT_DIR$/write_to_txt.py" />
         <option value="$PROJECT_DIR$/gru.py" />
         <option value="$PROJECT_DIR$/ACE_process/train_by_ace.py" />
-        <option value="$PROJECT_DIR$/all_in_one.py" />
         <option value="$PROJECT_DIR$/dep_paser.py" />
         <option value="$PROJECT_DIR$/entity_recogenizer.py" />
+        <option value="$PROJECT_DIR$/all_in_one.py" />
       </list>
     </option>
   </component>
@@ -744,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_codes/try_for_stanford.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entity_recognize/lstm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -840,32 +829,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_in_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/just_for_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_by_ace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -906,8 +875,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entity_recogenizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="421">
           <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_codes/try_for_stanford.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_by_ace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_in_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

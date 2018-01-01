@@ -17,7 +17,7 @@ dic_trigger_sub = {"BE-BORN":1,"MARRY":2,"DIVORCE":3,"INJURE":4,"DIE":5,"TRANSPO
                    "END-POSITION":18,"NOMINATE":19,"ELECT":20,"ASSERT-JAIL":21,"RELEASE-PAROLE":22,"TRIAL-HEARING":23,"CHARGE-INDICT":24,"SUE":25,
                    "CONVICT":26,"SENTENCE":27,"FINE":28,"EXECUTE":29,"EXTRADITE":30,"ACQUIT":31,"APPEAL":32,"PARDON":33}
 
-model = word2vec.Word2Vec.load(u"C:/trial_data/input/word_vec.model")
+model = word2vec.Word2Vec.load(u"/home/sfdai/word_vec.model")
 
 def getl_trg_i(input_sentence_arg,i):
     vec_sum = []
