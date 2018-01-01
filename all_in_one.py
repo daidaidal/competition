@@ -38,7 +38,7 @@ def getl_trg_i(input_sentence_arg,i):
 
 
 def gru_vec(input_sentence):
-    if os.path.exists('C:/Users/Daisf/Documents/python_project/competition/ACE_process/gru.plk'):
+    if os.path.exists('/home/sfdai/competition/ACE_process/gru.plk'):
         rnn = torch.load('rnn.pkl')
     else:
         rnn = gru.RNN()
@@ -61,7 +61,7 @@ def gru_vec(input_sentence):
 
 def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     #use gru
-    if os.path.exists('C:/Users/Daisf/Documents/python_project/competition/ACE_process/gru.plk'):
+    if os.path.exists('/home/sfdai/competition/ACE_process/gru.plk'):
         rnn = torch.load('rnn.pkl')
     else:
         rnn = gru.RNN()
@@ -94,7 +94,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
 
     g_trg = torch.zeros(33)  # 33 types of triggers
     g_trg_arg = torch.zeros(36, 33)  # 40 types of argument roles 33 types of triggers
-    if os.path.exists('C:/Users/Daisf/Documents/python_project/competition/ACE_process/net1.plk'):
+    if os.path.exists('/home/sfdai/competition/ACE_process/net1.plk'):
         f_network = torch.load('net1.pkl')
     else:
         f_network = feed_forward_network.NET(1633, 600, 33)

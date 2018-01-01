@@ -6,7 +6,7 @@ import os
 def main(subtask):
     print("Subtask %s" % subtask)
     
-    input_dir = "%s/%s" % ('C:/trial_data/input', subtask) # the directory of the input data
+    input_dir = "%s/%s" % ('/home/sfdai/trial_data/input', subtask) # the directory of the input data
     #output_dir = "%s/%s" % ('C:/trial_data/output', subtask) # the directory of the output data
     with open('%s/questions.json' % input_dir, encoding='UTF-8') as f:
         questions = json.load(f)
@@ -27,7 +27,7 @@ if __name__=="__main__":
     for subtask in ["s1","s2","s3"]:
         a = main(subtask)
         w = " ".join(a)
-        wf = open('C:/trial_data/input/word.txt','a+', encoding='UTF-8')
+        wf = open('/home/sfdai/trial_data/input/word.txt','a+', encoding='UTF-8')
         wf.write(w)
         wf.close()
         

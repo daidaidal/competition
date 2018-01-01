@@ -13,9 +13,9 @@ input = "She was so happy that she ran to the forest like a deerlet."
  
 # 主程序
 logging.basicConfig(format='%(asctime)s:%(levelname)s: %(message)s', level=logging.INFO)
-sentences =word2vec.Text8Corpus(u"C:/trial_data/input/word.txt")  # 加载语料
+sentences =word2vec.Text8Corpus(u"/home/sfdai/trial_data/input/word.txt")  # 加载语料
 model =word2vec.Word2Vec(sentences, size=200)  #训练skip-gram模型，默认window=5
-model.save(u"C:/trial_data/input/word_vec.model")
+model.save(u"/home/sfdai/trial_data/input/word_vec.model")
 
 
 
