@@ -55,7 +55,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     b_x_r = Variable(x_r)
     output_r, h_state_r = rnn(b_x_r, h_state_r,False)
     h_sum = torch.cat((output, output_r), 2)
-    h_sum = Variable(h_sum.view(h_sum.size(1),-1)) # h_sum[i] to get hi
+    h_sum = h_sum.view(h_sum.size(1),-1) # h_sum[i] to get hi
 
     split_sentence = input_sentence.split()
     sentence_len = len(split_sentence)
@@ -86,7 +86,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     for t in range(100):
         for i in range(sentence_len):
             input_list.clear()
-            input_list.append(h_sum.data[i].data)
+            input_list.append(h_sum[i].data)
             input_list.append(getl_trg_i(input_sentence,i))
             input_list.append(g_trg)
             input_cat_vec = torch.cat(input_list,0)
