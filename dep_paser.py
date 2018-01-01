@@ -11,7 +11,7 @@ os.environ['STANFORD_PARSER'] = '/home/sfdai/jars/stanford-parser.jar'
 os.environ['STANFORD_MODELS'] = '/home/sfdai/jars/stanford-parser-3.8.0-models.jar'
 
 # 为JAVAHOME添加环境变量
-java_path = "C:/Program Files/Java/jdk1.8.0_144/bin/java.exe"
+java_path = "/usr/lib/jvm/java-8-oracle/jre/bin/java"
 os.environ['JAVAHOME'] = java_path
 dependency_parser=stanford.StanfordDependencyParser( model_path="/home/sfdai/stanford-parser-full-2017-06-09/stanford-parser-3.8.0-models/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
 

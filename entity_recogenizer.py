@@ -15,7 +15,7 @@ os.environ['CLASSPATH'] = '/home/sfdai/jars/stanford-ner.jar'
 # os.environ['STANFORD_MODELS'] = '/home/sfdai/jars/stanford-parser-3.8.0-models.jar'
 
 # 为JAVAHOME添加环境变量
-java_path = "C:/Program Files/Java/jdk1.8.0_144/bin/java.exe"
+java_path = "/usr/lib/jvm/java-8-oracle/jre/bin/java"
 os.environ['JAVAHOME'] = java_path
 # english.all.3class.distsim.crf.ser.gz
 # english.conll.4class.distsim.crf.ser.gz
