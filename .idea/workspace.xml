@@ -71,8 +71,8 @@
       <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all_in_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="315">
+              <caret line="114" column="49" lean-forward="true" selection-start-line="114" selection-start-column="49" selection-end-line="114" selection-end-column="49" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -167,7 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
       <find>characters</find>
       <find>getl_trg_i</find>
       <find>len</find>
@@ -177,7 +176,6 @@
       <find>\</find>
       <find>dic_trigger_sub</find>
       <find>t</find>
-      <find>h_sum</find>
       <find>loss_func</find>
       <find>trigger_sub_type</find>
       <find>target_ouput</find>
@@ -197,6 +195,8 @@
       <find>C:/trial_data/input</find>
       <find>main</find>
       <find>C:/Program Files/Java/jdk1.8.0_144/bin/java.exe</find>
+      <find>gru_vec</find>
+      <find>h_sum</find>
     </findStrings>
     <replaceStrings>
       <replace>lstm</replace>
@@ -903,8 +903,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/all_in_one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="315">
+          <caret line="114" column="49" lean-forward="true" selection-start-line="114" selection-start-column="49" selection-end-line="114" selection-end-column="49" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

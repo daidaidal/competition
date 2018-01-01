@@ -35,28 +35,6 @@ def getl_trg_i(input_sentence_arg,i):
     return torch.cat(vec_sum) # (WINDOW_SIZE*2+1)*VEC_LEN 1000
 
 
-def gru_vec(input_sentence):
-    if os.path.exists('/home/sfdai/competition/ACE_process/gru.plk'):
-        rnn = torch.load('rnn.pkl')
-    else:
-        rnn = gru.RNN()
-    h_state = None
-    h_state_r = None
-    # 正向
-    x = gru.pretreatment(input_sentence)
-    # print(x.size())
-    x = x.view(-1, x.size(0), x.size(1))
-    b_x = Variable(x)
-    output, h_state = rnn(b_x, h_state)
-    # 反向
-    x_r = gru.pretreatment(input_sentence,False)
-    x_r = x_r.view(-1, x_r.size(0), x_r.size(1))
-    b_x_r = Variable(x_r)
-    output_r, h_state_r = rnn(b_x_r, h_state_r,False)
-    output3 = torch.cat((output, output_r), 2)
-    output3 = output3.view(output3.size(1),-1)
-    return output3
-
 def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     #use gru
     if os.path.exists('/home/sfdai/competition/ACE_process/gru.plk'):
@@ -77,7 +55,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     b_x_r = Variable(x_r)
     output_r, h_state_r = rnn(b_x_r, h_state_r,False)
     h_sum = torch.cat((output, output_r), 2)
-    h_sum = h_sum.view(h_sum.size(1),-1) # h_sum[i] to get hi
+    h_sum = Variable(h_sum.view(h_sum.size(1),-1)) # h_sum[i] to get hi
 
     split_sentence = input_sentence.split()
     sentence_len = len(split_sentence)
@@ -96,11 +74,11 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
         f_network = torch.load('net1.pkl')
     else:
         f_network = feed_forward_network.NET(1633, 600, 33)
-    f_network2 = feed_forward_network.NET(3233, 1600, 36)
+    #f_network2 = feed_forward_network.NET(3233, 1600, 36)
     # train
     optimizer_rnn = torch.optim.Adam(rnn.parameters(),lr=0.02)
     optimizer1 = torch.optim.Adam(f_network.parameters(), lr=0.02)  # optimize all cnn parameters
-    optimizer2 = torch.optim.Adam(f_network2.parameters(), lr=0.02)  # optimize all cnn parameters
+    # optimizer2 = torch.optim.Adam(f_network2.parameters(), lr=0.02)  # optimize all cnn parameters
     # loss_func = torch.nn.CrossEntropyLoss()  # the target label is not one-hotted
     loss_func = torch.nn.NLLLoss()
 
@@ -108,7 +86,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     for t in range(100):
         for i in range(sentence_len):
             input_list.clear()
-            input_list.append(h_sum[i].data)
+            input_list.append(h_sum.data[i].data)
             input_list.append(getl_trg_i(input_sentence,i))
             input_list.append(g_trg)
             input_cat_vec = torch.cat(input_list,0)
@@ -158,7 +136,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     torch.save(rnn, 'rnn.pkl')
 
 def testing(input_sentence,trigger_word,trigger_subtype,argument_dic):
-    h_sum = gru_vec(input_sentence)  # h_sum[i] to get hi
+    #h_sum = gru_vec(input_sentence)  # h_sum[i] to get hi
     split_sentence = input_sentence.split()
     sentence_len = len(split_sentence)
     trigger_index= split_sentence.index(trigger_word)
