@@ -89,4 +89,6 @@ if __name__=="__main__":
     elif sys.argv[1] == "test":
         test()
         print("test success")
+else:
+    train()
 

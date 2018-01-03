@@ -1,3 +1,4 @@
 {
-  "all_in_one.py::testing": true
+  "all_in_one.py::testing": true,
+  "train_by_ace.py": true
 }

@@ -14,10 +14,10 @@ class NET(nn.Module):
         self.input_layer = torch.nn.Linear(input_size, hidden_size)
         self.sigmoid = torch.nn.Sigmoid()
         self.output_layer = torch.nn.Linear(hidden_size, output_size)
-        self.soft_max = torch.nn.LogSoftmax()
+        # self.soft_max = torch.nn.LogSoftmax(dim=33)
 
 
     def forward(self, start_input):
         h_1 = self.sigmoid(self.input_layer(start_input))
-        h_2 = self.soft_max(self.output_layer(h_1))
+        h_2 = self.output_layer(h_1)
         return h_2

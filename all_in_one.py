@@ -63,7 +63,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     # trigger_target = np.zeros(33)
     # trigger_target[dic_trigger_sub[trigger_subtype.upper()]] = 1
     # trigger_target = torch.from_numpy(trigger_target)
-    trigger_target_num = dic_trigger_sub[trigger_subtype.upper()]
+    trigger_target_num = dic_trigger_sub[trigger_subtype.upper()]-1
 
     #argument role一定要加上！！！！
     # entity_dic, entity_num = entity_recogenizer.get_entity(input_sentence)
@@ -80,7 +80,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     optimizer1 = torch.optim.Adam(f_network.parameters(), lr=0.02)  # optimize all cnn parameters
     # optimizer2 = torch.optim.Adam(f_network2.parameters(), lr=0.02)  # optimize all cnn parameters
     # loss_func = torch.nn.CrossEntropyLoss()  # the target label is not one-hotted
-    loss_func = torch.nn.NLLLoss()
+    loss_func = torch.nn.CrossEntropyLoss()
 
     input_list = []
     for t in range(100):
@@ -92,13 +92,14 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
             input_cat_vec = torch.cat(input_list,0)
             input_cat_vec = Variable(input_cat_vec,True)
 
-            output1= f_network(input_cat_vec)   # h2,h_m
-            # if len(np.where(output1.data.numpy() == 1)[0])>1:
-            #     print("trigger predict error!")
-            #     exit(-2)
-            if len(np.where(output1.data.numpy() == 1)[0])==1:
-                index_predic_trigger = np.where(output1.data.numpy() == 1)[0][0]
-                g_trg[index_predic_trigger] = 1
+            output1 = f_network(input_cat_vec)   # h2,h_m
+            s = torch.nn.Softmax()
+            index_predic_trigger = np.argmax(s(output1).data.numpy())
+
+
+            # if len(np.where(output1.data.numpy() == 1)[0])==1:
+            #     index_predic_trigger = np.where(output1.data.numpy() == 1)[0][0]
+            #     g_trg[index_predic_trigger] = 1
 
             # if i == trigger_index:
             #     judge_trigger = True
@@ -135,74 +136,74 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     torch.save(f_network, 'net1.pkl')  # 保存整个网络
     torch.save(rnn, 'rnn.pkl')
 
-def testing(input_sentence,trigger_word,trigger_subtype,argument_dic):
-    #h_sum = gru_vec(input_sentence)  # h_sum[i] to get hi
-    split_sentence = input_sentence.split()
-    sentence_len = len(split_sentence)
-    trigger_index= split_sentence.index(trigger_word)
-    trigger_target = np.zeros(33)
-    trigger_target[dic_trigger_sub[trigger_subtype.upper()]] = 1
-    trigger_target = torch.from_numpy(trigger_target)
-
-    #argument role一定要加上！！！！
-    # entity_dic, entity_num = entity_recogenizer.get_entity(input_sentence)
-
-    g_trg = torch.zeros(33)  # 33 types of triggers
-    g_trg_arg = torch.zeros(36, 33)  # 40 types of argument roles 33 types of triggers
-    f_network = torch.load('net1.pkl')
-    f_network2 = feed_forward_network.NET(3233, 1600, 36)
-    # train
-    optimizer1 = torch.optim.Adam(f_network.parameters(), lr=0.02)  # optimize all cnn parameters
-    optimizer2 = torch.optim.Adam(f_network2.parameters(), lr=0.02)  # optimize all cnn parameters
-    # loss_func = torch.nn.CrossEntropyLoss()  # the target label is not one-hotted
-    loss_func = torch.nn.NLLLoss()
-
-    input_list = []
-    for t in range(100):
-        for i in range(sentence_len):
-            input_list.clear()
-            input_list.append(h_sum[i].data)
-            input_list.append(getl_trg_i(input_sentence,i))
-            input_list.append(g_trg)
-            input_cat_vec = torch.cat(input_list,0)
-            input_cat_vec = Variable(input_cat_vec,True)
-
-            output1= f_network(input_cat_vec)   # h2,h_m
-            # if len(np.where(output1.data.numpy() == 1)[0])>1:
-            #     print("trigger predict error!")
-            #     exit(-2)
-            if len(np.where(output1.data.numpy() == 1)[0])==1:
-                index_predic_trigger = np.where(output1.data.numpy() == 1)[0][0]
-                g_trg[index_predic_trigger] = 1
-
-            # if i == trigger_index:
-            #     judge_trigger = True
-            # else:
-            #     judge_trigger = False
-            #
-            # for j in range(entity_num):
-            #     input1 = h_sum[i]  # 600
-            #     input12 = h_sum[entity_dic[j][0]]  # 600
-            #     input2 = getl_trg_i(input_sentence, i)  # 1000
-            #     input3 = getl_trg_i(input_sentence, entity_dic[j][0])  # 1000
-            #     input4 = g_trg_arg[entity_dic[j][0]]  # 33
-            #     input_all = torch.cat(input1, input2, input3, input4)  # 600*2+1000*2+33 = 3233
-            #     output2 = f_network2(input_all)
-            #
-            #     loss2 = loss_func(output2, target_ouput2)  # 计算两者的误差
-            #     optimizer2.zero_grad()  # 清空上一步的残余更新参数值
-            #     loss2.backward()  # 误差反向传播, 计算参数更新值
-            #     optimizer2.step()
-            if i == trigger_index:
-                target_output = trigger_target
-            else:
-                target_output = torch.zeros(33)
-            if output1.data == target_output:
-                count_of_right = count_of_right+1
-                if i == trigger_index:
-                    trigger_judge = 1
-
-    return count_of_right/sentence_len,trigger_judge
+# def testing(input_sentence,trigger_word,trigger_subtype,argument_dic):
+#     #h_sum = gru_vec(input_sentence)  # h_sum[i] to get hi
+#     split_sentence = input_sentence.split()
+#     sentence_len = len(split_sentence)
+#     trigger_index= split_sentence.index(trigger_word)
+#     trigger_target = np.zeros(33)
+#     trigger_target[dic_trigger_sub[trigger_subtype.upper()]] = 1
+#     trigger_target = torch.from_numpy(trigger_target)
+#
+#     #argument role一定要加上！！！！
+#     # entity_dic, entity_num = entity_recogenizer.get_entity(input_sentence)
+#
+#     g_trg = torch.zeros(33)  # 33 types of triggers
+#     g_trg_arg = torch.zeros(36, 33)  # 40 types of argument roles 33 types of triggers
+#     f_network = torch.load('net1.pkl')
+#     f_network2 = feed_forward_network.NET(3233, 1600, 36)
+#     # train
+#     optimizer1 = torch.optim.Adam(f_network.parameters(), lr=0.02)  # optimize all cnn parameters
+#     optimizer2 = torch.optim.Adam(f_network2.parameters(), lr=0.02)  # optimize all cnn parameters
+#     # loss_func = torch.nn.CrossEntropyLoss()  # the target label is not one-hotted
+#     loss_func = torch.nn.NLLLoss()
+#
+#     input_list = []
+#     for t in range(100):
+#         for i in range(sentence_len):
+#             input_list.clear()
+#             input_list.append(h_sum[i].data)
+#             input_list.append(getl_trg_i(input_sentence,i))
+#             input_list.append(g_trg)
+#             input_cat_vec = torch.cat(input_list,0)
+#             input_cat_vec = Variable(input_cat_vec,True)
+#
+#             output1= f_network(input_cat_vec)   # h2,h_m
+#             # if len(np.where(output1.data.numpy() == 1)[0])>1:
+#             #     print("trigger predict error!")
+#             #     exit(-2)
+#             if len(np.where(output1.data.numpy() == 1)[0])==1:
+#                 index_predic_trigger = np.where(output1.data.numpy() == 1)[0][0]
+#                 g_trg[index_predic_trigger] = 1
+#
+#             # if i == trigger_index:
+#             #     judge_trigger = True
+#             # else:
+#             #     judge_trigger = False
+#             #
+#             # for j in range(entity_num):
+#             #     input1 = h_sum[i]  # 600
+#             #     input12 = h_sum[entity_dic[j][0]]  # 600
+#             #     input2 = getl_trg_i(input_sentence, i)  # 1000
+#             #     input3 = getl_trg_i(input_sentence, entity_dic[j][0])  # 1000
+#             #     input4 = g_trg_arg[entity_dic[j][0]]  # 33
+#             #     input_all = torch.cat(input1, input2, input3, input4)  # 600*2+1000*2+33 = 3233
+#             #     output2 = f_network2(input_all)
+#             #
+#             #     loss2 = loss_func(output2, target_ouput2)  # 计算两者的误差
+#             #     optimizer2.zero_grad()  # 清空上一步的残余更新参数值
+#             #     loss2.backward()  # 误差反向传播, 计算参数更新值
+#             #     optimizer2.step()
+#             if i == trigger_index:
+#                 target_output = trigger_target
+#             else:
+#                 target_output = torch.zeros(33)
+#             if output1.data == target_output:
+#                 count_of_right = count_of_right+1
+#                 if i == trigger_index:
+#                     trigger_judge = 1
+#
+#     return count_of_right/sentence_len,trigger_judge
 
 
 
