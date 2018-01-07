@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c224cf22-80a8-4650-b2e9-9ba91e83f953" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/train_by_ace.py" afterPath="$PROJECT_DIR$/train_by_ace.py" />
+      <change beforePath="$PROJECT_DIR$/all_in_one.py" afterPath="$PROJECT_DIR$/all_in_one.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="train_by_ace.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train_by_ace.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_by_ace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="89" column="49" lean-forward="false" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+            <state relative-caret-position="661">
+              <caret line="93" column="12" lean-forward="true" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -74,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all_in_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+            <state relative-caret-position="822">
+              <caret line="136" column="8" lean-forward="false" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -246,8 +245,8 @@
         <option value="$PROJECT_DIR$/test_codes/test.py" />
         <option value="$PROJECT_DIR$/feed_forward_network.py" />
         <option value="$PROJECT_DIR$/gru.py" />
-        <option value="$PROJECT_DIR$/all_in_one.py" />
         <option value="$PROJECT_DIR$/train_by_ace.py" />
+        <option value="$PROJECT_DIR$/all_in_one.py" />
       </list>
     </option>
   </component>
@@ -946,21 +945,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_in_one.py">
+    <entry file="file://$PROJECT_DIR$/train_by_ace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="661">
+          <caret line="93" column="12" lean-forward="true" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_by_ace.py">
+    <entry file="file://$PROJECT_DIR$/all_in_one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="89" column="49" lean-forward="false" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="822">
+          <caret line="136" column="8" lean-forward="false" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
