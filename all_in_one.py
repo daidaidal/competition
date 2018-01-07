@@ -63,7 +63,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     trigger_count = len(trigger_word.split())
     if trigger_count>1:
         for i in range(trigger_count):
-            trigger_index.append(split_sentence.index(trigger_word.split[i]))
+            trigger_index.append(split_sentence.index(trigger_word.split()[i]))
     else:
         trigger_index.append(split_sentence.index(trigger_word))
 
