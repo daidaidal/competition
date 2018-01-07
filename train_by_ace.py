@@ -89,16 +89,14 @@ def test():
                                     exit()
                                 count = count + 1
 
-train()
 
-
-# if __name__=="__main__":
-#     if sys.argv[1] == "train":
-#         train()
-#         print("train success")
-#     elif sys.argv[1] == "test":
-#         test()
-#         print("test success")
-# else:
-#     train()
+if __name__=="__main__":
+    if sys.argv[1] == "train":
+        train()
+        print("train success")
+    elif sys.argv[1] == "test":
+        test()
+        print("test success")
+else:
+    train()
 
