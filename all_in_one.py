@@ -19,10 +19,9 @@ dic_trigger_sub = {"BE-BORN":1,"MARRY":2,"DIVORCE":3,"INJURE":4,"DIE":5,"TRANSPO
 
 model = word2vec.Word2Vec.load(u"/home/sfdai/word_vec.model")
 
-def getl_trg_i(input_sentence_arg,i):
+def getl_trg_i(sentence_vec_list,i):
     vec_sum = []
-    input_sentence_list = input_sentence_arg.split()
-    length = len(input_sentence_list)
+    length = len(sentence_vec_list)
     for j in range(WINDOW_SIZE*2+1):
         index = i-WINDOW_SIZE+j
         if index < 0 :
@@ -31,7 +30,7 @@ def getl_trg_i(input_sentence_arg,i):
         if  index > length-1:
             vec_sum.append(torch.zeros(VEC_LEN))
             continue
-        vec_sum.append(torch.from_numpy(model[input_sentence_list[index]]))
+        vec_sum.append(sentence_vec_list[index])
     return torch.cat(vec_sum) # (WINDOW_SIZE*2+1)*VEC_LEN 1000
 
 
@@ -41,16 +40,17 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
         rnn = torch.load('rnn.pkl')
     else:
         rnn = gru.RNN()
-    h_state = None
-    h_state_r = None
+    word_vec_list = gru.get_sentence_vec(input_sentence)
+    h_state = Variable(torch.rand(1,1,300))
+    h_state_r = Variable(torch.rand(1,1,300))
     # 正向
-    x = gru.pretreatment(input_sentence)
+    x = gru.pretreatment(word_vec_list,input_sentence)
     # print(x.size())
     x = x.view(-1, x.size(0), x.size(1))
     b_x = Variable(x,True)
     output, h_state = rnn(b_x, h_state)
     # 反向
-    x_r = gru.pretreatment(input_sentence,False)
+    x_r = gru.pretreatment(word_vec_list,input_sentence,False)
     x_r = x_r.view(-1, x_r.size(0), x_r.size(1))
     b_x_r = Variable(x_r,True)
     output_r, h_state_r = rnn(b_x_r, h_state_r,False)
@@ -87,7 +87,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
         for i in range(sentence_len):
             input_list.clear()
             input_list.append(h_sum[i].data)
-            input_list.append(getl_trg_i(input_sentence,i))
+            input_list.append(getl_trg_i(word_vec_list,i))
             input_list.append(g_trg)
             input_cat_vec = torch.cat(input_list,0)
             input_cat_vec = Variable(input_cat_vec,True)
@@ -124,8 +124,10 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
             else:
                 target_output = Variable(torch.LongTensor([0]))
             # loss
-            output1.data = output1.data.view(-1,33)
-            loss = loss_func(output1,target_output)  # 计算两者的误差
+            temp_output = []
+            temp_output.append(output1)
+            output2 = torch.stack(temp_output)
+            loss = loss_func(output2,target_output)  # 计算两者的误差
             optimizer1.zero_grad()  # 清空上一步的残余更新参数值
             optimizer_rnn.zero_grad()
             loss.backward()  # 误差反向传播, 计算参数更新值

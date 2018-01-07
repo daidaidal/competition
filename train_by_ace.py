@@ -13,6 +13,8 @@ def train():
     for i in range(0,len(list)):
         path = os.path.join(rootdir,list[i])
         if os.path.isfile(path) and path[-3:] == "xml":
+            print(path)
+            print('--------')
             tree = ET.parse(path)
             root = tree.getroot()
             txt = []
@@ -29,10 +31,14 @@ def train():
                                 for child3 in child2:  # extent(i don't know it),ldc_scope(whole words),anchor(trigger),event_mention_argument(argument_role)
                                     if child3.tag == 'ldc_scope':
                                         input_sentence = child3[0].text
+                                        input_sentence = input_sentence.replace('\n', ' ').replace(',', ' ,')
+                                        if input_sentence[-1] != '.':
+                                            input_sentence += ' .'
                                     elif child3.tag == 'anchor':
                                         trigger = child3[0].text
                                     elif child3.tag == 'event_mention_argument':
-                                        argument_role[child3[0][0].text] = child3.attrib['ROLE']
+                                        temp = child3[0][0].text.replace('\n', ' ')
+                                        argument_role[temp] = child3.attrib['ROLE']
                                 if count< 900:
                                     all_in_one.training(input_sentence,trigger,trigger_subtype,argument_role)
                                 else:
@@ -65,10 +71,14 @@ def test():
                                 for child3 in child2:  # extent(i don't know it),ldc_scope(whole words),anchor(trigger),event_mention_argument(argument_role)
                                     if child3.tag == 'ldc_scope':
                                         input_sentence = child3[0].text
+                                        input_sentence = input_sentence.replace('\n',' ').replace(',',' ,')
+                                        if input_sentence[-1]!='.':
+                                            input_sentence += ' .'
                                     elif child3.tag == 'anchor':
                                         trigger = child3[0].text
                                     elif child3.tag == 'event_mention_argument':
-                                        argument_role[child3[0][0].text] = child3.attrib['ROLE']
+                                        temp = child3[0][0].text.replace('\n',' ')
+                                        argument_role[temp] = child3.attrib['ROLE']
                                 if count < 900:
                                     continue
                                 elif count < 1180:
@@ -79,16 +89,16 @@ def test():
                                     exit()
                                 count = count + 1
 
+train()
 
 
-
-if __name__=="__main__":
-    if sys.argv[1] == "train":
-        train()
-        print("train success")
-    elif sys.argv[1] == "test":
-        test()
-        print("test success")
-else:
-    train()
+# if __name__=="__main__":
+#     if sys.argv[1] == "train":
+#         train()
+#         print("train success")
+#     elif sys.argv[1] == "test":
+#         test()
+#         print("test success")
+# else:
+#     train()
 

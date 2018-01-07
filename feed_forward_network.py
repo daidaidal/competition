@@ -18,6 +18,23 @@ class NET(nn.Module):
 
 
     def forward(self, start_input):
-        h_1 = self.sigmoid(self.input_layer(start_input))
+        h_0 =self.input_layer(start_input)
+        h_1 = self.sigmoid(h_0)
         h_2 = self.output_layer(h_1)
         return h_2
+
+
+f = NET()
+out = []
+loss_func = nn.CrossEntropyLoss()
+for i in range(1):
+    input1 = Variable(torch.rand(1633),requires_grad=True)
+    # target_output = Variable(torch.LongTensor([1]))
+    output1 = f(input1)
+    out.append(output1)
+
+target_output = Variable(torch.LongTensor([1]))
+output2 = torch.stack(out,dim=0)
+loss = loss_func(output2,target_output)
+loss.backward()
+print ("successs!")
