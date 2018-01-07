@@ -59,7 +59,14 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
 
     split_sentence = input_sentence.split()
     sentence_len = len(split_sentence)
-    trigger_index= split_sentence.index(trigger_word)
+    trigger_index = []
+    trigger_count = len(trigger_word.split())
+    if trigger_count>1:
+        for i in range(trigger_count):
+            trigger_index.append(split_sentence.index(trigger_word.split[i]))
+    else:
+        trigger_index.append(split_sentence.index(trigger_word))
+
     # trigger_target = np.zeros(33)
     # trigger_target[dic_trigger_sub[trigger_subtype.upper()]] = 1
     # trigger_target = torch.from_numpy(trigger_target)
@@ -117,7 +124,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
         #     optimizer2.zero_grad()  # 清空上一步的残余更新参数值
         #     loss2.backward()  # 误差反向传播, 计算参数更新值
         #     optimizer2.step()
-        if i == trigger_index:
+        if i in trigger_index:
             target_output = Variable(torch.LongTensor([trigger_target_num]))
         else:
             target_output = Variable(torch.LongTensor([0]))
