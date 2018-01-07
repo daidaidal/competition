@@ -24,17 +24,17 @@ class NET(nn.Module):
         return h_2
 
 
-f = NET()
-out = []
-loss_func = nn.CrossEntropyLoss()
-for i in range(1):
-    input1 = Variable(torch.rand(1633),requires_grad=True)
-    # target_output = Variable(torch.LongTensor([1]))
-    output1 = f(input1)
-    out.append(output1)
-
-target_output = Variable(torch.LongTensor([1]))
-output2 = torch.stack(out,dim=0)
-loss = loss_func(output2,target_output)
-loss.backward()
-print ("successs!")
+# f = NET()
+# out = []
+# loss_func = nn.CrossEntropyLoss()
+# for i in range(1):
+#     input1 = Variable(torch.rand(1633),requires_grad=True)
+#     # target_output = Variable(torch.LongTensor([1]))
+#     output1 = f(input1)
+#     out.append(output1)
+#
+# target_output = Variable(torch.LongTensor([1]))
+# output2 = torch.stack(out,dim=0)
+# loss = loss_func(output2,target_output)
+# loss.backward()
+# print ("successs!")
