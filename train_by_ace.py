@@ -3,7 +3,7 @@ import os
 from xml.etree import ElementTree as ET
 import all_in_one
 import sys
-
+#hello git
 def train():
     rootdir = '/home/sfdai/data/Englishref/bn/timex2norm'
     list = os.listdir(rootdir) #列出文件夹下所有的目录与文件
@@ -75,7 +75,7 @@ def test():
                                         if input_sentence[-1]!='.':
                                             input_sentence += ' .'
                                     elif child3.tag == 'anchor':
-                                        trigger = child3[0].text
+                                        trigger = child3[0].text.replace('\n',' ')
                                     elif child3.tag == 'event_mention_argument':
                                         temp = child3[0][0].text.replace('\n',' ')
                                         argument_role[temp] = child3.attrib['ROLE']
