@@ -63,10 +63,16 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     trigger_count = len(trigger_word.split())
     if trigger_count>1:
         for i in range(trigger_count):
-            trigger_index.append(split_sentence.index(trigger_word.split()[i]))
+            try:
+                trigger_index.append(split_sentence.index(trigger_word.split()[i]))
+            except ValueError:
+                trigger_index.append(input_sentence.count(' ', input_sentence.find(trigger_word.split()[i])))
     else:
-        trigger_index.append(split_sentence.index(trigger_word))
-
+        try:
+            trigger_index.append(split_sentence.index(trigger_word))
+        except ValueError:
+            trigger_index.append(input_sentence.count(' ', input_sentence.find(trigger_word)))
+            
     # trigger_target = np.zeros(33)
     # trigger_target[dic_trigger_sub[trigger_subtype.upper()]] = 1
     # trigger_target = torch.from_numpy(trigger_target)
