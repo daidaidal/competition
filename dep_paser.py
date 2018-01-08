@@ -4,7 +4,7 @@ import os
 from nltk.parse import stanford
 
 # Hyper Parameters
-DEP_VEC_LEN = 100
+DEP_VEC_LEN = 200
 
 # 添加stanford环境变量,此处需要手动修改，jar包地址为绝对地址。
 os.environ['STANFORD_PARSER'] = '/home/sfdai/jars/stanford-parser.jar'
@@ -35,3 +35,4 @@ def dependence_matrix(input_sentence):
     output_matrix = torch.stack(output_list,0)  #size (long_of_sentence,DEP_VEC_LEN)
     # print(output_matrix.size())
     return output_matrix
+

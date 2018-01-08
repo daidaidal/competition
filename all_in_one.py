@@ -55,6 +55,7 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     b_x_r = Variable(x_r,True)
     output_r, h_state_r = rnn(b_x_r, h_state_r,False)
     h_sum = torch.cat((output, output_r), 2)
+    print(h_sum.data.size())
     h_sum = h_sum.view(h_sum.size(1),-1) # h_sum[i] to get hi
 
     split_sentence = input_sentence.split()
