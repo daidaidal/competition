@@ -43,11 +43,7 @@ def train():
                                         elif child3.tag == 'event_mention_argument':
                                             temp = child3[0][0].text.replace('\n', ' ')
                                             argument_role[temp] = child3.attrib['ROLE']
-                                    if count < 900:
-                                        all_in_one.training(input_sentence, trigger, trigger_subtype, argument_role)
-                                    else:
-                                        exit()
-                                    count = count + 1
+                                    all_in_one.training(input_sentence, trigger, trigger_subtype, argument_role)
 
 
 def test():
