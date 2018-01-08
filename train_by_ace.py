@@ -93,7 +93,7 @@ def test():
                                     fn+=fnl
                                     count = count + 1
                 print(count/507)
-                
+
     print("tp:"+str(tp))
     print("fp:"+str(fp))
     print("tn:"+str(tn))
