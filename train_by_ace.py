@@ -86,7 +86,7 @@ def test():
                                         elif child3.tag == 'event_mention_argument':
                                             temp = child3[0][0].text.replace('\n', ' ')
                                             argument_role[temp] = child3.attrib['ROLE']
-                                    tpl,fpl,tnl,fnl = all_in_one.test(input_sentence, trigger, trigger_subtype, argument_role)
+                                    tpl,fpl,tnl,fnl = all_in_one.testing(input_sentence, trigger, trigger_subtype, argument_role)
                                     tp+=tpl
                                     fp+=fpl
                                     tn+=tnl
