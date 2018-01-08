@@ -4,7 +4,7 @@ import feed_forward_network
 
 from gensim.models import word2vec
 
-model = word2vec.Word2Vec.load(u"C:/trial_data/input/word_vec.model")
+model = word2vec.Word2Vec.load(u"/home/sfdai/word_vec.model")
 # Hyper Paremeters
 WINDOW_SIZE = 2
 VEC_LEN = 200 # word_emedding

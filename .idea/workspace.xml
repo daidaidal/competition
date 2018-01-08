@@ -6,7 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c224cf22-80a8-4650-b2e9-9ba91e83f953" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/all_in_one.py" afterPath="$PROJECT_DIR$/all_in_one.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/entity_recognize/train_entity_recognizer.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/entity_recognize/event_train.py" afterPath="$PROJECT_DIR$/entity_recognize/event_train.py" />
+      <change beforePath="$PROJECT_DIR$/train_by_ace.py" afterPath="$PROJECT_DIR$/train_by_ace.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,6 +42,7 @@
     <SUITE FILE_PATH="coverage/competition$vec_test.coverage" NAME="vec_test Coverage Results" MODIFIED="1512289660086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/competition$py_test_for_train_by_ace_test.coverage" NAME="py.test for train_by_ace.test Coverage Results" MODIFIED="1515403609371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/competition$just_for_test__1_.coverage" NAME="just_for_test (1) Coverage Results" MODIFIED="1513316881847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$py_test_for_train_entity_recognizer_test.coverage" NAME="py.test for train_entity_recognizer.test Coverage Results" MODIFIED="1515414792671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entity_recognize" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -54,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="train_by_ace.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="train_by_ace.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train_by_ace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="414">
+              <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -74,6 +78,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="event_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entity_recognize/event_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="rewrite.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/_pytest/assertion/rewrite.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,24 +98,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all_in_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+            <state relative-caret-position="200">
+              <caret line="212" column="10" lean-forward="false" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loss.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/torch/nn/modules/loss.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="586" column="75" lean-forward="false" selection-start-line="586" selection-start-column="57" selection-end-line="586" selection-end-column="75" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -131,8 +135,8 @@
       <file leaf-file-name="gru.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gru.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="162">
+              <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="60" />
               <folding>
                 <element signature="e#24#36#0" expanded="true" />
               </folding>
@@ -150,18 +154,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_codes/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -173,7 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>loss</find>
       <find>GRU</find>
       <find>&gt;&gt;&gt;</find>
       <find>h_state</find>
@@ -200,9 +191,10 @@
       <find>trigger_index</find>
       <find>dep_paser</find>
       <find>DEP_VEC_LEN</find>
-      <find>pretreatment</find>
       <find>input_cat_vec</find>
       <find>print</find>
+      <find>pretreatment</find>
+      <find>all_in_one</find>
     </findStrings>
     <replaceStrings>
       <replace>lstm</replace>
@@ -227,7 +219,6 @@
         <option value="$PROJECT_DIR$/GRU_pytorch.py" />
         <option value="$PROJECT_DIR$/lstm.py" />
         <option value="$PROJECT_DIR$/event_train.py" />
-        <option value="$PROJECT_DIR$/entity_recognize/event_train.py" />
         <option value="$PROJECT_DIR$/entity_recognize/movie.xml" />
         <option value="$PROJECT_DIR$/entity_recognize/xml_process.py" />
         <option value="$PROJECT_DIR$/ACE_process/test_path.py" />
@@ -243,11 +234,13 @@
         <option value="$PROJECT_DIR$/test_codes/test_network.py" />
         <option value="$PROJECT_DIR$/test_codes/try_network.py" />
         <option value="$PROJECT_DIR$/test_codes/test.py" />
-        <option value="$PROJECT_DIR$/train_by_ace.py" />
         <option value="$PROJECT_DIR$/dep_paser.py" />
         <option value="$PROJECT_DIR$/gru.py" />
         <option value="$PROJECT_DIR$/feed_forward_network.py" />
         <option value="$PROJECT_DIR$/all_in_one.py" />
+        <option value="$PROJECT_DIR$/entity_recognize/event_train.py" />
+        <option value="$PROJECT_DIR$/entity_recognize/train_entity_recognizer.py" />
+        <option value="$PROJECT_DIR$/train_by_ace.py" />
       </list>
     </option>
   </component>
@@ -359,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for train_by_ace.test">
+  <component name="RunManager" selected="Python tests.py.test for train_entity_recognizer.test">
     <configuration name="feed_forward_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,25 +367,6 @@
       <module name="competition" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feed_forward_network.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="gru" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="competition" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gru.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,6 +407,22 @@
       <option name="_new_target" value="&quot;train_by_ace.test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="py.test for train_entity_recognizer.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/entity_recognize" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="competition" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;train_entity_recognizer.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="py.test in train_by_ace.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -453,16 +443,16 @@
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in train_by_ace.py" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for train_by_ace.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gru" />
-      <item index="4" class="java.lang.String" itemvalue="Python.feed_forward_network" />
+      <item index="3" class="java.lang.String" itemvalue="Python.feed_forward_network" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for train_entity_recognizer.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for train_by_ace.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in train_by_ace.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.feed_forward_network" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.gru" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for train_entity_recognizer.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for train_by_ace.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in train_by_ace.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.feed_forward_network" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -483,8 +473,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_train_by_ace_py - 2018.01.05 at 13h 19m 25s.xml">
-      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
+    <history-entry file="py_test_for_train_entity_recognizer_test - 2018.01.08 at 20h 33m 20s.xml">
+      <configuration name="py.test for train_entity_recognizer.test" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_train_by_ace_py - 2018.01.05 at 13h 37m 38s.xml">
       <configuration name="py.test in train_by_ace.py" configurationId="tests" />
@@ -522,7 +512,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38121548" sideWeight="0.40729168" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2640163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3343527" sideWeight="0.59270835" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3343527" sideWeight="0.59270835" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110274345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -641,7 +631,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1013586911/builtins.py" />
     <entry file="file://C:/trial_data/input/word.txt" />
     <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/modules/module.py" />
     <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/_functions/thnn/auto.py" />
@@ -866,14 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity_recognize/event_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_codes/try_network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -887,7 +868,7 @@
         <state relative-caret-position="306">
           <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -942,31 +923,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/all_in_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="212" column="10" lean-forward="false" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gru.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="162">
+          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="60" />
           <folding>
             <element signature="e#24#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_by_ace.py">
+    <entry file="file://$PROJECT_DIR$/entity_recognize/event_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="198">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_in_one.py">
+    <entry file="file://$PROJECT_DIR$/entity_recognize/train_entity_recognizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="358">
+          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_by_ace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
