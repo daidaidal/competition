@@ -7,7 +7,8 @@ import sys
 def train():
     rootdir_list = ['/home/sfdai/data/Englishref/bc/timex2norm','/home/sfdai/data/Englishref/bn/timex2norm',
                '/home/sfdai/data/Englishref/cts/timex2norm','/home/sfdai/data/Englishref/nw/timex2norm',
-               '/home/sfdai/data/Englishref/un/timex2norm','/home/sfdai/data/Englishref/wl/timex2norm']
+               '/home/sfdai/data/Englishref/un/timex2norm']
+    # ,'/home/sfdai/data/Englishref/wl/timex2norm'
     for rootdir in rootdir_list:
         list1 = os.listdir(rootdir)  # 列出文件夹下所有的目录与文件
         count = 0
