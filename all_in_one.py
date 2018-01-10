@@ -218,7 +218,6 @@ def testing(input_sentence,trigger_word,trigger_subtype,argument_dic):
         output1 = f_network(input_cat_vec)  # h2,h_m
         s = torch.nn.Softmax()
         index_predic_trigger = np.argmax(s(output1).data.numpy())
-        print(index_predic_trigger)
         if index_predic_trigger != 0: # 预测分类正确,是trigger
             if i in trigger_index:
                 if index_predic_trigger == trigger_target_num:

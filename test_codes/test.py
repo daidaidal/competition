@@ -3,10 +3,38 @@ from torch import nn
 from torch.autograd import Variable
 import numpy as np
 from gensim.models import word2vec
-try:
-    daisfs
-except Exception:
-    print("i'm here")
+import torch
+import os
+from nltk.parse import stanford
+
+# Hyper Parameters
+DEP_VEC_LEN = 200
+
+# 添加stanford环境变量,此处需要手动修改，jar包地址为绝对地址。
+os.environ['STANFORD_PARSER'] = '/home/sfdai/jars/stanford-parser.jar'
+os.environ['STANFORD_MODELS'] = '/home/sfdai/jars/stanford-parser-3.8.0-models.jar'
+
+# 为JAVAHOME添加环境变量
+java_path = "/usr/lib/jvm/java-8-oracle/jre/bin/java"
+os.environ['JAVAHOME'] = java_path
+dependency_parser=stanford.StanfordDependencyParser( model_path="/home/sfdai/stanford-parser-full-2017-06-09/stanford-parser-3.8.0-models/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
+
+def dependence_matrix(input_sentence):
+# 句法标注
+#    stanford.DependencyGraph
+# input_sentence = "Hello , My name is Melroy ." # there is a full stop!
+# dependency_parser=stanford.StanfordDependencyParser( model_path="/home/sfdai/stanford-parser-full-2017-06-09/stanford-parser-3.8.0-models/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
+    sentences = dependency_parser.raw_parse(input_sentence)
+    # print(sentences)
+    # print(input_sentence.split())
+    output_list=[]
+    for line in sentences:
+        # print(line)
+        for i in range(1,len(input_sentence.split())+1):
+            dic = line.nodes[i]
+            print(dic)
+
+dependence_matrix("A cute cat is eating a small fish .")
 
 # a = torch.FloatTensor([1,2,3,4,5])
 # print(nn.LogSoftmax(a,1))
