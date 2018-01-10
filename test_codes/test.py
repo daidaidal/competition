@@ -3,9 +3,13 @@ from torch import nn
 from torch.autograd import Variable
 import numpy as np
 from gensim.models import word2vec
+try:
+    daisfs
+except Exception:
+    print("i'm here")
 
-a = torch.FloatTensor([1,2,3,4,5])
-print(nn.LogSoftmax(a,1))
+# a = torch.FloatTensor([1,2,3,4,5])
+# print(nn.LogSoftmax(a,1))
 
 # loss = nn.CrossEntropyLoss()
 # input1 = Variable(torch.randn(3, 5), requires_grad=True)

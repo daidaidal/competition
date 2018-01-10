@@ -10,6 +10,11 @@ from torch.autograd import Variable
 # Hyper Paremeters
 WINDOW_SIZE = 2
 VEC_LEN = 200  # word_emedding
+COM = 'competition'
+
+F_INPUT_SIZE = 1633
+F_HIDDEN_SIZE = 400
+F_OUTPUT_SIZE = 33
 
 dic_trigger_big = {"LIFE":1,"MOVEMENT":2,"TRANSACTION":3,"BUSINESS":4,"CONFLICT":5,"CONTACT":6,"PERSONELL":7,"JUSTICE":8}
 dic_trigger_sub = {"BE-BORN":1,"MARRY":2,"DIVORCE":3,"INJURE":4,"DIE":5,"TRANSPORT":6,"TRANSFER-OWNERSHIP":7,"TRANSFER-MONEY":8,"START-ORG":9,
@@ -18,6 +23,7 @@ dic_trigger_sub = {"BE-BORN":1,"MARRY":2,"DIVORCE":3,"INJURE":4,"DIE":5,"TRANSPO
                    "CONVICT":26,"SENTENCE":27,"FINE":28,"EXECUTE":29,"EXTRADITE":30,"ACQUIT":31,"APPEAL":32,"PARDON":33}
 
 model = word2vec.Word2Vec.load(u"/home/sfdai/word_vec.model")
+
 
 def getl_trg_i(sentence_vec_list,i):
     vec_sum = []
@@ -36,7 +42,7 @@ def getl_trg_i(sentence_vec_list,i):
 
 def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
     #use gru
-    if os.path.exists('/home/sfdai/competition/ACE_process/gru.plk'):
+    if os.path.exists('/home/sfdai/'+COM+'/rnn.pkl'):
         rnn = torch.load('rnn.pkl')
     else:
         rnn = gru.RNN()
@@ -83,10 +89,10 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
 
     g_trg = torch.zeros(33)  # 33 types of triggers
     g_trg_arg = torch.zeros(36, 33)  # 40 types of argument roles 33 types of triggers
-    if os.path.exists('/home/sfdai/competition/ACE_process/net1.plk'):
+    if os.path.exists('/home/sfdai/'+COM+'/net1.pkl'):
         f_network = torch.load('net1.pkl')
     else:
-        f_network = feed_forward_network.NET(1633, 600, 33)
+        f_network = feed_forward_network.NET(F_INPUT_SIZE, F_HIDDEN_SIZE, F_OUTPUT_SIZE)
     #f_network2 = feed_forward_network.NET(3233, 1600, 36)
     # train
     optimizer_rnn = torch.optim.Adam(rnn.parameters(),lr=0.02)
@@ -195,17 +201,7 @@ def testing(input_sentence,trigger_word,trigger_subtype,argument_dic):
 
     g_trg = torch.zeros(33)  # 33 types of triggers
     g_trg_arg = torch.zeros(36, 33)  # 40 types of argument roles 33 types of triggers
-    if os.path.exists('/home/sfdai/competition/ACE_process/net1.plk'):
-        f_network = torch.load('net1.pkl')
-    else:
-        f_network = feed_forward_network.NET(1633, 600, 33)
-    #f_network2 = feed_forward_network.NET(3233, 1600, 36)
-    # train
-    optimizer_rnn = torch.optim.Adam(rnn.parameters(),lr=0.02)
-    optimizer1 = torch.optim.Adam(f_network.parameters(), lr=0.02)  # optimize all cnn parameters
-    # optimizer2 = torch.optim.Adam(f_network2.parameters(), lr=0.02)  # optimize all cnn parameters
-    # loss_func = torch.nn.CrossEntropyLoss()  # the target label is not one-hotted
-
+    f_network = torch.load('net1.pkl')
     input_list = []
     tp = 0
     fp = 0
@@ -222,6 +218,7 @@ def testing(input_sentence,trigger_word,trigger_subtype,argument_dic):
         output1 = f_network(input_cat_vec)  # h2,h_m
         s = torch.nn.Softmax()
         index_predic_trigger = np.argmax(s(output1).data.numpy())
+        print(index_predic_trigger)
         if index_predic_trigger != 0: # 预测分类正确,是trigger
             if i in trigger_index:
                 if index_predic_trigger == trigger_target_num:

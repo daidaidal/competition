@@ -99,14 +99,15 @@ def test():
     print("tn:"+str(tn))
     print("fn:"+str(fn))
 
-
 if __name__=="__main__":
     if sys.argv[1] == "train":
         train()
-        print("train success")
+        # try:
+        #     train()
+        # except Exception:
+        #     test()
+        # print("train & test success")
     elif sys.argv[1] == "test":
         test()
         print("test success")
-else:
-    train()
 
