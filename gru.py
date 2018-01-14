@@ -14,10 +14,10 @@ torch.manual_seed(1)    # reproducible
 
 # Hyper Parameters
 EPOCH = 1               # train the training data n times, to save time, we just train 1 epoch
-HIDDEN_SIZE = 300
+HIDDEN_SIZE = 600
 # TIME_STEP = len(input_sentence.split())         # rnn time step / image height
-INPUT_SIZE = 400       # rnn input size / image width
-LR = 0.02               # learning rate
+INPUT_SIZE = 300      # rnn input size / image width
+
 def get_sentence_vec(input_sentence):
     sentence_arg_list = input_sentence.split()
     sentence_len = len(sentence_arg_list)
@@ -36,11 +36,11 @@ def pretreatment(sentence_vec_list,sentence_arg,judge=True):
     if not judge:
         sentence_vec_list.reverse()
     word_vec = torch.stack(sentence_vec_list,0) # sentence_len*200
-    return torch.cat((dep_vec,word_vec),1)  # sentence_len*400
+    return torch.cat((dep_vec,word_vec),1)  # sentence_len*300
 
 
 class RNN(nn.Module):
-    def __init__(self,num_layers=1):
+    def __init__(self,num_layers=2):
         super(RNN, self).__init__()
 
         self.rnn = nn.GRU(         # if use nn.RNN(), it hardly learns

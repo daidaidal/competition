@@ -2,12 +2,20 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/all_in_one.py" />
-    <bookmark url="file://$PROJECT_DIR$/train_by_ace.py" line="8" />
+    <bookmark url="file://$PROJECT_DIR$/train_by_ace.py" line="12" />
+    <bookmark url="file://$PROJECT_DIR$/all_in_one.py" line="203" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c224cf22-80a8-4650-b2e9-9ba91e83f953" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/.cache/v/cache/lastfailed" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/all_in_one.py" afterPath="$PROJECT_DIR$/all_in_one.py" />
+      <change beforePath="$PROJECT_DIR$/dep_paser.py" afterPath="$PROJECT_DIR$/dep_paser.py" />
+      <change beforePath="$PROJECT_DIR$/feed_forward_network.py" afterPath="$PROJECT_DIR$/feed_forward_network.py" />
+      <change beforePath="$PROJECT_DIR$/gru.py" afterPath="$PROJECT_DIR$/gru.py" />
       <change beforePath="$PROJECT_DIR$/test_codes/test.py" afterPath="$PROJECT_DIR$/test_codes/test.py" />
+      <change beforePath="$PROJECT_DIR$/test_codes/toy_code.py" afterPath="$PROJECT_DIR$/test_codes/toy_code.py" />
+      <change beforePath="$PROJECT_DIR$/train_by_ace.py" afterPath="$PROJECT_DIR$/train_by_ace.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,29 +26,30 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/competition$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1513599808560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$feed_forward_network.coverage" NAME="feed_forward_network Coverage Results" MODIFIED="1515322777247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$learn_pytorch.coverage" NAME="learn_pytorch Coverage Results" MODIFIED="1512289325051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$test.coverage" NAME="test Coverage Results" MODIFIED="1515930935212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_codes" />
+    <SUITE FILE_PATH="coverage/competition$write_ace_to_word2vec.coverage" NAME="write_ace_to_word2vec Coverage Results" MODIFIED="1513586428738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ACE_process" />
+    <SUITE FILE_PATH="coverage/competition$try_for_stanford.coverage" NAME="try_for_stanford Coverage Results" MODIFIED="1512301315047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$py_test_in_all_in_one_py.coverage" NAME="py.test in all_in_one.py Coverage Results" MODIFIED="1515765097657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$all_in_one.coverage" NAME="all_in_one Coverage Results" MODIFIED="1514962090468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$py_test_in_train_by_ace_py.coverage" NAME="py.test in train_by_ace.py Coverage Results" MODIFIED="1515765224020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ACE_process" />
+    <SUITE FILE_PATH="coverage/competition$entity_recogenizer.coverage" NAME="entity_recogenizer Coverage Results" MODIFIED="1513319495783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$vec_test.coverage" NAME="vec_test Coverage Results" MODIFIED="1512289660086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$just_for_test__1_.coverage" NAME="just_for_test (1) Coverage Results" MODIFIED="1513316881847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$py_test_for_train_entity_recognizer_test.coverage" NAME="py.test for train_entity_recognizer.test Coverage Results" MODIFIED="1515414792671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entity_recognize" />
     <SUITE FILE_PATH="coverage/competition$ace_process.coverage" NAME="ace_process Coverage Results" MODIFIED="1513342834536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ACE_process" />
     <SUITE FILE_PATH="coverage/competition$py_test_in_test_path_py.coverage" NAME="py.test in test_path.py Coverage Results" MODIFIED="1513516201465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ACE_process" />
     <SUITE FILE_PATH="coverage/competition$xml_process.coverage" NAME="xml_process Coverage Results" MODIFIED="1512979073749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entity_recognize" />
-    <SUITE FILE_PATH="coverage/competition$feed_forward_network.coverage" NAME="feed_forward_network Coverage Results" MODIFIED="1515322777247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/competition$try_network.coverage" NAME="try_network Coverage Results" MODIFIED="1514981049839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_codes" />
-    <SUITE FILE_PATH="coverage/competition$learn_pytorch.coverage" NAME="learn_pytorch Coverage Results" MODIFIED="1512289325051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/competition$test.coverage" NAME="test Coverage Results" MODIFIED="1515567323691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_codes" />
+    <SUITE FILE_PATH="coverage/competition$toy_code.coverage" NAME="toy_code Coverage Results" MODIFIED="1515918654606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_codes" />
     <SUITE FILE_PATH="coverage/competition$gru.coverage" NAME="gru Coverage Results" MODIFIED="1515068606280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/competition$write_ace_to_word2vec.coverage" NAME="write_ace_to_word2vec Coverage Results" MODIFIED="1513586428738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ACE_process" />
-    <SUITE FILE_PATH="coverage/competition$try_for_stanford.coverage" NAME="try_for_stanford Coverage Results" MODIFIED="1512301315047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/competition$py_test_in_all_in_one_py.coverage" NAME="py.test in all_in_one.py Coverage Results" MODIFIED="1513600076981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/competition$GRU_pytorch.coverage" NAME="GRU_pytorch Coverage Results" MODIFIED="1512373689675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/competition$just_for_test.coverage" NAME="just_for_test Coverage Results" MODIFIED="1512310295481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/competition$all_in_one.coverage" NAME="all_in_one Coverage Results" MODIFIED="1514962090468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/competition$py_test_in_train_by_ace_py.coverage" NAME="py.test in train_by_ace.py Coverage Results" MODIFIED="1515421586063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ACE_process" />
-    <SUITE FILE_PATH="coverage/competition$entity_recogenizer.coverage" NAME="entity_recogenizer Coverage Results" MODIFIED="1513319495783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/competition$dependencey_paser.coverage" NAME="dependencey_paser Coverage Results" MODIFIED="1512370013259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/competition$py_test_in_test_network_py.coverage" NAME="py.test in test_network.py Coverage Results" MODIFIED="1514968804660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_codes" />
-    <SUITE FILE_PATH="coverage/competition$train_by_ace.coverage" NAME="train_by_ace Coverage Results" MODIFIED="1513665944194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ACE_process" />
-    <SUITE FILE_PATH="coverage/competition$vec_test.coverage" NAME="vec_test Coverage Results" MODIFIED="1512289660086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/competition$py_test_for_train_by_ace_test.coverage" NAME="py.test for train_by_ace.test Coverage Results" MODIFIED="1515563876049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/competition$just_for_test__1_.coverage" NAME="just_for_test (1) Coverage Results" MODIFIED="1513316881847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/competition$py_test_for_train_entity_recognizer_test.coverage" NAME="py.test for train_entity_recognizer.test Coverage Results" MODIFIED="1515414792671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entity_recognize" />
+    <SUITE FILE_PATH="coverage/competition$py_test_for_train_by_ace_test.coverage" NAME="py.test for train_by_ace.test Coverage Results" MODIFIED="1515656204799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/competition$train_by_ace.coverage" NAME="train_by_ace Coverage Results" MODIFIED="1515934096879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -59,9 +68,33 @@
       <file leaf-file-name="train_by_ace.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_by_ace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="86" column="87" lean-forward="true" selection-start-line="86" selection-start-column="87" selection-end-line="86" selection-end-column="87" />
+            <state relative-caret-position="290">
+              <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="55" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word2vec_wiki.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/word2vec_wiki.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+              <folding>
+                <element signature="e#116#129#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,60 +102,8 @@
       <file leaf-file-name="dep_paser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dep_paser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity_recognize/event_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rewrite.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/_pytest/assertion/rewrite.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3708">
-              <caret line="220" column="46" lean-forward="false" selection-start-line="220" selection-start-column="46" selection-end-line="220" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="try_network.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_codes/try_network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_in_one.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feed_forward_network.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/feed_forward_network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="486">
+              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="e#24#36#0" expanded="true" />
               </folding>
@@ -130,11 +111,55 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="all_in_one.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/all_in_one.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adam.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/torch/optim/adam.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toy_code.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_codes/toy_code.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1422">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding>
+                <element signature="e#188#200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="try_network.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_codes/try_network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="gru.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gru.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="60" />
+            <state relative-caret-position="756">
+              <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding>
                 <element signature="e#24#36#0" expanded="true" />
               </folding>
@@ -145,21 +170,11 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_codes/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entity_recogenizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity_recogenizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -175,35 +190,35 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>input_sentence</find>
-      <find>model</find>
-      <find>grad_variables</find>
-      <find>&gt;&gt; &gt;</find>
-      <find>retain_variables</find>
-      <find>argument_role</find>
-      <find>g_trg</find>
-      <find>output1</find>
-      <find>sentence_vec_list</find>
-      <find>input_sentence_arg</find>
-      <find>i</find>
-      <find>index</find>
-      <find>getl_trg_i</find>
-      <find>trigger_word</find>
-      <find>trigger</find>
-      <find>WAR</find>
-      <find>index_predic_trigger</find>
-      <find>trigger_index</find>
-      <find>dep_paser</find>
-      <find>DEP_VEC_LEN</find>
-      <find>input_cat_vec</find>
-      <find>pretreatment</find>
-      <find>all_in_one</find>
-      <find>$PROJECT_DIR$/net1.plk</find>
-      <find>trigger_target_num</find>
-      <find>count</find>
-      <find>competition</find>
-      <find>F_OUTPUT_SIZE</find>
       <find>f_network</find>
+      <find>home</find>
+      <find>torch</find>
+      <find>index_predic_trigger</find>
+      <find>HIDDEN_SIZE</find>
+      <find>h_state</find>
+      <find>Adam</find>
+      <find>Variable</find>
+      <find>dependency_parser</find>
+      <find>input_sentence</find>
+      <find>grad_variables</find>
+      <find>+</find>
+      <find>testnot</find>
+      <find>.cuda()</find>
+      <find>output_matrix</find>
+      <find>trigger_word</find>
+      <find>trigger_target_num</find>
+      <find>one</find>
+      <find>BUSINESS</find>
+      <find>trigger_dic</find>
+      <find>DEP_VEC_LEN</find>
+      <find>VEC_LEN</find>
+      <find>test</find>
+      <find>getl_trg_i</find>
+      <find>cuda</find>
+      <find>LR</find>
+      <find>output1</find>
+      <find>return</find>
+      <find>params</find>
       <find>print</find>
     </findStrings>
     <replaceStrings>
@@ -212,6 +227,7 @@
       <replace>/</replace>
       <replace>$USER_HOME$</replace>
       <replace>/usr/lib/jvm/java-8-oracle/jre/bin/java</replace>
+      <replace>nottrain</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -243,14 +259,16 @@
         <option value="$PROJECT_DIR$/entity_recogenizer.py" />
         <option value="$PROJECT_DIR$/test_codes/test_network.py" />
         <option value="$PROJECT_DIR$/test_codes/try_network.py" />
-        <option value="$PROJECT_DIR$/dep_paser.py" />
-        <option value="$PROJECT_DIR$/gru.py" />
         <option value="$PROJECT_DIR$/entity_recognize/event_train.py" />
         <option value="$PROJECT_DIR$/entity_recognize/train_entity_recognizer.py" />
-        <option value="$PROJECT_DIR$/train_by_ace.py" />
         <option value="$PROJECT_DIR$/feed_forward_network.py" />
+        <option value="$PROJECT_DIR$/word2vec_wiki.py" />
+        <option value="$PROJECT_DIR$/dep_paser.py" />
+        <option value="$PROJECT_DIR$/gru.py" />
+        <option value="$PROJECT_DIR$/test_codes/toy_code.py" />
         <option value="$PROJECT_DIR$/test_codes/test.py" />
         <option value="$PROJECT_DIR$/all_in_one.py" />
+        <option value="$PROJECT_DIR$/train_by_ace.py" />
       </list>
     </option>
   </component>
@@ -261,10 +279,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="765" />
+    <option name="x" value="61" />
     <option name="y" value="-4" />
-    <option name="width" value="1155" />
-    <option name="height" value="1040" />
+    <option name="width" value="1004" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -302,7 +320,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,6 +351,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,26 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="feed_forward_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="competition" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feed_forward_network.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.train_by_ace">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -401,7 +400,45 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test for train_by_ace.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="toy_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_codes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="competition" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_codes/toy_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train_by_ace" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="competition" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_by_ace.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="py.test in all_in_one.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -414,24 +451,8 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;train_by_ace.test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="py.test for train_entity_recognizer.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/entity_recognize" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="competition" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;train_entity_recognizer.test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/all_in_one.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="py.test in train_by_ace.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -452,17 +473,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in train_by_ace.py" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for train_by_ace.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.feed_forward_network" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for train_entity_recognizer.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in all_in_one.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.train_by_ace" />
+      <item index="4" class="java.lang.String" itemvalue="Python.toy_code" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for train_by_ace.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in train_by_ace.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for train_entity_recognizer.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.feed_forward_network" />
+        <item index="0" class="java.lang.String" itemvalue="Python.train_by_ace" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.toy_code" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in train_by_ace.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in all_in_one.py" />
       </list>
     </recent_temporary>
   </component>
@@ -483,23 +504,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_train_entity_recognizer_test - 2018.01.08 at 20h 33m 20s.xml">
-      <configuration name="py.test for train_entity_recognizer.test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_train_by_ace_py - 2018.01.05 at 13h 37m 38s.xml">
-      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_train_by_ace_py - 2018.01.05 at 15h 00m 28s.xml">
-      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_train_by_ace_py - 2018.01.05 at 15h 58m 55s.xml">
-      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_train_by_ace_py - 2018.01.05 at 15h 59m 54s.xml">
-      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_train_by_ace_py - 2018.01.05 at 16h 26m 37s.xml">
-      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
+    <history-entry file="py_test_in_all_in_one_py - 2018.01.12 at 21h 51m 41s.xml">
+      <configuration name="py.test in all_in_one.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_train_by_ace_py - 2018.01.07 at 19h 02m 09s.xml">
       <configuration name="py.test in train_by_ace.py" configurationId="tests" />
@@ -513,23 +519,39 @@
     <history-entry file="py_test_in_train_by_ace_py - 2018.01.07 at 20h 20m 24s.xml">
       <configuration name="py.test in train_by_ace.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_train_by_ace_py - 2018.01.11 at 15h 36m 29s.xml">
+      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_train_by_ace_py - 2018.01.12 at 20h 59m 14s.xml">
+      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_train_by_ace_py - 2018.01.12 at 20h 59m 43s.xml">
+      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_train_by_ace_py - 2018.01.12 at 21h 03m 13s.xml">
+      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_train_by_ace_py - 2018.01.12 at 21h 53m 51s.xml">
+      <configuration name="py.test in train_by_ace.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="-4" width="1861" height="1085" extended-state="6" />
+    <frame x="61" y="-4" width="1621" height="1062" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38121548" sideWeight="0.40729168" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3088685" sideWeight="0.59270835" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2640163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1745531" sideWeight="0.59270835" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110274345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13403335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49439347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43007362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -581,16 +603,29 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/all_in_one.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/train_by_ace.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/all_in_one.py</url>
-          <line>220</line>
-          <option name="timeStamp" value="46" />
+          <line>241</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_codes/toy_code.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/all_in_one.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -598,7 +633,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -608,10 +643,35 @@
         <watch expression="output_r.size()" language="Python" />
         <watch expression="sentence_vec_list[1]" language="Python" />
       </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="i" language="Python" />
+        <watch expression="rnn.parameters()" language="Python" />
+        <watch expression="type(f_network.parameters())" language="Python" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>rnn.parameters()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(f_network.parameters())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(rnn.parameters())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>sentence_vec_list[1]</expression-string>
         <language-id>Python</language-id>
@@ -640,10 +700,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/trial_data/input/word.txt" />
-    <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/modules/module.py" />
-    <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/_functions/thnn/auto.py" />
-    <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/functional.py" />
     <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/modules/rnn.py" />
     <entry file="file://$PROJECT_DIR$/entity_recognize/lstm.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -659,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_codes/parser_try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ACE_process/test_write.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="830">
@@ -674,20 +723,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.py" />
-    <entry file="file://$PROJECT_DIR$/write_to_txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/just_for_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -738,13 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_codes/toy_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -812,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/torch/autograd/variable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/_pytest/fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -849,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/torch/autograd/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="86" column="72" lean-forward="false" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/bokeh/server/static/js/compiler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -871,18 +884,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="315" column="33" lean-forward="false" selection-start-line="315" selection-start-column="33" selection-end-line="315" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/_pytest/assertion/rewrite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3708">
           <caret line="220" column="46" lean-forward="false" selection-start-line="220" selection-start-column="46" selection-end-line="220" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,74 +905,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_codes/try_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entity_recogenizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write_to_txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/torch/autograd/variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gru.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/381794579/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="60" />
+        <state relative-caret-position="84456">
+          <caret line="4692" column="8" lean-forward="false" selection-start-line="4692" selection-start-column="8" selection-end-line="4692" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="190" column="60" lean-forward="false" selection-start-line="190" selection-start-column="60" selection-end-line="190" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_codes/parser_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/torch/autograd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed_forward_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec_wiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#116#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dep_paser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="e#24#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_by_ace.py">
+    <entry file="file://$PROJECT_DIR$/test_codes/try_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="86" column="87" lean-forward="true" selection-start-line="86" selection-start-column="87" selection-end-line="86" selection-end-column="87" />
+        <state relative-caret-position="324">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dep_paser.py">
+    <entry file="file://$PROJECT_DIR$/test_codes/toy_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="1422">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#188#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gru.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="e#24#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_codes/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/document/anaconda3/lib/python3.6/site-packages/torch/optim/adam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_by_ace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/all_in_one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="234">
+          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feed_forward_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#24#36#0" expanded="true" />
           </folding>
         </state>
       </provider>

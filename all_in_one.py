@@ -3,7 +3,7 @@ import os
 import gru
 import numpy as np
 import feed_forward_network
-
+import dep_paser
 from gensim.models import word2vec
 from torch.autograd import Variable
 
@@ -12,8 +12,8 @@ WINDOW_SIZE = 2
 VEC_LEN = 200  # word_emedding
 COM = 'competition'
 
-F_INPUT_SIZE = 1633
-F_HIDDEN_SIZE = 400
+F_INPUT_SIZE = 2233
+F_HIDDEN_SIZE = 600
 F_OUTPUT_SIZE = 33
 
 dic_trigger_big = {"LIFE":1,"MOVEMENT":2,"TRANSACTION":3,"BUSINESS":4,"CONFLICT":5,"CONTACT":6,"PERSONELL":7,"JUSTICE":8}
@@ -31,78 +31,202 @@ def getl_trg_i(sentence_vec_list,i):
     for j in range(WINDOW_SIZE*2+1):
         index = i-WINDOW_SIZE+j
         if index < 0 :
-            vec_sum.append(torch.zeros(VEC_LEN))
+            vec_sum.append(torch.rand(VEC_LEN))
             continue
         if  index > length-1:
-            vec_sum.append(torch.zeros(VEC_LEN))
+            vec_sum.append(torch.rand(VEC_LEN))
             continue
         vec_sum.append(sentence_vec_list[index])
     return torch.cat(vec_sum) # (WINDOW_SIZE*2+1)*VEC_LEN 1000
 
 
-def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
-    #use gru
+def training(input_sentence,trigger_word_list,trigger_subtype_list,argument_dic,LR,h_state,h_state_r):
+    # load or create network
+    # control input sentence_len
+    if len(input_sentence.split()) > 90:
+        return h_state,h_state_r
     if os.path.exists('/home/sfdai/'+COM+'/rnn.pkl'):
         rnn = torch.load('rnn.pkl')
     else:
         rnn = gru.RNN()
+    if os.path.exists('/home/sfdai/'+COM+'/net1.pkl'):
+        f_network = torch.load('net1.pkl')
+    else:
+        f_network = feed_forward_network.NET(F_INPUT_SIZE, F_HIDDEN_SIZE, F_OUTPUT_SIZE)
+
+    # process input sentence
+    try:
+        trigger_candidate_list,word_list = dep_paser.process_sentence(input_sentence)
+    except Exception:
+        return h_state,h_state_r
+    input_sentence = " ".join(word_list)
     word_vec_list = gru.get_sentence_vec(input_sentence)
-    h_state = Variable(torch.rand(1,1,300))
-    h_state_r = Variable(torch.rand(1,1,300))
+
+    # use gru to extract feature h_state and h_state_r in parameters
+    # h_state = Variable(torch.rand(2,1,600),requires_grad=True)
+    # h_state_r = Variable(torch.rand(2,1,600),requires_grad=True)
+
     # 正向
     x = gru.pretreatment(word_vec_list,input_sentence)
-    # print(x.size())
     x = x.view(-1, x.size(0), x.size(1))
-    b_x = Variable(x,True)
+    b_x = Variable(x,requires_grad=True)
     output, h_state = rnn(b_x, h_state)
     # 反向
     x_r = gru.pretreatment(word_vec_list,input_sentence,False)
     x_r = x_r.view(-1, x_r.size(0), x_r.size(1))
-    b_x_r = Variable(x_r,True)
+    b_x_r = Variable(x_r,requires_grad=True)
     output_r, h_state_r = rnn(b_x_r, h_state_r,False)
+    # cat forward and reverse
     h_sum = torch.cat((output, output_r), 2)
     h_sum = h_sum.view(h_sum.size(1),-1) # h_sum[i] to get hi
 
+    # correct trigger information process
     split_sentence = input_sentence.split()
     sentence_len = len(split_sentence)
     trigger_index = []
-    trigger_count = len(trigger_word.split())
-    if trigger_count>1:
-        for i in range(trigger_count):
+    trigger_dic = {}
+    for j in range(len(trigger_word_list)):
+        temp = trigger_word_list[j].split()
+        trigger_count = len(temp)
+        if trigger_count > 1:
+            for i in range(trigger_count):
+                try:
+                    indexl = split_sentence.index(temp[i])
+                except ValueError:
+                    indexl = input_sentence.count(' ', 0, input_sentence.find(temp[i]))
+                trigger_index.append(indexl)
+                trigger_dic[indexl] = trigger_subtype_list[j]
+        else:
             try:
-                trigger_index.append(split_sentence.index(trigger_word.split()[i]))
+                indexl = split_sentence.index(trigger_word_list[j])
             except ValueError:
-                trigger_index.append(input_sentence.count(' ', input_sentence.find(trigger_word.split()[i])))
-    else:
-        try:
-            trigger_index.append(split_sentence.index(trigger_word))
-        except ValueError:
-            trigger_index.append(input_sentence.count(' ', input_sentence.find(trigger_word)))
+                indexl = input_sentence.count(' ', 0, input_sentence.find(trigger_word_list[j]))
+            trigger_index.append(indexl)
+            trigger_dic[indexl] = trigger_subtype_list[j]
 
-    # trigger_target = np.zeros(33)
-    # trigger_target[dic_trigger_sub[trigger_subtype.upper()]] = 1
-    # trigger_target = torch.from_numpy(trigger_target)
-    trigger_target_num = dic_trigger_sub[trigger_subtype.upper()]-1
+    # trigger_target_num = dic_trigger_sub[trigger_subtype_list.upper()]-1
 
     #argument role一定要加上！！！！
     # entity_dic, entity_num = entity_recogenizer.get_entity(input_sentence)
 
     g_trg = torch.zeros(33)  # 33 types of triggers
     g_trg_arg = torch.zeros(36, 33)  # 40 types of argument roles 33 types of triggers
-    if os.path.exists('/home/sfdai/'+COM+'/net1.pkl'):
-        f_network = torch.load('net1.pkl')
-    else:
-        f_network = feed_forward_network.NET(F_INPUT_SIZE, F_HIDDEN_SIZE, F_OUTPUT_SIZE)
     #f_network2 = feed_forward_network.NET(3233, 1600, 36)
-    # train
-    optimizer_rnn = torch.optim.Adam(rnn.parameters(),lr=0.02)
-    optimizer1 = torch.optim.Adam(f_network.parameters(), lr=0.02)  # optimize all cnn parameters
+
+    # optim
+    # optimizer_sum = torch.optim.Adam((rnn.parameters(),f_network.parameters()),lr=0.001)
+    optimizer_rnn = torch.optim.Adam(rnn.parameters(),lr=LR)
+    optimizer1 = torch.optim.Adam(f_network.parameters(), lr=LR)  # optimize all cnn parameters
     # optimizer2 = torch.optim.Adam(f_network2.parameters(), lr=0.02)  # optimize all cnn parameters
-    # loss_func = torch.nn.CrossEntropyLoss()  # the target label is not one-hotted
     loss_func = torch.nn.CrossEntropyLoss()
 
     input_list = []
     for i in range(sentence_len):
+        if i not in trigger_candidate_list:
+            continue
+        input_list.clear()
+        input_list.append(h_sum[i].data) #400
+        input_list.append(getl_trg_i(word_vec_list, i)) #1000
+        input_list.append(g_trg) #33
+        input_cat_vec = torch.cat(input_list, 0)
+        input_cat_vec = Variable(input_cat_vec,requires_grad=True)
+
+        output1 = f_network(input_cat_vec) # h2,h_m
+        # argument relate
+        if i in trigger_index:
+            target_output = Variable(torch.LongTensor([dic_trigger_sub[trigger_dic[i].upper()]-1]))
+        else:
+            target_output = Variable(torch.LongTensor([0]))
+        # loss
+        temp_output = []
+        temp_output.append(output1)
+        output2 = torch.stack(temp_output)
+        loss = loss_func(output2, target_output)  # 计算两者的误差
+        optimizer1.zero_grad()  # 清空上一步的残余更新参数值
+        optimizer_rnn.zero_grad()
+        # optimizer_sum.zero_grad()
+
+        loss.backward()  # 误差反向传播, 计算参数更新值
+
+        # optimizer_sum.step()
+        optimizer1.step()
+        optimizer_rnn.step()
+
+    torch.save(f_network, 'net1.pkl')  # 保存整个网络
+    torch.save(rnn, 'rnn.pkl')
+    return h_state,h_state_r
+
+def nottrain(input_sentence,trigger_word_list,trigger_subtype_list,argument_dic,h_state,h_state_r):
+    # control input sentence_len
+    if len(input_sentence.split()) > 90:
+        return 0,0,0,0,h_state,h_state_r
+    #load network
+    rnn = torch.load('rnn.pkl')
+    f_network = torch.load('net1.pkl')
+    #process input sentence
+    trigger_candidate_list, word_list = dep_paser.process_sentence(input_sentence)
+    input_sentence = " ".join(word_list)
+    word_vec_list = gru.get_sentence_vec(input_sentence)
+
+    #use gru , h_state and h_state_r in parameter
+    # h_state = Variable(torch.rand(3,1,200))
+    # h_state_r = Variable(torch.rand(3,1,200))
+
+    # 正向
+    x = gru.pretreatment(word_vec_list,input_sentence)
+    # print(x.size())
+    x = x.view(-1, x.size(0), x.size(1))
+    b_x = Variable(x)
+    output, h_state = rnn(b_x, h_state)
+    # 反向
+    x_r = gru.pretreatment(word_vec_list,input_sentence,False)
+    x_r = x_r.view(-1, x_r.size(0), x_r.size(1))
+    b_x_r = Variable(x_r)
+    output_r, h_state_r = rnn(b_x_r, h_state_r,False)
+    #cat forward and reverse
+    h_sum = torch.cat((output, output_r), 2)
+    h_sum = h_sum.view(h_sum.size(1),-1) # h_sum[i] to get hi
+
+
+    #process correct trigger information
+    split_sentence = input_sentence.split()
+    sentence_len = len(split_sentence)
+    trigger_index = []
+    trigger_dic = {}
+    for j in range(len(trigger_word_list)):
+        temp = trigger_word_list[j].split()
+        trigger_count = len(temp)
+        if trigger_count>1:
+            for i in range(trigger_count):
+                try:
+                    indexl = split_sentence.index(temp[i])
+                except ValueError:
+                    indexl = input_sentence.count(' ',0,input_sentence.find(temp[i]))
+                trigger_index.append(indexl)
+                trigger_dic[indexl] = trigger_subtype_list[j]
+        else:
+            try:
+                indexl = split_sentence.index(trigger_word_list[j])
+            except ValueError:
+                indexl = input_sentence.count(' ',0,input_sentence.find(trigger_word_list[j]))
+            trigger_index.append(indexl)
+            trigger_dic[indexl] = trigger_subtype_list[j]
+
+    g_trg = torch.zeros(33)  # 33 types of triggers
+    g_trg_arg = torch.zeros(36, 33)  # 40 types of argument roles 33 types of triggers
+    input_list = []
+    tp = 0
+    fp = 0
+    tn = 0
+    fn = 0
+    for i in range(sentence_len):
+        if i not in trigger_candidate_list:
+            if i in trigger_index:
+                tn = tn + 1
+            else:
+                fn = fn + 1
+            continue
+
         input_list.clear()
         input_list.append(h_sum[i].data)
         input_list.append(getl_trg_i(word_vec_list, i))
@@ -112,7 +236,24 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
 
         output1 = f_network(input_cat_vec)  # h2,h_m
         s = torch.nn.Softmax()
-        index_predic_trigger = np.argmax(s(output1).data.numpy())
+        index_predic_trigger = torch.max(s(output1),0)[1]
+        if index_predic_trigger.data[0] != 0: # 预测为trigger
+            if i in trigger_index:
+                if index_predic_trigger.data[0] == dic_trigger_sub[trigger_dic[i].upper()]-1:
+                    tp = tp + 1
+                else:
+                    fp = fp + 1
+            else:
+                fp = fp + 1
+        if index_predic_trigger.data[0] == 0:  # 预测不是trigger
+            if i in trigger_index:
+                tn = tn + 1
+            else:
+                fn = fn + 1
+    return tp,fp,tn,fn,h_state,h_state_r
+
+        # s = torch.nn.Softmax()
+        # index_predic_trigger = torch.max(s(output1),0)[1].data[0] # type float
 
         # if len(np.where(output1.data.numpy() == 1)[0])==1:
         #     index_predic_trigger = np.where(output1.data.numpy() == 1)[0][0]
@@ -136,101 +277,6 @@ def training(input_sentence,trigger_word,trigger_subtype,argument_dic):
         #     optimizer2.zero_grad()  # 清空上一步的残余更新参数值
         #     loss2.backward()  # 误差反向传播, 计算参数更新值
         #     optimizer2.step()
-        if i in trigger_index:
-            target_output = Variable(torch.LongTensor([trigger_target_num]))
-        else:
-            target_output = Variable(torch.LongTensor([0]))
-        # loss
-        temp_output = []
-        temp_output.append(output1)
-        output2 = torch.stack(temp_output)
-        loss = loss_func(output2, target_output)  # 计算两者的误差
-        optimizer1.zero_grad()  # 清空上一步的残余更新参数值
-        optimizer_rnn.zero_grad()
-        loss.backward()  # 误差反向传播, 计算参数更新值
-
-        optimizer1.step()
-        optimizer_rnn.step()
-
-        torch.save(f_network, 'net1.pkl')  # 保存整个网络
-        torch.save(rnn, 'rnn.pkl')
-
-def testing(input_sentence,trigger_word,trigger_subtype,argument_dic):
-    #use gru
-    rnn = torch.load('rnn.pkl')
-    word_vec_list = gru.get_sentence_vec(input_sentence)
-    h_state = Variable(torch.rand(1,1,300))
-    h_state_r = Variable(torch.rand(1,1,300))
-    # 正向
-    x = gru.pretreatment(word_vec_list,input_sentence)
-    # print(x.size())
-    x = x.view(-1, x.size(0), x.size(1))
-    b_x = Variable(x,True)
-    output, h_state = rnn(b_x, h_state)
-    # 反向
-    x_r = gru.pretreatment(word_vec_list,input_sentence,False)
-    x_r = x_r.view(-1, x_r.size(0), x_r.size(1))
-    b_x_r = Variable(x_r,True)
-    output_r, h_state_r = rnn(b_x_r, h_state_r,False)
-    h_sum = torch.cat((output, output_r), 2)
-    h_sum = h_sum.view(h_sum.size(1),-1) # h_sum[i] to get hi
-
-    split_sentence = input_sentence.split()
-    sentence_len = len(split_sentence)
-    trigger_index = []
-    trigger_count = len(trigger_word.split())
-    if trigger_count>1:
-        for i in range(trigger_count):
-            try:
-                trigger_index.append(split_sentence.index(trigger_word.split()[i]))
-            except ValueError:
-                trigger_index.append(input_sentence.count(' ', input_sentence.find(trigger_word.split()[i])))
-    else:
-        try:
-            trigger_index.append(split_sentence.index(trigger_word))
-        except ValueError:
-            trigger_index.append(input_sentence.count(' ', input_sentence.find(trigger_word)))
-
-    # trigger_target = np.zeros(33)
-    # trigger_target[dic_trigger_sub[trigger_subtype.upper()]] = 1
-    # trigger_target = torch.from_numpy(trigger_target)
-    trigger_target_num = dic_trigger_sub[trigger_subtype.upper()]-1
-
-    #argument role一定要加上！！！！
-    # entity_dic, entity_num = entity_recogenizer.get_entity(input_sentence)
-
-    g_trg = torch.zeros(33)  # 33 types of triggers
-    g_trg_arg = torch.zeros(36, 33)  # 40 types of argument roles 33 types of triggers
-    f_network = torch.load('net1.pkl')
-    input_list = []
-    tp = 0
-    fp = 0
-    tn = 0
-    fn = 0
-    for i in range(sentence_len):
-        input_list.clear()
-        input_list.append(h_sum[i].data)
-        input_list.append(getl_trg_i(word_vec_list, i))
-        input_list.append(g_trg)
-        input_cat_vec = torch.cat(input_list, 0)
-        input_cat_vec = Variable(input_cat_vec, True)
-
-        output1 = f_network(input_cat_vec)  # h2,h_m
-        s = torch.nn.Softmax()
-        index_predic_trigger = np.argmax(s(output1).data.numpy())
-        if index_predic_trigger != 0: # 预测分类正确,是trigger
-            if i in trigger_index:
-                if index_predic_trigger == trigger_target_num:
-                    tp = tp + 1
-                else:
-                    fp = fp + 1
-        if index_predic_trigger == 0:  # 预测分类错误,是trigger
-            if i in trigger_index:
-                if index_predic_trigger == trigger_target_num:
-                    tn = tn + 1
-                else:
-                    fn = fn + 1
-    return tp,fp,tn,fn
 
 
 

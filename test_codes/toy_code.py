@@ -1,126 +1,96 @@
-# -*- coding: utf-8 -*-
-import copy, numpy as np  
-np.random.seed(0)  
-  
-# compute sigmoid nonlinearity  
-def sigmoid(x):  
-    output = 1/(1+np.exp(-x))  
-    return output  
-  
-# convert output of sigmoid function to its derivative  
-def sigmoid_output_to_derivative(output):  
-    return output*(1-output)  
-  
-  
-# training dataset generation  
-int2binary = {}  
-binary_dim = 8  
-  
-largest_number = pow(2,binary_dim)  
-binary = np.unpackbits(  
-    np.array([range(largest_number)],dtype=np.uint8).T,axis=1)  
-for i in range(largest_number):  
-    int2binary[i] = binary[i]  
-  
-  
-# input variables  
-alpha = 0.1  
-input_dim = 2  
-hidden_dim = 16  
-output_dim = 1  
-  
-  
-# initialize neural network weights  
-synapse_0 = 2*np.random.random((input_dim,hidden_dim)) - 1  
-synapse_1 = 2*np.random.random((hidden_dim,output_dim)) - 1  
-synapse_h = 2*np.random.random((hidden_dim,hidden_dim)) - 1  
-  
-synapse_0_update = np.zeros_like(synapse_0)  
-synapse_1_update = np.zeros_like(synapse_1)  
-synapse_h_update = np.zeros_like(synapse_h)  
-  
-# training logic  
-for j in range(10000):  
-      
-    # generate a simple addition problem (a + b = c)  
-    a_int = np.random.randint(largest_number/2) # int version  
-    a = int2binary[a_int] # binary encoding  
-  
-    b_int = np.random.randint(largest_number/2) # int version  
-    b = int2binary[b_int] # binary encoding  
-  
-    # true answer  
-    c_int = a_int + b_int  
-    c = int2binary[c_int]  
-      
-    # where we'll store our best guess (binary encoded)  
-    d = np.zeros_like(c)  
-  
-    overallError = 0  
-      
-    layer_2_deltas = list()  
-    layer_1_values = list()  
-    layer_1_values.append(np.zeros(hidden_dim))  
-      
-    # moving along the positions in the binary encoding  
-    for position in range(binary_dim):  
-          
-        # generate input and output  
-        X = np.array([[a[binary_dim - position - 1],b[binary_dim - position - 1]]])  
-        y = np.array([[c[binary_dim - position - 1]]]).T  
-  
-        # hidden layer (input ~+ prev_hidden)  
-        layer_1 = sigmoid(np.dot(X,synapse_0) + np.dot(layer_1_values[-1],synapse_h))  
-  
-        # output layer (new binary representation)  
-        layer_2 = sigmoid(np.dot(layer_1,synapse_1))  
-  
-        # did we miss?... if so by how much?  
-        layer_2_error = y - layer_2  
-        layer_2_deltas.append((layer_2_error)*sigmoid_output_to_derivative(layer_2))  
-        overallError += np.abs(layer_2_error[0])  
-      
-        # decode estimate so we can print it out  
-        d[binary_dim - position - 1] = np.round(layer_2[0][0])  
-          
-        # store hidden layer so we can use it in the next timestep  
-        layer_1_values.append(copy.deepcopy(layer_1))  
-      
-    future_layer_1_delta = np.zeros(hidden_dim)  
-      
-    for position in range(binary_dim):  
-          
-        X = np.array([[a[position],b[position]]])  
-        layer_1 = layer_1_values[-position-1]  
-        prev_layer_1 = layer_1_values[-position-2]  
-          
-        # error at output layer  
-        layer_2_delta = layer_2_deltas[-position-1]  
-        # error at hidden layer  
-        layer_1_delta = (future_layer_1_delta.dot(synapse_h.T) + layer_2_delta.dot(synapse_1.T)) * sigmoid_output_to_derivative(layer_1)  
-        # let's update all our weights so we can try again  
-        synapse_1_update += np.atleast_2d(layer_1).T.dot(layer_2_delta)  
-        synapse_h_update += np.atleast_2d(prev_layer_1).T.dot(layer_1_delta)  
-        synapse_0_update += X.T.dot(layer_1_delta)  
-          
-        future_layer_1_delta = layer_1_delta  
-      
-  
-    synapse_0 += synapse_0_update * alpha  
-    synapse_1 += synapse_1_update * alpha  
-    synapse_h += synapse_h_update * alpha      
-  
-    synapse_0_update *= 0  
-    synapse_1_update *= 0  
-    synapse_h_update *= 0  
-      
-    # print out progress  
-    if(j % 1000 == 0):  
-        print("Error:" + str(overallError)  )
-        print("Pred:" + str(d))
-        print("True:" + str(c))
-        out = 0  
-        for index,x in enumerate(reversed(d)):  
-            out += x*pow(2,index)  
-        print(str(a_int) + " + " + str(b_int) + " = " + str(out) ) 
-        print("------------")  
+"""
+View more, visit my tutorial page: https://morvanzhou.github.io/tutorials/
+My Youtube Channel: https://www.youtube.com/user/MorvanZhou
+Dependencies:
+torch: 0.1.11
+matplotlib
+numpy
+"""
+import torch
+from torch import nn
+from torch.autograd import Variable
+import numpy as np
+import matplotlib.pyplot as plt
+
+# torch.manual_seed(1)    # reproducible
+
+# Hyper Parameters
+TIME_STEP = 10      # rnn time step
+INPUT_SIZE = 1      # rnn input size
+LR = 0.02           # learning rate
+
+# show data
+steps = np.linspace(0, np.pi*2, 100, dtype=np.float32)
+x_np = np.sin(steps)    # float32 for converting torch FloatTensor
+y_np = np.cos(steps)
+plt.plot(steps, y_np, 'r-', label='target (cos)')
+plt.plot(steps, x_np, 'b-', label='input (sin)')
+plt.legend(loc='best')
+plt.show()
+
+
+class RNN(nn.Module):
+    def __init__(self):
+        super(RNN, self).__init__()
+
+        self.rnn = nn.RNN(
+            input_size=INPUT_SIZE,
+            hidden_size=32,     # rnn hidden unit
+            num_layers=1,       # number of rnn layer
+            batch_first=True,   # input & output will has batch size as 1s dimension. e.g. (batch, time_step, input_size)
+        )
+        self.out = nn.Linear(32, 1)
+
+    def forward(self, x, h_state):
+        # x (batch, time_step, input_size)
+        # h_state (n_layers, batch, hidden_size)
+        # r_out (batch, time_step, hidden_size)
+        r_out, h_state = self.rnn(x, h_state)
+
+        outs = []    # save all predictions
+        for time_step in range(r_out.size(1)):    # calculate output for each time step
+            outs.append(self.out(r_out[:, time_step, :]))
+        return torch.stack(outs, dim=1), h_state
+
+        # instead, for simplicity, you can replace above codes by follows
+        # r_out = r_out.view(-1, 32)
+        # outs = self.out(r_out)
+        # return outs, h_state
+
+rnn = RNN()
+print(rnn)
+
+optimizer = torch.optim.Adam(rnn.parameters(), lr=LR)   # optimize all cnn parameters
+loss_func = nn.MSELoss()
+
+h_state = None      # for initial hidden state
+
+plt.figure(1, figsize=(12, 5))
+plt.ion()           # continuously plot
+
+for step in range(60):
+    start, end = step * np.pi, (step+1)*np.pi   # time range
+    # use sin predicts cos
+    steps = np.linspace(start, end, TIME_STEP, dtype=np.float32)
+    x_np = np.sin(steps)    # float32 for converting torch FloatTensor
+    y_np = np.cos(steps)
+
+    x = Variable(torch.from_numpy(x_np[np.newaxis, :, np.newaxis]))    # shape (batch, time_step, input_size)
+    y = Variable(torch.from_numpy(y_np[np.newaxis, :, np.newaxis]))
+
+    prediction, h_state = rnn(x, h_state)   # rnn output
+    # !! next step is important !!
+    h_state = Variable(h_state.data)        # repack the hidden state, break the connection from last iteration
+
+    loss = loss_func(prediction, y)         # cross entropy loss
+    optimizer.zero_grad()                   # clear gradients for this training step
+    loss.backward()                         # backpropagation, compute gradients
+    optimizer.step()                        # apply gradients
+
+    # plotting
+    plt.plot(steps, y_np.flatten(), 'r-')
+    plt.plot(steps, prediction.data.numpy().flatten(), 'b-')
+    plt.draw(); plt.pause(0.05)
+
+plt.ioff()
+plt.show()
