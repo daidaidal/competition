@@ -8,26 +8,30 @@ import re
 import torch
 from torch.autograd import Variable
 
-hidden = None
-hidden_reverse = None
+count_trigger = 0
+# ['/home/sfdai/data_speed/Englishref/bc/timex2norm','/home/sfdai/data_speed/Englishref/bn/timex2norm',
+# '/home/sfdai/data_speed/Englishref/cts/timex2norm','/home/sfdai/data_speed/Englishref/nw/timex2norm',
+# ]
 def train(J,LR=0.01):
-    global hidden
-    global hidden_reverse
+    global count_trigger
     tp = 0
     fp = 0
     tn = 0
     fn = 0
+    f_similar_right = 0
+    f_similar_wrong = 0
     if J:
-        rootdir_list = ['/home/sfdai/data/Englishref/bc/timex2norm','/home/sfdai/data/Englishref/bn/timex2norm',
-                   '/home/sfdai/data/Englishref/cts/timex2norm','/home/sfdai/data/Englishref/nw/timex2norm',
-                   '/home/sfdai/data/Englishref/un/timex2norm']
+        rootdir_list = ['/home/sfdai/data_speed/Englishref/bc/timex2norm','/home/sfdai/data_speed/Englishref/bn/timex2norm',
+                        '/home/sfdai/data_speed/Englishref/cts/timex2norm','/home/sfdai/data_speed/Englishref/nw/timex2norm']
     else:
-        rootdir_list = ['/home/sfdai/data/Englishref/wl/timex2norm']
+        rootdir_list = ['/home/sfdai/data_speed/Englishref/test/timex2norm']
+
+
     count = 1
     before_sentence = ''
     trigger_list = []
     trigger_subtype_list = []
-    # ,'/home/sfdai/data/Englishref/wl/timex2norm'
+    # ,'/home/sfdai/data_speed/Englishref/wl/timex2norm'
     for rootdir in rootdir_list:
         list1 = os.listdir(rootdir)  # 列出文件夹下所有的目录与文件
         for i in range(0, len(list1)):
@@ -39,7 +43,7 @@ def train(J,LR=0.01):
                 for child in root:  # document
                     for child1 in child:  # entity,timex2,relation,event
                         if child1.tag == 'event':
-                            trigger_subtype = child1.attrib['SUBTYPE']
+                            trigger_subtype = child1.attrib['SUBTYPE'].upper()
                             for child2 in child1:  # event_argument,event_mention
                                 if child2.tag == 'event_mention':
                                     input_sentence = ''
@@ -63,17 +67,15 @@ def train(J,LR=0.01):
                                         continue
                                     if before_sentence != '':
                                         if J:
-                                            hidden, hidden_reverse = all_in_one.training(before_sentence, trigger_list, trigger_subtype_list, argument_role, LR,hidden,hidden_reverse)
-                                            hidden = Variable(hidden.data)
-                                            hidden_reverse = Variable(hidden_reverse.data)
+                                            all_in_one.training(before_sentence, trigger_list, trigger_subtype_list, argument_role, LR,count)
                                         else:
-                                            tpl, fpl, tnl, fnl,hidden,hidden_reverse = all_in_one.nottrain(before_sentence, trigger_list,trigger_subtype_list,argument_role,hidden,hidden_reverse)
+                                            tpl, fpl, tnl, fnl,f_similar_rightl,f_similar_wrongl = all_in_one.nottrain(before_sentence, trigger_list,trigger_subtype_list,argument_role)
                                             tp += tpl
                                             fp += fpl
                                             tn += tnl
                                             fn += fnl
-                                            hidden = Variable(hidden.data)
-                                            hidden_reverse = Variable(hidden_reverse.data)
+                                            f_similar_right += f_similar_rightl
+                                            f_similar_wrong += f_similar_wrongl
                                     before_sentence = input_sentence
                                     trigger_list.clear()
                                     trigger_list.append(trigger)
@@ -85,12 +87,14 @@ def train(J,LR=0.01):
                 else:
                     print(count / 507)
     if not J:
+        lr_str = str(LR)+':'+'\n'
         tp_str = "tp:" + str(tp) + '\n'
         fp_str = "fp:" + str(fp) + '\n'
         tn_str = "tn:" + str(tn) + '\n'
         fn_str = "fn:" + str(fn) + '\n'
-
-        a = tp_str + fp_str + tn_str + fn_str + '\n'
+        f_similar_right_str = "f_similar_right:" + str(f_similar_right) + '\n'
+        f_similar_wrong_str = "f_similar_wrong:" + str(f_similar_wrong) + '\n'
+        a = lr_str+tp_str + fp_str + tn_str + fn_str + f_similar_right_str + f_similar_wrong_str
         wf = open('/home/sfdai/competition/result_data.txt', 'a+', encoding='UTF-8')
         wf.write(a)
         wf.close()
@@ -102,21 +106,41 @@ def write_time():
     wf.write(s)
     wf.close()
 
-train(False)
+def one_train(LR):
+    global hidden
+    global count_trigger
+
+    write_time()
+    train(True,LR)
+    write_time()
+    train(False)
+    os.rename('rnn.pkl','rnn'+str(lr)+'.pkl')
 
 if __name__=="__main__":
-    if sys.argv[1] == "train":
-        write_time()
-        train(True,0.01)
-        write_time()
-        train(False)
+    lr_list = [0.01]
+    for lr in lr_list:
+        one_train(lr)
+
+    # if sys.argv[1] == "train":
+    #     write_time()
+    #     train(True,0.001)
+    #     write_time()
+    #     torch.save(hidden,'hidden')
+    #     torch.save(hidden_reverse,'hidden_reverse')
+    #     hidden = torch.load('hidden')
+    #     hidden_reverse = torch.load('hidden_reverse')
+    #     train(False)
+    #
+    # if sys.argv[1] == "test":
+    #     train(False)
 
 
 
-    elif sys.argv[1] == "test":
-        write_time()
-        train(False)
-        write_time()
+
+    # elif sys.argv[1] == "test":
+    #     write_time()
+    #     train(False)
+    #     write_time()
 
         # write_time()
         # os.rename('/home/sfdai/competition/rnn0.pkl', '/home/sfdai/competition/rnn.pkl')

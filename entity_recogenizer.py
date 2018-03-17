@@ -27,25 +27,32 @@ eng_tagger2 = StanfordNERTagger('/home/sfdai/stanford-ner-2017-06-09/classifiers
 eng_tagger3 = StanfordNERTagger('/home/sfdai/stanford-ner-2017-06-09/classifiers/english.muc.7class.distsim.crf.ser.gz')
 eng_tagger4 = StanfordNERTagger('/home/sfdai/stanford-ner-2017-06-09/classifiers/example.serialized.ncc.ncc.ser.gz')
 
-a = eng_tagger1.tag('Rami Eid is studying at Stony Brook University in NY .'.split())
-print(a[0][0])
 def get_entity(arg_sentence): # format dic:{ 1:(start,len),2:(start,len)}
-    tag = eng_tagger1.tag(arg_sentence.split())
+    tag = eng_tagger3.tag(arg_sentence.split())
     last='O'
     start_index = -1
     len_entity = 0
     dic = {}
     count = 0
+    i_before = 0
+    before_tag = 'O'
     for i in range(len(arg_sentence.split())):
         if tag[i][1] != 'O':
-            if tag[i][1] == last:
-                len_entity += 1
-                continue
+            if i == i_before+1 and tag[i][1] == before_tag: # in
+                if i == len(arg_sentence.split()):
+                    dic[tag[i][0]] = tag[i][1] + ' e'
+                else:
+                    dic[tag[i][0]] = tag[i][1]+' i'
+            elif i_before !=0: # end and begin
+                dic[tag[i][0]] = tag[i][1]+' b'
+                dic[tag[i_before][0]] = tag[i_before][1]+' e'
             else:
-                if start_index>0 and len_entity>0:
-                    count += 1
-                    dic[count] = (start_index,len_entity,last)
-                start_index = i
-                len_entity = 1
-                last = tag[i][1]
-    return dic,count
+                dic[tag[i][0]] = tag[i][1]+' b'# first begin
+
+            i_before = i
+            before_tag = tag[i][1]
+    return dic
+
+# c = get_entity('Rami Eid is studying at Stony Brook University in NY .')
+# c = get_entity('a man died when a tank fired in Baghdad.')
+# print(c)

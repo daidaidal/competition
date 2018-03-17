@@ -10,14 +10,14 @@ class NET(nn.Module):
     def __init__(self,input_size,hidden_size,output_size):
         super(NET, self).__init__()
         self.input_layer = torch.nn.Linear(input_size, hidden_size)
+        self.relu1 = torch.nn.ReLU()
         self.output_layer = torch.nn.Linear(hidden_size, output_size)
 
 
     def forward(self, start_input):
-        h_0 =self.input_layer(start_input)
-        h_1 = F.tanh(h_0)
-        h_2 = self.output_layer(h_1)
-        return h_2
+        h_0 =self.relu1(self.input_layer(start_input))
+        h_1 = self.output_layer(h_0)
+        return h_1
 
 
 # f = NET()

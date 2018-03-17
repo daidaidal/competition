@@ -7,13 +7,55 @@ import torch
 import os
 from nltk.parse import stanford
 import time
+import gru
+from gensim.models import word2vec
+a = 1
+def f():
+    global a
+    print(a)
+f()
+# model = word2vec.Word2Vec.load(u"/home/sfdai/word2vec_gensim")
+# similar_type_injure = ["wound","injure","hurt","disabled","hospitalized"]
+# similar_type_die = ["die","killed","assassination","late","fatal","suicide"]
+# similar_type_attack = ["bomb","exploded","gunfire","shot","fire","clashes","attack","battle","throw","blow"]
+# list_sum = [similar_type_injure,similar_type_attack,similar_type_die]
+#
+# write_list= []
+# for list in list_sum:
+#     count = 1
+#     list_t = []
+#     for word in list:
+#         for similar_word in model.most_similar(word):
+#             list_t.append(similar_word[0])
+#     print(list_t)
+#     list_t.clear()
 
-a0 = Variable(torch.FloatTensor([2]))
-a = Variable(torch.FloatTensor([1]))
-b = a*a+2+a0*a0*a0
-b.backward()
-print(a.grad.data)
-print(a0.grad.data)
+# a = torch.FloatTensor([1,2])
+# torch.save(a,'
+# print("success")
+# b = torch.load('a')
+# print(b)
+# a = torch.FloatTensor([3,4])
+# torch.save(a,'a')
+# b = torch.load('a')
+# print(b)
+
+# a0 = Variable(torch.FloatTensor([2]),requires_grad=True)
+# a = Variable(torch.FloatTensor([1]),requires_grad=True)
+# b = a*a+2+a0*a0*a0
+# b.backward()
+# print(a.grad)
+# print(a0.grad)
+# c = Variable(torch.FloatTensor([3]),requires_grad=True)
+# b = a*a+2+a0*a0*a0+c
+# b.backward()
+# print(a.grad/2)
+# print(a0.grad/2)
+
+
+# a.ze
+# print(a.grad.data)
+# print(a0.grad.data)
 
 
 
@@ -26,7 +68,7 @@ print(a0.grad.data)
 # import os
 # from nltk.parse import stanford
 #
-# # Hyper Parameters
+# Hyper Parameters
 # DEP_VEC_LEN = 200
 # TRIGGER_CANDIDATE_LIST = ['NN','NNS','NNP','NNPS','VB','VBD','VBG','VBN','VBP','VBZ']
 # # 添加stanford环境变量,此处需要手动修改，jar包地址为绝对地址。
@@ -49,10 +91,12 @@ print(a0.grad.data)
 #     output_list=[]
 #     trigger_candidate_list = []
 #     for line in sentences:
-#         # print(line)
-#         for i in range(1,len(input_sentence.split())+1):
-#             out = torch.zeros(DEP_VEC_LEN)
-#             print(line.nodes[i])
+#         print(line)
+#
+#
+#         # for i in line:
+#         #     out = torch.zeros(DEP_VEC_LEN)
+#         #     print(line.nodes[i])
 #             # dic = line.nodes[i]['deps']
 #             # tags = line.nodes[i]['ctag']
 #             # if tags in TRIGGER_CANDIDATE_LIST:
